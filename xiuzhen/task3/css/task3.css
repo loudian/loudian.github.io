@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0; 
+     }
+ body{ /*首先要给网页设置好最小宽度 还有最大宽度 然后还要居中对齐*/
+    min-width: 320px; /*最小宽度*/
+    max-width: 768px; /*最大宽度*/
+    margin: 0 auto;   /*上下0 左右自动居中*/
+    background-color: rgb(104, 205, 213)
+} 
+p{
+    font-size: 1rem;
+    color: white;
+}
+nav{
+    margin-top: 9px;  /*我直接用盒子margin 给20px的距离*/
+    margin-left: 9px;
+}
+.logo{
+    width: 320px;
+    height: 100px;
+    margin:  0 auto;
+    position: relative;
+    /* background-color: blanchedalmond; */
+}
+ .logos{
+     position: absolute;
+    left: 120px; 
+    margin: 0 auto;
+} 
+.text{
+    /* width: 500px; */
+    /* height: 400px; */
+    /* background-color: beige; */
+   
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    color: white;
+    font-size: 0.75rem;
+    
+}
+.logo2{
+    
+    /* height: 150px; */
+    position: relative;
+    margin-top: 110px;
+    /* padding: 30px; */
+    
+}
+.left{
+  left: 80px;
+   position: absolute;
+}
+.left p{
+    font-size: 0.75rem;
+    text-align: center;
+}
+.right{
+ right: 50px;
+ position: absolute;
+ 
+ 
+}
+.right p{
+    font-size: 0.75rem;
+    text-align: center;
+}
