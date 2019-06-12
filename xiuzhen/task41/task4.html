@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>登录框</title>
+    <style>
+    /* 样式*/
+    /*css初始化*/
+    *{
+     margin: 0;
+     padding: 0; /*清除内外边距*/
+    }
+    ul{
+     list-style: none; /*去掉列表样式小点*/
+    }
+    .clearfix:before,.clearfix:after{  /*清除浮动*/
+     display: table;
+     content: "";
+    }
+    .clearfix:after{
+     clear: both;
+    }
+    .cleaffix{
+     *zoom: 1;
+    }
+     body{ /*首先要给网页设置好最小宽度 还有最大宽度 然后还要居中对齐*/
+    min-width: 320px; /*最小宽度*/
+    max-width: 768px; /*最大宽度*/
+    background-color: rgb(235, 236, 241);
+    }
+    /* 头部导航栏 */
+    header{
+        height: 2.8125rem;
+        background-color: rgb(95, 192, 205);
+        width: 100%;
+    } 
+    .navbar{
+        height: 2.8125rem;
+        width: 100%;
+        display: flex; /*伸缩和布局 要给父亲加*/
+        line-height: 2.8125rem;
+        position: relative; /*给父亲加相对定位*/
+        color: white;
+    
+    }
+    .zhuce{
+        position:absolute;  /*固定定位 */
+        left: .9375rem;
+    }
+    .denglu{
+        position:absolute;
+        display: block;
+        left: 50%;                   /*让定位居中*/
+        transform: translate(-50%);
+    }
+    
+    .guanbi{                 
+        position:absolute;     /*固定定位*/
+        right: .9375rem;
+    }
+    /*头部导航栏结束  */
+    /* 输入框开始 */
+    .username_login{
+    width: 100%;
+    height:3.125rem;
+    /* background-color: aqua; */
+    margin-top: .4375rem;
+    /* line-height: 3.125rem; */
+    background-color: white;
+    position: relative;
+   
+    
+    }
+   input{
+    border: none;
+   outline: none;
+   -webkit-appearance: none;
+   border-left: 1px solid  rgb(240, 242, 243);
+   }
+   .iphone{
+       /* position: absolute; */
+       margin-left: 1.3125rem;
+       margin-right: 1.3125rem; 
+       margin-top: .9375rem; 
+       
+   }
+   .shuru{
+     position: absolute;
+     /* top: .75rem; */
+     /* line-height: 3.125rem; */
+     display: block;
+     height: 1.5625rem;
+     border-left: .0625rem solid rgb(229, 232, 234);
+     left: 3.5625rem;
+     top: .75rem;
+   }
+   .mima{
+    width: 100%;
+    height:3.125rem;
+    margin-top: .875rem;
+    background-color:white;
+    position: relative;
+   }
+   
+     
+   
+   .chick{
+       width: 100%;
+       height: 3.125rem;
+       background-color: aquamarine;
+       top: 12.125rem;
+       line-height: 3.125rem;
+        overflow: hidden;
+       
+   }
+   button{
+
+   }
+    </style>
+</head>
+<body>
+    <!-- 导航栏部分 -->
+    <header>
+        <div class="navbar">
+           <span class="zhuce">注册</span>
+           <span class="denglu">登陆</span>
+           <span class="guanbi">关闭</span>
+        </div>
+    </header>
+<!-- 这里是输入页面 -->
+<div class="username_login">
+    <div class="input-container" >
+        <img class="iphone" src="../images/iphone.png" width="14px" height="22px"   alt="phone">
+      
+        <input  class="shuru" type="text" placeholder="    请输入手机号">
+    </div>
+    <div class="mima">
+        <div class="input-container" >
+                <img class="iphone" src="../images/locked .png" width="14px" height="22px"   alt="phone">
+              
+                <input  class="shuru" type="text" placeholder="    请输入密码">
+         </div>
+   </div>
+</div>
+<!-- 这里是登陆页面 -->
+<div class="chick">
+     <button>登&nbsp&nbsp陆</button>
+</div>
+</body>
+</html>
