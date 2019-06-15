@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0; /*清除内外边距*/
    }
+   
    ul{
     list-style: none; /*去掉列表样式小点*/
    }
@@ -15,18 +16,116 @@
    .cleaffix{
     *zoom: 1;
    }
+   /*导航栏*/
    header{
        width: 100%;
-       height: 3.375rem;
-       background:  url(../task5/img/fanhui.png) no-repeat  rgb(82, 180, 195);
-       background-size:  .96875rem  1.34375rem;
-       background-position: .9375rem .625rem;
+       height: 2.5rem;
+       background:  url(../task5/fanhui.png) no-repeat  rgb(82, 180, 195);
+       background-size:  .875rem 1.25rem;
+       background-position: .9375rem center;
        float: left;
+       overflow: hidden;
     }
     header span{
         display: block;
-        line-height: 3.375rem;
         color: white;
         font-size: 1.125rem;
-        text-align: center;
+        text-align: center; 
+       line-height: 2.5rem;
+    
     }
+    /*导航栏结束*/
+    /*头部开始*/
+    .bgc{
+       background: url(../task5/tupian.png)  no-repeat white;
+       background-size: cover; /*等比例缩放*/
+       height:10.15625rem;
+       width: 100%;
+       display: flex;
+       float: left;
+    }
+    .tuxiang{
+        margin-left: .9375rem;
+        margin-top: 2.28125rem;
+    }
+    .wenzi{
+       color: white;
+       margin-top: 3.75rem;
+       margin-left: 1.125rem;
+    }
+    dt{
+       font-size: 1.125rem;
+    }
+    dd{
+        font-size: .75rem;
+    }
+    /*头部结束*/
+    .biankuang{
+        
+        width: 100%;
+        height: 3.125rem;
+        border-bottom: .0625rem solid rgb(225, 229, 231);
+        overflow: hidden;
+    } 
+    .biankuang span{
+        display: block;
+        margin-left: .625rem;
+        border-left: .25rem solid rgb(82, 190, 185);
+        padding-left: .8125rem;
+        margin-top: 1rem;   
+    }
+    .home{
+        width: calc(100% - 2rem);
+        height: 3.125rem;
+        border-bottom: .0625rem solid rgb(225, 229, 231);
+        margin-left: 2rem;
+        float: left;
+       
+    }
+    .firstspan{
+        display: block;
+        padding-left: 1.625rem;
+        float: left;
+        border-right: .0625rem solid rgb(225, 229, 231);
+        margin-top: 1.125rem;
+        padding-right: .625rem;
+        margin-right: .4375rem;
+    }
+    .twospan{
+        display: block;
+        margin-top: 1.125rem;
+        float: left;
+    }
+   
+    ul{
+        /* height: 3.125rem; */
+        width: calc(100% - 2rem);
+        border-bottom: .0625rem solid rgb(225, 229, 231);
+        overflow: hidden;
+        margin-left: 2rem;
+        display: flex;
+
+    }
+    .word{
+        float: left;
+        margin: 1rem;
+        border-right: .0625rem solid rgb(225, 229, 231); 
+        padding-right: .84375rem;
+        color: rgb(225, 229, 231);
+    }
+    .time{
+        float: left;
+        margin-top: 1rem;  
+    }
+    .time1{
+        float: left;
+        margin-top: 1rem;  
+        color:red;
+        display: flex;
+    }
+    button{
+      display: block;
+    }   
+    
+       
+  
