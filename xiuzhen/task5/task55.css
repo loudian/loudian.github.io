@@ -104,28 +104,62 @@
         overflow: hidden;
         margin-left: 2rem;
         display: flex;
+        position: relative;
 
     }
     .word{
         float: left;
         margin: 1rem;
         border-right: .0625rem solid rgb(225, 229, 231); 
-        padding-right: .84375rem;
         color: rgb(225, 229, 231);
+        min-width: 80px ;
     }
     .time{
         float: left;
-        margin-top: 1rem;  
+        margin-top:1rem;
+        margin-bottom:1rem;
+        overflow: hidden;
+        padding-left: .625rem;
     }
     .time1{
         float: left;
         margin-top: 1rem;  
         color:red;
         display: flex;
+        overflow: hidden;
     }
+
+     .word1{
+         
+         border-right: .0625rem solid rgb(225, 229, 231); 
+         padding-right: .84375rem;
+         color: rgb(225, 229, 231);
+         min-width: 80px ;
+         top:50%;
+         
+     } 
+
+            
     button{
-      display: block;
-    }   
-    
+      /* width: 9.75rem;
+      height: 2.78125rem; */
+      position: fixed;
+      /* border: none;
+      outline: none;
+      border: 1rem solid green;
+      bottom: 0; */
+    } 
+    .liuyan{
+        flex: 1;
+        margin: .625rem;
+       position: absolute;
+       height: 2.78125rem;
+       color: green;
+       border: .0625rem solid red;
+       background-color: white;
+       border-radius: 12%;
+       bottom: 0;
+    } 
+
        
   
