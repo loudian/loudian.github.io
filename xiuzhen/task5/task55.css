@@ -135,7 +135,7 @@
     }
 
      .word1{
-         margin-top: 1rem;
+         margin: auto 0;
          border-right: .0625rem solid rgb(225, 229, 231); 
          color: rgb(225, 229, 231);
          min-width: 80px;
@@ -144,7 +144,6 @@
    .footer{
     position: fixed;   
     bottom: 0;
-    left: 0;
     height: 3rem;
     width: 100%;
     background-color: white;
@@ -173,3 +172,4 @@
        color: white;
        font-size: 1.0625rem;
    }
+  
