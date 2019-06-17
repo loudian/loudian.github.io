@@ -139,6 +139,8 @@
          border-right: .0625rem solid rgb(225, 229, 231); 
          color: rgb(225, 229, 231);
          min-width: 80px;
+         padding-right: 1rem;
+
      } 
      
    .footer{
