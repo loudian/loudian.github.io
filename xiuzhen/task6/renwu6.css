@@ -5,23 +5,17 @@
    }
    
   
-   .header{
-       height: 2.9375rem;
-       background-color: rgb(95, 192, 205);
+   header{
+       height: 2.6875rem;
+       background:  rgb(95, 192, 205);
        width: 100%;
        display: flex;
-       justify-content: space-betwwen;  
+       justify-content: space-between; 
+       align-items: center;
       
       }           
-      
-    /* .location{
-      display: flex;
-      justify-content: flex-end;  */
-    
-   
-   .xiala{
-       height: 2.5rem;
-       width: 100%;
-       background-color: white;
-       display: flex;
-   }
+      header img{
+          width: 22px;
+          height: 28px;
+          margin-right: .875rem;
+      }
