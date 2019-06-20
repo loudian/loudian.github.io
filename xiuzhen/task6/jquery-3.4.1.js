@@ -9095,7 +9095,7 @@ jQuery.extend( {
 
 		// For options that shouldn't be deep extended:
 		// you can add your own custom options here if
-		// and 
+		// and when you create one that shouldn't be
 		// deep extended (see ajaxExtend)
 		flatOptions: {
 			url: true,

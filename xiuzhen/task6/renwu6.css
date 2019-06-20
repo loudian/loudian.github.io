@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0; /*清除内外边距*/
+    list-style: none; /*去掉列表样式小点*/
+   }
+   
+  
+   .header{
+       height: 2.9375rem;
+       background-color: rgb(95, 192, 205);
+       width: 100%;
+       display: flex;
+       justify-content: center;  
+      
+      }           
+      
+    .location{
+      display: flex;
+      justify-content: flex-end; 
+    
+   } 
+   .xiala{
+       height: 2.5rem;
+       width: 100%;
+       background-color: white;
+       display: flex;
+   }

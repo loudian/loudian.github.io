@@ -1,0 +1,43 @@
+
+/* 头部样式 */
+
+/* #lk_header{
+
+} */
+
+@font-face{  /*这个就是引入字体样式的教程了*/
+    font-family: lk;
+    src: url(../task6/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.eot) format('embedded-opentype'),
+    url(../task6/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.svg) format('svg'),
+    url(../task6/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.ttf) format('truetype'),
+    url(../task6/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff) format('woff');
+}
+[class^="icon"],
+[class*="icon-"]{
+    font-family: 1k;
+    font-style: normal;
+}
+
+#lk_header .top-bar{
+   height:40px;
+   line-height: 39px;
+   border-bottom: 1px soild red;
+}
+
+#lk_header .top-bar .container .row>div{
+    border-left: 1px soild red;
+}
+
+#lk_header .top-bar .container .row .top-bar-1 a {
+    position: relative;
+}
+#lk_header .top-bar .container .row .top-bar-1 a img{
+    display: none;
+    position: absolute;
+    left: 50%;
+    margin-left: -60px;
+    margin-top: -10px;
+}
+#lk_header .top-bar .container .row .top-bar-1 a:hover img{
+    display: block;
+}
