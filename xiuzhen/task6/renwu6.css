@@ -10,15 +10,15 @@
        background-color: rgb(95, 192, 205);
        width: 100%;
        display: flex;
-       justify-content: center;  
+       justify-content: space-betwwen;  
       
       }           
       
-    .location{
+    /* .location{
       display: flex;
-      justify-content: flex-end; 
+      justify-content: flex-end;  */
     
-   } 
+   
    .xiala{
        height: 2.5rem;
        width: 100%;
