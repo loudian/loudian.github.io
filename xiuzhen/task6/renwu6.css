@@ -1,23 +1,196 @@
 *{
     margin: 0;
     padding: 0; /*清除内外边距*/
-    list-style: none; /*去掉列表样式小点*/
    }
    
   
    header{
+       position: fixed;
+       top: 0;
        height: 2.6875rem;
        background:  rgb(95, 192, 205);
        width: 100%;
        display: flex;
        justify-content: space-between; 
-       align-items: center;
+       align-items: center; 
       
       }           
-      span:first-child{
-          width: 44px;
-          height: 54px;
-          background: url(../task6/img/css_sprites.png) no-repeat red;
-          background-position: -136px 43px;
+      nav{
+          margin-top: 2.6875rem;
       }
+     .logo3{
+          width: 46px;
+          height: 46px;
+          background: url(../task6/img/6.png) no-repeat;
+          background-position: -1px 1px;
+          
+      }
+      /*设置按钮颜色开头*/
+      .btn-guzhu { 
+        color: #ffffff; 
+        background-color: #55A8B3; 
+        border-color: #55A8B3; 
+      } 
+       
+      .btn-guzhu:hover, 
+      .btn-guzhu:focus, 
+      .btn-guzhu:active, 
+      .btn-guzhu.active, 
+      .open .dropdown-toggle.btn-guzhu { 
+        color: #ffffff; 
+        background-color: ; 
+        border-color: #55A8B3; 
+      } 
+       
+      .btn-guzhu:active, 
+      .btn-guzhu.active, 
+      .open .dropdown-toggle.btn-guzhu { 
+        background-image: none; 
+      } 
+       
+      .btn-guzhu.disabled, 
+      .btn-guzhu[disabled], 
+      fieldset[disabled] .btn-guzhu, 
+      .btn-guzhu.disabled:hover, 
+      .btn-guzhu[disabled]:hover, 
+      fieldset[disabled] .btn-guzhu:hover, 
+      .btn-guzhu.disabled:focus, 
+      .btn-guzhu[disabled]:focus, 
+      fieldset[disabled] .btn-guzhu:focus, 
+      .btn-guzhu.disabled:active, 
+      .btn-guzhu[disabled]:active, 
+      fieldset[disabled] .btn-guzhu:active, 
+      .btn-guzhu.disabled.active, 
+      .btn-guzhu[disabled].active, 
+      fieldset[disabled] .btn-guzhu.active { 
+        background-color: #55A8B3; 
+        border-color: #55A8B3; 
+      } 
+       
+      .btn-guzhu .badge { 
+        color: #55A8B3; 
+        background-color: #ffffff; 
+      }
+      
+
+      .btn-gong { 
+        color: #52B4C4; 
+        background-color: #FFFFFF; 
+        border-color: #F0F0F0; 
+      } 
+       
+      .btn-gong:hover, 
+      .btn-gong:focus, 
+      .btn-gong:active, 
+      .btn-gong.active, 
+      .open .dropdown-toggle.btn-gong { 
+        color: #52B4C4; 
+        background-color: #FFFFFF; 
+        border-color: #F0F0F0; 
+      } 
+       
+      .btn-gong:active, 
+      .btn-gong.active, 
+      .open .dropdown-toggle.btn-gong { 
+        background-image: none; 
+      } 
+       
+      .btn-gong.disabled, 
+      .btn-gong[disabled], 
+      fieldset[disabled] .btn-gong, 
+      .btn-gong.disabled:hover, 
+      .btn-gong[disabled]:hover, 
+      fieldset[disabled] .btn-gong:hover, 
+      .btn-gong.disabled:focus, 
+      .btn-gong[disabled]:focus, 
+      fieldset[disabled] .btn-gong:focus, 
+      .btn-gong.disabled:active, 
+      .btn-gong[disabled]:active, 
+      fieldset[disabled] .btn-gong:active, 
+      .btn-gong.disabled.active, 
+      .btn-gong[disabled].active, 
+      fieldset[disabled] .btn-gong.active { 
+        background-color: #FFFFFF; 
+        border-color: #F0F0F0; 
+      } 
+       
+      .btn-gong .badge { 
+        color: #FFFFFF; 
+        background-color: #52B4C4; 
+      }
+      /*设置按钮颜色结束*/
+      nav{
+          height: 2.78125rem;
+          width: 100%;
+          display: flex;
+          border-bottom: .0625rem solid rgb(225, 229, 231);
+      }
+     .nav1{
+         line-height: 2.78125rem;
+         flex: 1;
+         text-align: center;
+         color: rgb(153,153,153);
+         
+     }
+     .nav2{
+        line-height: 2.78125rem;
+        flex: 1;
+        text-align: center;
+        border-left: .0625rem solid; 
+        border-image:linear-gradient(0deg,white 10%, rgb(153,153,153) 50%,  white 90% ) 1 1;
+        border-right: .0625rem solid;
+        color: rgb(153,153,153);
+     
+      
+     }
+     .nav3{
+        line-height: 2.78125rem;
+        flex: 1;
+        text-align: center;
+        color: rgb(153,153,153);
+     }
+     .contern{
+         width: 100%;
+         height: 5.5rem;
+         border-bottom: 1px solid rgb(225,229,231);
+         border-top: 1px solid rgb(225,229,231);
+        
     
+        
+     }
+    .logo1{
+        display: inline-block;
+        height: 28px;
+        width: 28px;
+        background: url(../task6/img/6.png) no-repeat;
+        background-position: -83px 6px;
+    }
+    .data{
+        color: rgb(153, 153, 153);
+        font-size: 16px;
+    }
+    .logo2{
+     color: rgb(95, 192, 205);
+     padding-top: .3125rem;
+    }
+    .time{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 2.125rem;
+        margin-right: .9375rem;
+    }
+    .time2{
+        display: flex;
+        color: red;
+    }
+    .logo4{
+        width: 28px;
+        height: 23px;
+        background: url(../task6/img/6.png) no-repeat;
+        background-position: -83px -37px;
+    }
+    .time3{
+        display: flex;
+        color: rgb(153, 153, 153);
+        font-size: 5px;
+    }
