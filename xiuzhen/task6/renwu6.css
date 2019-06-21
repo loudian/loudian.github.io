@@ -14,8 +14,10 @@
        align-items: center;
       
       }           
-      header img{
-          width: 22px;
-          height: 28px;
-          margin-right: .875rem;
+      span:first-child{
+          width: 44px;
+          height: 54px;
+          background: url(../task6/img/css_sprites.png) no-repeat red;
+          background-position: -136px 43px;
       }
+    
