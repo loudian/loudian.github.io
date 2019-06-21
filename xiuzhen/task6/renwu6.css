@@ -183,6 +183,7 @@
     .time2{
         display: flex;
         color: red;
+        font-size: .9375rem;
     }
     .logo4{
         width: 28px;
@@ -194,7 +195,7 @@
     .time3{
         display: flex;
         color: rgb(153, 153, 153);
-        font-size: 5px;
+        font-size: .8125rem;
     }
     footer{
         height: 4.375rem;
@@ -207,9 +208,12 @@
         align-items: center;
     }
     footer span{
-        font-size: 10px;
+        font-size: .625rem;
         display: block;
         margin-top: .4375rem;
+    }
+   .lvse{
+        color: rgb(95, 192,205);
     }
     .footershouye{
         width: 28px;
