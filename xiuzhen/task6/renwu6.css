@@ -239,12 +239,12 @@
       
     }
     .shouyewenzi{
-        height: 3.125rem;
-        width: 3.125rem;
+        height: 4.375rem;
+        width: 4.375rem;
         background: url(../task6/img/6.png) no-repeat rgb(95, 192,205);
-        background-position:  -45px -45px;
+        background-position:  -40px -40px;
         border-radius: 29px;
-        margin-top: 1.25rem;
+       
        
     }
     .wode{
