@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0; /*清除内外边距*/
+}
+body{
+    background: rgb(41, 189, 224);
+}
+header{
+    /* height: 4.25rem; */
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 1rem 0;
+}
+.firsthead{
+    width: 20px;
+    height:20px;
+    background: url(../task7/css_sprites.png) no-repeat;
+    background-position: -10px -188px;
+    padding-left: 12px;
+   
+}
+.twohead{
+   color: white;
+   font-size: 18px;
+}
+.threehead{
+    width: 18px;
+    height: 18px;
+    background: url(../task7/css_sprites.png) no-repeat;
+    background-position:  -10px -150px;
+    padding-right: 12px;
+}
+.vote{ 
+    width: 100%;
+    background-color: rgb(185, 233, 245);
+    display: flex;
+    
+}
+.vote span{
+    display: block;
+    line-height: 2.5625rem;
+    font-size: 1.625rem;
+    /* margin-left: 1.4375rem;
+    margin-top: .9375rem;
+    margin-bottom: .9375rem; */
+}
+.sound{
+    width: 26px;
+    height: 26px;
+  background: url(../task7/css_sprites.png) no-repeat;
+  background-position: -10px -228px;
+
+   
+  
+
+}
+audio{
+    opacity: 0;
+}
