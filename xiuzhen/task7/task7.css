@@ -4,6 +4,8 @@
 }
 body{
     background: rgb(41, 189, 224);
+    width: 100%;
+    height: 100%;
 }
 /* 头部导航栏开头 */
 header{
@@ -84,31 +86,32 @@ audio{
 section{
     display: flex;
     justify-content: space-around;
+    height: 100px;
    
 }
 .xuanzhekuang{
     background: rgb(245, 201, 123);
-    width: 20%; 
+    width: 20%;
     border: .1875rem solid white;
-    position: relative;
+    /* position: relative; */
     white-space: nowrap;
+    flex-direction: column;
+    height: 50%;
+   
 }
-.shuiming{
+/* .shuiming{
     text-align: center;
-    
-    padding: 1.875rem;
     font-size: .9375rem;
 
-}
-.number{
+} */
+ /* .number{
     font-size: 5px;
     width: 100%;
-    /* height: .8125rem; */
+     height: .8125rem; 
     background-color: rgb(116, 162, 132);
     color: white;
     text-align: center;
-    position: absolute;
-    bottom: 0;  
-}
-
+    position: absolute; 
+} 
+ */
 
