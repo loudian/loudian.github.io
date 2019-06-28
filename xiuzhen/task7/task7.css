@@ -5,6 +5,7 @@
 body{
     background: rgb(41, 189, 224);
 }
+/* 头部导航栏开头 */
 header{
     /* height: 4.25rem; */
     
@@ -19,7 +20,7 @@ header{
     height:20px;
     background: url(../task7/css_sprites.png) no-repeat;
     background-position: -10px -188px;
-    padding-left: 12px;
+    margin-left: 1rem;
    
 }
 .twohead{
@@ -31,32 +32,64 @@ header{
     height: 18px;
     background: url(../task7/css_sprites.png) no-repeat;
     background-position:  -10px -150px;
-    padding-right: 12px;
+    margin-right: 1rem;
 }
+/*头部导航栏结束*/
+/*投票页面开头*/
 .vote{ 
     width: 100%;
     background-color: rgb(185, 233, 245);
     display: flex;
-    
+    justify-content: space-between;
+    align-items: center;
+    /* position: relative; */
 }
 .vote span{
     display: block;
     line-height: 2.5625rem;
-    font-size: 1.625rem;
-    /* margin-left: 1.4375rem;
-    margin-top: .9375rem;
-    margin-bottom: .9375rem; */
+    font-size: 1.5rem;
+    white-space: nowrap; 
+    margin-left: 1.4375rem;
 }
+
 .sound{
     width: 26px;
     height: 26px;
   background: url(../task7/css_sprites.png) no-repeat;
   background-position: -10px -228px;
-
-   
-  
-
+  overflow: hidden;
+  margin-right: .5rem;
 }
 audio{
     opacity: 0;
 }
+.sanjiao{
+    display: block;
+    color:rgb(185, 233, 245);
+    position: fixed;
+    left: 35px;
+    top: 95px;
+
+    
+}
+/*投票页面结束*/
+/* 得票数开始*/
+.dianjipiaoshu{
+    display: block;
+    color: white;
+    font-size: 1.5rem;
+    margin: .8125rem 0 .8125rem 2.1875rem;
+}
+/* 得票数结束 */
+section{
+    display: flex;
+    justify-content:center;
+}
+.shuiming{
+    /* width: 127px;
+    height: 127px; */
+    background: rgb(245, 201, 123);
+    margin: 1.5%;               /*外边距*/
+    padding: 15%;               /*内边距*/
+}
+
