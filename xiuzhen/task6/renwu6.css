@@ -265,7 +265,7 @@
     }
     .lusuotu{
          /*这个用来超出部分隐藏*/
-        white-space: nowrap;  
+        white-space: nowrap;  /*规定段落不换行*/
         overflow: hidden;
         text-overflow: ellipsis;
     }
