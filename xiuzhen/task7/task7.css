@@ -68,7 +68,7 @@ audio{
     color:rgb(185, 233, 245);
     position: fixed;
     left: 35px;
-    top: 95px;
+    top: 81px;
 
     
 }
@@ -84,12 +84,31 @@ audio{
 section{
     display: flex;
     justify-content:center;
+    width: 100%;
+    justify-content: space-around;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
+.xuanzhekuang{
+    background: rgb(245, 201, 123);
+    width: 33%;
+    height: 3.9375rem;
+    border: .1875rem solid white;
+    position: relative;
 }
 .shuiming{
-    /* width: 127px;
-    height: 127px; */
-    background: rgb(245, 201, 123);
-    margin: 1.5%;               /*外边距*/
-    padding: 15%;               /*内边距*/
+    text-align: center;
+    padding-top: 1.25rem;
+    font-size: .9375rem;
 }
+.number{
+    font-size: 5px;
+    width: 100%;
+    height: .8125rem;
+    background-color: rgb(116, 162, 132);
+    text-align: center;
+    position: absolute;
+    
+}
+
 
