@@ -107,7 +107,7 @@ header{
 .circle{
     width: 50px;
     height: 12px;
-    /* background-color: aqua; */
+ 
     position: absolute;
     left: 50%;
     margin-left: -25px;
