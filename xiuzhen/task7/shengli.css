@@ -82,17 +82,14 @@ header{
     height: 90px;
     background-color: white;
     border-bottom: 1px solid rgb(213, 213, 213);
-    white-space: nowrap; /*规定段落不换行 强制一行显示*/
-    overflow: hidden; /*溢出隐藏*/
-    text-overflow: ellipsis; /*超出部分用省号代替*/
-
+    
 }
 .firstday{
     width: 80%;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
-    padding-top: 8px;
+    padding-top: 8px;}
    
 
 .jifen{

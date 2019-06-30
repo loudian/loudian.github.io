@@ -9,13 +9,17 @@ body{
 }
 /* 头部导航栏开头 */
 header{
-    /* height: 4.25rem; */
-    
+    height: 3.25rem;
+    background: rgb(41, 189, 224);
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center; 
     padding: 1rem 0;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    
 }
 .firsthead{
     width: 20px;
@@ -44,7 +48,8 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* position: relative; */
+    position: relative;
+    padding-top: 3.25rem;
 }
 .vote span{
     display: block;
@@ -66,13 +71,14 @@ audio{
     opacity: 0;
 }
 .sanjiao{
-    display: block;
-    color:rgb(185, 233, 245);
-    position: absolute;
-    left: 35px;
-    top: 95px;
-
+    /* color:rgb(185, 233, 245); */
+    width: 0;
+    height: 0;
+    border-top: 15px solid rgb(185, 233, 245);
     
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent;
+    margin-left: 35px;
 }
 /*投票页面结束*/
 /* 得票数开始*/
@@ -80,38 +86,114 @@ audio{
     display: block;
     color: white;
     font-size: 1.5rem;
-    margin: .8125rem 0 .8125rem 2.1875rem;
+    margin: 0 0 .8125rem 2.1875rem;
 }
 /* 得票数结束 */
+/*头像开始*/
 section{
+    width: 80%;
     display: flex;
-    justify-content: space-around;
-   
-}
-.xuanzhekuang{
-    background: rgb(245, 201, 123);
-    width: 20vw;
-    height: 20vw;
-    border: .1875rem solid white;
-    position: relative;
-}
-.shuiming{
-    text-align: center;
-    line-height:20vw;
-    font-size: 1rem;
-
-}
-.number{
-    background-color: green;
-    height: 3vw;
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    text-align: center;
-    color: white;
-    font-size: .625rem;
-}
-.xuanzhekuang:hover{
-    position: absolute;
+    margin: 0 auto;
+    justify-content: space-between;
     
 }
+/* .dahezi{
+     display: flex; 
+    
+} */
+.xiaohezi{
+    height: 20vw;
+    width: 20vw;
+    background-color: rgb(245, 201, 123);
+    border: 5px solid white;
+    position: relative;
+    
+}
+.shuiming{
+    display: block;
+    display: flex;
+    justify-content: center;
+    line-height: 20vw;
+    font-size: 4vw;
+}
+.haoma{
+    width: 100%;
+    height: 20%;
+    position: absolute;
+    background-color: rgb(116, 162, 135);
+    bottom: 0;
+    color: white;
+    text-align: center;
+    font-size: 3vw;
+}
+.daoju{
+    width: 100%;
+    height: 25px;
+    visibility: hidden;
+    display: flex;
+    justify-content: center;
+    margin-top: 1.3333vw;
+   
+   
+}
+.daozai{
+    width: 15px; 
+    height: 15px;
+    background: url('css_sprites.png') -10px -80px;
+    margin-right: 0.6667vw;
+
+}
+.sousuo{
+    width: 15px; 
+    height: 15px;
+    background: url('css_sprites.png') -10px -115px;
+    margin-right: 0.6667vw;
+}
+.miaozhun{
+    width: 15px; 
+    height: 15px;
+    background: url('css_sprites.png') -10px -45px;
+    margin-right: 0.6667vw;
+}
+.shizi{
+    width: 15px; 
+    height: 15px;
+    background: url('css_sprites.png') -10px -10px;
+    
+}
+
+
+.xiaohezi:hover+.daoju{
+    visibility: visible;
+    
+}
+/*最后的按钮开始*/
+footer{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(185, 233, 245);
+    bottom: 0;
+    position: fixed;
+}
+button{
+    /* width: 80%;
+    height: 40px;
+    line-height: 80px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: orange;
+    left: 50%; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    line-height: 2.5rem;
+    width: 75vw;
+    font-size: .18rem;
+    background-color: #FBB435;
+    color: #ffffff;
+    border-style: none;
+}
+/*最后的按钮结束*/
