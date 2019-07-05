@@ -110,11 +110,12 @@ section{
     
 }
 .shuiming{
-    display: block;
     display: flex;
     justify-content: center;
-    line-height: 20vw;
+    align-items: center;
     font-size: 4vw;
+    /* height: 80%; */
+    height: 16vw;
 }
 .haoma{
     width: 100%;
@@ -182,9 +183,9 @@ button{
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    line-height: 2.5rem;
+    line-height: 44px;
     width: 75vw;
-    font-size: .18rem;
+    font-size: 20px;
     background-color: #FBB435;
     color: #ffffff;
     border-style: none;
