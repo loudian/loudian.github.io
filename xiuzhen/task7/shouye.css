@@ -94,12 +94,15 @@ header{
     color: rgb(101, 101, 101);
 }
 .tubiao2{
-    display: block;
-  color: orange;
-  font-size: 23px;
+  display: block;
   float: right;
-  left: -3px;
-  top: -200px;
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 15px solid orange;
+  margin-top: 33px;
+  margin-right: 10px;
 }
 .caiciban{
     margin: 0 auto;
