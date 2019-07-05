@@ -278,7 +278,7 @@
          /*这个用来超出部分隐藏*/
         white-space: nowrap;  /*规定段落不换行 强制一行显示*/
         overflow: hidden;    /*溢出隐藏*/
-        text-overflow: ellipsis;  /*超出部分用省号代替*/
+        text-overflow: ellipsis;   /*超出部分用省号代替*/
     }
     .zhezhu{
       margin-bottom: 71px;
