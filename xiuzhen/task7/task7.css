@@ -176,14 +176,7 @@ footer{
     position: fixed;
 }
 button{
-    /* width: 80%;
-    height: 40px;
-    line-height: 80px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: orange;
-    left: 50%; */
+   
     position: absolute;
     top: 50%;
     left: 50%;
@@ -195,5 +188,8 @@ button{
     background-color: #FBB435;
     color: #ffffff;
     border-style: none;
+    list-style: none!important; /*去除默认样式*/
+        outline:none!important; /*去除默认选中边框*/
+        border:none!important; /*去除默认边框*/
 }
 /*最后的按钮结束*/
