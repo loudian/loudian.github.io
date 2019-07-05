@@ -35,6 +35,7 @@ header{
 }
 .fisttouch{
     display: none;
+    opacity: 0;
 }
 .zhuogui{
     color: rgb(136, 136, 136);

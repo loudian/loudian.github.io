@@ -81,7 +81,20 @@ header{
     color: white;
     margin: 0 auto;
     font-size: 13px;
-}
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+  .fwenzi{
+    width: 80%;
+    color: white;
+    margin: 0 auto;
+    font-size: 13px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    
+  }
 .fourwenzi>span{
     padding-right: 20px;
 }
@@ -154,5 +167,8 @@ a{
 }
 .zhezhu{
     margin-bottom: 68px;
+}
+.yincang{
+ opacity: 0;
 }
 /*按钮结束*/
