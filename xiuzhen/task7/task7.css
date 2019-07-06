@@ -129,7 +129,7 @@ section{
 }
 .daoju{
     width: 100%;
-    height: 25px;
+    height: 3.3333vw;
     visibility: hidden;
     display: flex;
     justify-content: space-between;
@@ -138,28 +138,32 @@ section{
    
 }
 .daozai{
-    width: 15px; 
-    height: 15px;
-    background: url('css_sprites.png') -10px -80px;
+    width: 2vw; 
+    height: 2vw;
+    background: url(../task7/img/dao.png) no-repeat;
+    background-size: cover;
     margin-right: 0.6667vw;
 
 }
 .sousuo{
-    width: 15px; 
-    height: 15px;
-    background: url('css_sprites.png') -10px -115px;
+    width: 2vw; 
+    height: 2vw;
+    background: url(../task7/img/sou.png) no-repeat;
+    background-size: cover;
     margin-right: 0.6667vw;
 }
 .miaozhun{
-    width: 15px; 
-    height: 15px;
-    background: url('css_sprites.png') -10px -45px;
+    width: 2vw; 
+    height: 2vw;
+    background: url(../task7/img/suo.png) no-repeat;
+    background-size: cover;
     margin-right: 0.6667vw;
 }
 .shizi{
-    width: 15px; 
-    height: 15px;
-    background: url('css_sprites.png') -10px -10px;
+    width: 2vw; 
+    height: 2vw;
+    background: url(../task7/img/shi.png) no-repeat;
+    background-size: cover;
     
 }
 
