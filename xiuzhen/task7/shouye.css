@@ -34,9 +34,13 @@ header{
     
 }
 .fisttouch{
+<<<<<<< HEAD
     visibility: hidden;
     overflow: hidden;
     display: none;
+=======
+    
+>>>>>>> 9992f9673dc8fc749f560765d6f8645ccaecf433
     opacity: 0;
 }
 .zhuogui{

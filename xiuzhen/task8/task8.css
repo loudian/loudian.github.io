@@ -1,0 +1,12 @@
+nav{
+    background-color: white;
+    height: 40px;
+    display: flex;
+    color: rgb(53, 170, 106);
+    justify-content: space-between;
+
+}
+nav>img{
+    width: 25px;
+    height: 24px;
+}
