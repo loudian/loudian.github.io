@@ -1,4 +1,5 @@
-nav{
+/*客服热线开始*/
+.kefurexian{
     background-color: white;
     height: 40px; 
     line-height: 40px;  
@@ -7,10 +8,44 @@ nav{
 
 }
 .tubiao{
+    height: 40px; 
+    line-height: 40px;  
     display: flex;
     justify-content: flex-end;
+    flex-wrap: nowrap;
 }
- .tubiao>img{
-    width: 25px;
-    height: 24px;
-} 
+ .qq{
+     margin: 0 10px 0 10px;
+ }
+
+
+/*客服热线结束*/
+/*导航栏开始*/
+.navbar-lk{
+   height: 100px;
+   background-color: rgb(44, 164, 96); 
+   
+   
+}
+.navbar-brand{
+  /* display: block; */
+  height: 100px;
+  padding-top: 30px;
+}
+.navbar-lk .navbar-nav a{
+    /* 这个是导航栏里面的选项*/
+    height: 100px;
+    line-height: 80px;
+    
+}
+.navbar-lk .navbar-nav li.active a,
+.navbar-lk .navbar-nav a:hover{
+
+    background-color: transparent;
+    border-bottom: 5px solid white;
+    
+}
+ .navbar-toggle {
+    margin-top: 32px;
+ }
+ 
