@@ -21,12 +21,10 @@
 
 /*客服热线结束*/
 /*导航栏开始*/
- nav{
-    background-color: rgb(44, 164, 96); 
- }
+
 .navbar-lk{
    height: 100px;
-   
+   background-color: rgb(44, 164, 96); 
    
    
 }
