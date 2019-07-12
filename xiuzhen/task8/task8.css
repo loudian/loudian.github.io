@@ -24,7 +24,9 @@
 
 .navbar-lk{    /*这个是设置导航栏的高 还有背景颜色*/
    height: 100px;
-   background-color: rgb(32,165,99);   
+   background-color: rgb(32,165,99); 
+   margin: 0;
+   
 }
 .navbar-brand{           /*这个是设置图标图片的*/
   height: 100px;          
@@ -35,21 +37,30 @@
  }
  .yanse{
      background-color:rgb(32,165,99);
+     margin-top: 0;
+     margin-bottom: 0;
+     
+
+ }
+ .navbar-lk .navbar-nav li{
+     height: 100px;
  }
  .navbar-lk .navbar-nav li>a{
-     height: 100px;
-     line-height: 80px;
-     text-align: center;
+    text-align: center;
+     padding-top: 40px;
+     font-size: 16px;
      color: white;
-     border-bottom: 0;
+      }
+      .navbar-lk .navbar-nav li:hover{
+          border-bottom: 4px solid white;
+      }
+      .navbar-lk .navbar-nav li>a:hover{
+          color: white;
+      }
+ /*下面是取消样式*/
+ .navbar{
+     border: 0;
  }
- .navbar-lk .navbar-nav li.active a{
-    background-color: transparent;
-    color: white;
+ .navbar-collapse{
+     border-top: 0;
  }
- .navbar-lk .navbar-nav li a:hover{
-    background-color: transparent;
-    color: white;
-    border-bottom: 4px solid white;
- }
- 
