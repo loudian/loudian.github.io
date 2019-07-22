@@ -88,4 +88,63 @@
  }
  /*轮播图结束*/
  /*列表图标开始*/
- 
+ section{
+     margin-top: 150px;
+     
+ }
+ h4{
+    margin-top: 32px;
+    margin-bottom: 30px;
+ }
+.main1{
+    height: 270px;
+    text-align: center;
+    /* background-color: beige; */
+
+}
+
+.main1>p{
+    font-size: 16px;
+    color:rgb(149, 149, 149);
+}
+.main2>p{
+    font-size: 16px;
+    color:rgb(149, 149, 149);
+}
+.main3>p{
+    font-size: 16px;
+    color:rgb(149, 149, 149);
+}
+.main2{
+    height: 270px;
+    text-align: center;
+    
+}
+.main2>img{
+   margin-top: 15px;
+}
+.main3{
+    height: 270px;
+    text-align: center;
+}
+.main3>img{
+    margin-top: 7px;
+    
+}
+ .main4{
+     height: 270px;
+     padding-left: 57px;
+     padding-top: 65px;
+     border-left: 2px dashed rgb(217, 217, 217);
+ }
+ .main4>p{
+    color: green;
+    font-size: 18px;
+    
+ }
+ .main4>span{
+     display: block;
+     margin-bottom: 25px;
+     font-size: 18px;
+     color:rgb(149, 149, 149);
+ }
