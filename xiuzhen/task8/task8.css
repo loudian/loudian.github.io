@@ -126,6 +126,8 @@
 .main3{
     height: 270px;
     text-align: center;
+    padding: 0 45px;
+  
 }
 .main3>img{
     margin-top: 7px;
