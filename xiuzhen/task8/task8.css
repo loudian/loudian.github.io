@@ -64,3 +64,28 @@
  .navbar-collapse{
      border-top: 0;
  }
+ /* 导航栏结束 */
+ /* 轮播图开始 */
+ /*下面这个是去除轮播图阴影效果的开始*/
+ .carousel-control.left {
+  
+    background-image:none;
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+  }
+  .carousel-control.right {
+    left: auto;
+    right: 0;
+   
+    background-image:none;
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+  }
+ /*去除阴影效果结束*/
+ .item>img{
+    width: 100%;
+    max-height: 600px; /*设置了最大高度 就可以固定轮播图的高度了*/
+ }
+ /*轮播图结束*/
+ /*列表图标开始*/
+ 

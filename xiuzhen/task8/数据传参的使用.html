@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>数据传参的使用</title>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>  <!-- 这个是导入jquery插件-->
+    
+</head>
+<body>
+    <div data-name="周杰伦" data-age="18"></div>
+
+    <button id="btn">获取数据</button>
+    <button id="btn1">设置数据</button>
+    <script>
+    $(function () {
+        //获取数据
+        $("#btn").on("click", function() {           /*$ 应该就是传数据的意思  */
+            console.log($("div").data("name"));
+            console.log($("div").data("age"));
+        });
+    
+    //设置数据
+    $("#btn1").on("click",function() {
+      $('div').data("name","jojo");
+      $('div').data("age","99");    
+    });
+    
+    });
+    /* 这个数据传参是我第一次使用，让我们一起分析一下是怎么处理吧。
+    */
+    </script>
+</body>
+</html>
