@@ -174,26 +174,71 @@ body{
  .jiantou1{
      display: flex;
      height: 76px;
-     
+     margin-bottom: 100px;
      
  }
  .jiantouwenzi{
      height: 76px;
      font-size: 14px;
-     color: green;
-     
-    
+     color: rgb(142, 142, 142);
+     min-width: 140px;
+     display: flex;
+     align-items: center;
+     margin-left: 16px;
+     margin-right: 16px;
     }
  .yuanxing{
      color: green;
      font-size: 18px;
      text-align: center;
      line-height: 76px;
-     height: 76px;
-     width: 76px;
+     min-width: 76px;
+     min-width: 76px;
      border: 1px solid rgb(223, 223, 223);
      border-radius: 50%;   
+     background-color: white;
  }
 .jiantou1 img{
-    margin-top: 20px;
+   margin-top: 24px;
+   
+}
+/* 箭头列表结束 */
+/* 头像介绍开始 */
+/* .touxiangjieshao{
+    display: flex;
+    justify-content: space-between;
+} */
+.touxiang{
+    
+    height: 369px;
+    background-color: white;
+    border: 1px solid #eeeded;
+    border-radius: 2%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 34px;
+    padding-left: 28px;
+    padding-right: 35px;
+
+}
+.touxiang:hover{
+   box-shadow:  5px 5px 5px 5px #b0b0b0;
+   
+}
+.touxiang img{
+    height: 108px;
+    width: 108px;
+    margin-top: 15px;
+}
+.jishuguwen{
+    /* 技术顾问鸡老师 */
+    font-size: 18px;
+    color: black;
+    margin-top: 42px;
+    margin-bottom: 29px;
+}
+.wenzi{
+    color: rgb(142, 142, 142);
+    font-size: 16px;
 }
