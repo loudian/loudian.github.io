@@ -139,6 +139,10 @@
      padding-top: 65px;
      border-left: 2px dashed rgb(217, 217, 217);
  }
+ .main4 img{
+     margin-right: 13px;
+    vertical-align: 0%;
+ }
  .main4>p{
     color: green;
     font-size: 18px;
