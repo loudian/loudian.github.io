@@ -1,53 +1,154 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta charset="utf-8" />
-<title>屏幕五等分</title>
-<meta name="generator" content="EverEdit" />
-<meta name="author" content="" />
-<meta name="keywords" content="" />
-<meta name="description" content="" />
-<!-- Bootstrap core CSS -->
-<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
-<style>
-@media (min-width: 1200px) {
-.col-zdlg-2-5{
-float: left;
-width:20%;
-
-}
-}
-h2{
-font-family: "Microsoft Yahei";
-font-weight: 500;
-line-height: 1.1;
-color:#000;
-}
-
-.col-red-border{
-border:1px solid red;
-}
-</style>
-</head>
-<body>
-<div class="container">
-<div class="rows">
-<div class="col-xs-12 col-sm-12 col-md-4 col-zdlg-2-5 col-red-border">
-<h2>屏幕五等分</h2>
-</div>
-<div class="col-xs-12 col-sm-12 col-md-4 col-zdlg-2-5 col-red-border">
-<h2>屏幕五等分</h2>
-</div>
-<div class="col-xs-12 col-sm-12 col-md-4 col-zdlg-2-5 col-red-border">
-<h2>屏幕五等分</h2>
-</div>
-<div class="col-xs-12 col-sm-12 col-md-4 col-zdlg-2-5 col-red-border">
-<h2>屏幕五等分</h2>
-</div>
-<div class="col-xs-12 col-sm-12 col-md-4 col-zdlg-2-5 col-red-border">
-<h2>屏幕五等分</h2>
-</div>
-</div>
-</div>
-</body>
+<html lang="en">
+ 
+    <head>
+        <meta charset="UTF-8">
+        <!--视口的设置，让网页能等比例的缩放到对应设备中-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!--告诉ie浏览器用最新内核去渲染网页-->
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Document</title>
+        <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+ 
+        <style type="text/css">
+            .col-xs-1-5,
+            .col-sm-1-5,
+            .col-md-1-5,
+            .col-lg-1-5 {
+                position: relative;
+                min-height: 1px;
+                padding-right: 10px;
+                padding-left: 10px;
+            }
+            
+            .col-xs-1-5 {
+                width: 20%;
+                float: left;
+            }
+            
+            @media (min-width: 768px) {
+                .col-sm-1-5 {
+                    width: 20%;
+                    float: left;
+                }
+            }
+            
+            @media (min-width: 992px) {
+                .col-md-1-5 {
+                    width: 20%;
+                    float: left;
+                }
+            }
+            
+            @media (min-width: 1200px) {
+                .col-lg-1-5 {
+                    width: 20%;
+                    float: left;
+                }
+            }
+        </style>
+ 
+        <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+        <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ 
+        <body>
+ 
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-1-5">
+                        <div class="items text-center">
+                            <img class="img-responsive" src="../img/my.jpg" />
+ 
+                            <div class="row">
+                                <div class="name" id="">姓名:<span>王婷</span></div>
+                            </div>
+ 
+                            <div class="row">
+                                <div class="sex" id="">性别:<span>女</span></div>
+                            </div>
+ 
+                            <div class="row">
+                                <div class="orgin" id="">部门:<span>宣传部</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-1-5">
+                        <div class="items text-center">
+                            <img class="img-responsive" src="../img/my.jpg" />
+ 
+                            <div class="row">
+                                <div class="name" id="">姓名:<span>王婷</span></div>
+                            </div>
+ 
+                            <div class="row">
+                                <div class="sex" id="">性别:<span>女</span></div>
+                            </div>
+ 
+                            <div class="row">
+                                <div class="orgin" id="">部门:<span>宣传部</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-1-5">
+                        <div class="items text-center">
+                            <img class="img-responsive" src="../img/my.jpg" />
+ 
+                            <div class="row">
+                                <div class="name" id="">姓名:<span>王婷</span></div>
+                            </div>
+ 
+                            <div class="row">
+                                <div class="sex" id="">性别:<span>女</span></div>
+                            </div>
+ 
+                            <div class="row">
+                                <div class="orgin" id="">部门:<span>宣传部</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-1-5">
+                        <div class="items text-center">
+                            <img class="img-responsive" src="../img/my.jpg" />
+ 
+                            <div class="row">
+                                <div class="name" id="">姓名:<span>王婷</span></div>
+                            </div>
+ 
+                            <div class="row">
+                                <div class="sex" id="">性别:<span>女</span></div>
+                            </div>
+ 
+                            <div class="row">
+                                <div class="orgin" id="">部门:<span>宣传部</span></div>
+                            </div>
+                        </div>
+                    </div>
+ 
+                    <div class="col-xs-1-5">
+                        <div class="items text-center">
+                            <img class="img-responsive" src="../img/my.jpg" />
+ 
+                            <div class="row">
+                                <div class="name" id="">姓名:<span>王婷</span></div>
+                            </div>
+ 
+                            <div class="row">
+                                <div class="sex" id="">性别:<span>女</span></div>
+                            </div>
+ 
+                            <div class="row">
+                                <div class="orgin" id="">部门:<span>宣传部</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </body>
+ 
 </html>
+
+--------------------- 
+作者：祈澈菇凉 
+来源：CSDN 
+原文：https://blog.csdn.net/qq_36538012/article/details/83218577 
+版权声明：本文为博主原创文章，转载请附上博文链接！

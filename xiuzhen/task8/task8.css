@@ -264,20 +264,52 @@ body{
 }
 /* 圆点结束 */
 /* 合作企业开始 */
-.tubiaobaoshezhi{
+
+@media (min-width: 992px) {
+    .col-zdlg-2-5{
+    display: flex; 
+    width:19.9%;
     background-color: white;
-    margin-bottom: 90px;
-    /* display: flex;
-    justify-content: space-between;
-    align-items: center; */
-   
-}
-.tubiaobiao{
-    height: 175px;
+    height: 180px;
+     justify-content: space-around;
+    margin-right: 1px;
+    }}
+
+.hezuohezi1{
+    
+    height: 180px;
+    
+    line-height: 180px;
     background-color: white;
-    
+    text-align: center;
+    margin-bottom: 20px;
+    overflow: hidden;
+
+}
+
+@media (min-width: 992px){
+    .hezuohezi1{
+      
+      height: 180px;
+      line-height: 180px;
+      margin-right: 1px;
+    }
+}
+@media (min-width: 992px){
+    .hezuohezi1 img:hover{
+      
+        box-shadow:  0px 0px 0px 0px #b0b0b0
+    }
+}
+.hezuohezi1 img{
     
 }
-.tubiaobiao:hover{
-    box-shadow:  0px 0px 5px 2px #b0b0b0;
+.hezuohezi1:hover{
+    box-shadow:  5px 5px 5px 5px #b0b0b0;
+}
+@media (min-width: 992px){
+    .col-zdlg-2-5:hover{
+        box-shadow:  0px 0px 5px 2px #b0b0b0
+        
+    }
 }
