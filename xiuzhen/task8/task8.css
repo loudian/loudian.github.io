@@ -3,7 +3,7 @@ body{
 }
 /*客服热线开始*/
 .kefurexian{
-    background-color: white;
+    background-color: rgb(249, 249, 249);
     height: 40px; 
     line-height: 40px;  
     color: rgb(53, 170, 106);
@@ -265,7 +265,7 @@ body{
 /* 圆点结束 */
 /* 合作企业开始 */
 
-@media (min-width: 992px) {
+@media (min-width: 970px) {
     .col-zdlg-2-5{
     display: flex; 
     width:19.9%;
@@ -287,7 +287,7 @@ body{
 
 }
 
-@media (min-width: 992px){
+@media (min-width: 970px){
     .hezuohezi1{
       
       height: 180px;
@@ -295,7 +295,7 @@ body{
       margin-right: 1px;
     }
 }
-@media (min-width: 992px){
+@media (min-width: 970px){
     .hezuohezi1 img:hover{
       
         box-shadow:  0px 0px 0px 0px #b0b0b0
@@ -307,9 +307,66 @@ body{
 .hezuohezi1:hover{
     box-shadow:  5px 5px 5px 5px #b0b0b0;
 }
-@media (min-width: 992px){
+@media (min-width: 970px){
     .col-zdlg-2-5:hover{
         box-shadow:  0px 0px 5px 2px #b0b0b0
         
     }
+}
+/* 合作企业结束 */
+footer{
+    background-color: white;
+    /* height: 133px; */
+    margin-bottom: 10px;
+}
+.lvli{
+    font-size: 14px;
+    color: #b0b0b0;
+    padding: 0;
+   margin: 0;
+   
+}
+ .lvli:hover{
+    border-bottom: 1px solid green;
+}
+ul{
+  
+}
+/* 底部开始 */
+.copyright{
+    background-color: rgb(53, 170, 106);
+    
+}
+.dibu1{
+    height: 173px;
+    padding-top: 38px;
+    color: white;
+    font-size: 16px;
+}
+.dibu1 a{
+    color: white;
+    font-size: 12px;
+}
+.dibu2{
+    margin-top: 60px;
+}
+.dibu3{
+    display: inline-block;
+    font-size: 12px;
+    margin-top: 23px;
+    margin-right: 20px;
+}
+.dibu4{
+    display: block;
+    color: white;
+    font: 14px;
+    margin-top: 40px;
+}
+.dibu5{
+    border-top: 1px solid #32c086;
+    color: white;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 30px;
 }
