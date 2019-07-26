@@ -26,7 +26,7 @@ body{
 /*导航栏开始*/
 
 .navbar-lk{    /*这个是设置导航栏的高 还有背景颜色*/
-   height: 100px;
+   /* height: 100px; */
    background-color: rgb(32,165,99); 
    margin: 0;
    
@@ -37,6 +37,7 @@ body{
 }
 .navbar-toggle {  /*这个是设置缩小屏幕后的三条横线居中的布局*/
     margin-top: 32px;
+    
  }
  .yanse{
      background-color:rgb(32,165,99);
@@ -176,6 +177,8 @@ body{
      height: 76px;
      margin-bottom: 100px;
      
+    
+     
  }
  .jiantouwenzi{
      height: 76px;
@@ -183,9 +186,9 @@ body{
      color: rgb(142, 142, 142);
      min-width: 140px;
      display: flex;
-     align-items: center;
+      align-items: center;
      margin-left: 16px;
-     margin-right: 16px;
+     margin-right: 16px; 
     }
  .yuanxing{
      color: green;
@@ -198,9 +201,12 @@ body{
      border-radius: 50%;   
      background-color: white;
  }
-.jiantou1 img{
+.jiantou1img{
    margin-top: 24px;
-   
+      
+}
+.fudong{
+    float: right;
 }
 /* 箭头列表结束 */
 /* 头像介绍开始 */
@@ -223,7 +229,7 @@ body{
     margin-bottom: 22px;
 }
 .touxiang:hover{
-   box-shadow:  5px 5px 5px 5px #b0b0b0;
+   box-shadow:   0 0 10px 2px #b0b0b0;
    
 }
 .touxiang img{
@@ -268,15 +274,17 @@ body{
 @media (min-width: 970px) {
     .col-zdlg-2-5{
     display: flex; 
-    width:19.9%;
+    width:19.5%;
     background-color: white;
     height: 180px;
      justify-content: space-around;
-    margin-right: 1px;
+     margin-right: 0.5%;
     }}
 .yinying{
     background-color: white;
-    margin-bottom: 1px;
+    margin-bottom: 5px;
+    
+    
 }
 .hezuohezi1{
     
@@ -300,7 +308,7 @@ body{
 }
 
 .col-zdlg-2-5:hover{
-    box-shadow:  5px 5px 5px 5px #b0b0b0;
+    box-shadow:   0 0 10px 2px #b0b0b0;
 }
 /* .yinying:hover{
     box-shadow:  5px 5px 5px 5px #b0b0b0;
@@ -315,17 +323,20 @@ body{
 footer{
     background-color: white;
     /* height: 133px; */
-    margin-bottom: 10px;
+    
 }
 .lvli{
     font-size: 14px;
     color: #b0b0b0;
     padding: 0;
    margin: 0;
+    border-bottom: 1px solid white;
+   
    
 }
  .lvli:hover{
     border-bottom: 1px solid green;
+    
 }
   
 
