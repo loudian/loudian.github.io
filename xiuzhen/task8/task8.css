@@ -174,9 +174,9 @@ body{
  /* 箭头列表 */
  .jiantou1{
      display: flex;
-     height: 76px;
+     /* align-items: center; */
      margin-bottom: 100px;
-     
+     position: relative;
     
      
  }
@@ -186,7 +186,7 @@ body{
      color: rgb(142, 142, 142);
      min-width: 140px;
      display: flex;
-      align-items: center;
+     align-items: center;
      margin-left: 16px;
      margin-right: 16px; 
     }
@@ -196,18 +196,18 @@ body{
      text-align: center;
      line-height: 76px;
      min-width: 76px;
-     min-width: 76px;
+    
      border: 1px solid rgb(223, 223, 223);
      border-radius: 50%;   
      background-color: white;
  }
 .jiantou1img{
-   margin-top: 24px;
+   position: absolute;
+   left: 90%;
+   align-items: center;
       
 }
-.fudong{
-    float: right;
-}
+
 /* 箭头列表结束 */
 /* 头像介绍开始 */
 /* .touxiangjieshao{
@@ -280,12 +280,7 @@ body{
      justify-content: space-around;
      margin-right: 0.5%;
     }}
-.yinying{
-    background-color: white;
-    /* margin-bottom: 5px; */
-    
-    
-}
+
 .hezuohezi1{
     
     height: 180px;
