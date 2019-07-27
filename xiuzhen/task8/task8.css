@@ -203,8 +203,9 @@ body{
  }
 .jiantou1img{
    position: absolute;
-   right: 0;
-   align-items: center;
+   right: 10%;
+   top: 50%;
+   transform: translate(0, -50%);
       
 }
 
