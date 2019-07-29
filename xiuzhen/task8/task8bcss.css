@@ -1,0 +1,156 @@
+body{
+    background-color: #fafafa;
+}
+/*客服热线开始*/
+.kefurexian{
+    background-color: rgb(249, 249, 249);
+    height: 40px; 
+    line-height: 40px;  
+    color: rgb(53, 170, 106);
+    font-size: 14px;
+
+}
+.tubiao{
+    height: 40px; 
+    line-height: 40px;  
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+}
+ .qq{
+     margin: 0 10px 0 10px;
+ }
+
+
+/*客服热线结束*/
+/*导航栏开始*/
+
+.navbar-lk{    /*这个是设置导航栏的高 还有背景颜色*/
+   /* height: 100px; */
+   background-color: rgb(32,165,99); 
+   margin: 0;
+   
+}
+.navbar-brand{           /*这个是设置图标图片的*/
+  height: 100px;          
+  padding-top: 30px;
+}
+.navbar-toggle {  /*这个是设置缩小屏幕后的三条横线居中的布局*/
+    margin-top: 32px;
+    
+ }
+ .yanse{
+     background-color:rgb(32,165,99);
+     margin-top: 0;
+     margin-bottom: 0;
+     
+
+ }
+ .navbar-lk .navbar-nav li{
+     height: 100px;
+ }
+ .navbar-lk .navbar-nav li>a{
+    text-align: center;
+     padding-top: 40px;
+     font-size: 16px;
+     color: white;
+      }
+      .navbar-lk .navbar-nav li:hover{
+          border-bottom: 4px solid white;
+      }
+      .navbar-lk .navbar-nav li>a:hover{
+          color: white;
+      }
+ /*下面是取消样式*/
+ .navbar{
+     border: 0;
+ }
+ .navbar-collapse{
+     border-top: 0;
+ }
+ /* 导航栏结束 */
+ /* 轮播图开始 */
+ /*下面这个是去除轮播图阴影效果的开始*/
+ .carousel-control.left {
+  
+    background-image:none;
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+  }
+  .carousel-control.right {
+    left: auto;
+    right: 0;
+   
+    background-image:none;
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+  }
+ /*去除阴影效果结束*/
+ .item>img {
+    width: 100%;
+    max-height: 600px; /*设置了最大高度 就可以固定轮播图的高度了*/
+ }
+ /*轮播图结束*/
+ /* 首页和合作企业链接效果 */
+ .shouye {
+     color: black;
+     font-size: 16px;
+ }
+ .shouye:hover {
+     text-decoration: none;
+ }
+ .hezuo {
+     color: green;
+     font-size: 16px;
+ }
+ .hezuo:hover {
+
+ }
+ .hezuo:hover {
+     text-decoration: none;
+ }
+ /* 首页和合作企业链接效果结束 */
+ .biankuang {
+     border: 1px solid #ededed;
+     height: 700px;
+     background-color: white;
+ }
+ .zhanshi {
+     height: 65px;
+     border-bottom: 1px solid #ededed;
+     color: #999999;
+     font-size: 20px;
+     line-height: 65px;
+     text-align: center;
+ }
+ .yuandianli {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     margin: 37px 0;
+ }
+ .yuandianli a:hover {
+      color: #ff9052;
+ }
+ .yuandianli .yuandian:hover {
+    background-color: #ff9052;
+}
+ 
+.yuandian {
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    border: .01rem solid #ff9052;
+}
+.yuandian:hover {
+    background-color: #ff9052;
+}
+/* 第一项结束 */
+/* 第一项开始 */
+.biankuang2 {
+    height: 1098px;
+    border: 1px solid #ededed;
+    background-color: white;
+}

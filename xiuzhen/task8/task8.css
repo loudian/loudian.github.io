@@ -181,12 +181,12 @@ body{
      
  }
  .jiantouwenzi{
-     
+     height: 76px;
      font-size: 14px;
      color: rgb(142, 142, 142);
-     min-width: 140px;
      margin-left: 16px;
      margin-right: 16px; 
+     display: flex;
      align-items: center;
     }
  .yuanxing{
@@ -200,20 +200,11 @@ body{
      border-radius: 50%;   
      background-color: white;
  }
-.jiantou1img{
-   /* position: absolute;
-   right: 3%;
-   top: 50%;
-   transform: translate(0, -50%); */
-      
-}
+
 
 /* 箭头列表结束 */
 /* 头像介绍开始 */
-/* .touxiangjieshao{
-    display: flex;
-    justify-content: space-between;
-} */
+
 .touxiang{
     
     height: 369px;
