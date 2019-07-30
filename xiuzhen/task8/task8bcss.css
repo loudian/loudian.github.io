@@ -103,9 +103,7 @@ body{
      color: green;
      font-size: 16px;
  }
- .hezuo:hover {
-
- }
+ 
  .hezuo:hover {
      text-decoration: none;
  }
@@ -114,7 +112,8 @@ body{
      border: 1px solid #ededed;
      height: 700px;
      background-color: white;
- }
+     text-align: center;
+    }
  .zhanshi {
      height: 65px;
      border-bottom: 1px solid #ededed;
@@ -123,34 +122,50 @@ body{
      line-height: 65px;
      text-align: center;
  }
+ /* 这个是制作hover效果的盒子 */
  .yuandianli {
      display: flex;
-     flex-direction: row;
-     justify-content: center;
+     flex-direction: column;
      align-items: center;
-     margin: 37px 0;
+     
+     align-items: center;
+     margin-top: 30px;
+     
  }
- .yuandianli a:hover {
-      color: #ff9052;
+ .hezuo1 a{
+     color: green;
+     font-size: 14px;
+     display: inline;
  }
- .yuandianli .yuandian:hover {
-    background-color: #ff9052;
-}
- 
+ .hezuo1{
+     display: inline;
+    
+ }
 .yuandian {
     display: inline-block;
     height: 12px;
     width: 12px;
     border-radius: 50%;
     border: .01rem solid #ff9052;
+    background-color: white;
+    margin-right: 5px;
+    
 }
-.yuandian:hover {
+/* 这个是制作hover效果的盒子 */
+/* 制作hover效果 */
+.yuandianli:hover .hezuo1 a{
+  color: #ff9052;
+  text-decoration: none;
+}
+.yuandianli:hover .yuandian{
     background-color: #ff9052;
 }
+/* 制作hover 结束 */
 /* 第一项结束 */
 /* 第一项开始 */
 .biankuang2 {
-    height: 1098px;
+    height: 1000px;
     border: 1px solid #ededed;
     background-color: white;
+
 }
