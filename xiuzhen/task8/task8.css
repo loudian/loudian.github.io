@@ -314,36 +314,36 @@ footer{
    position: relative;
    
 }
-@media (min-width: 400px) {
+@media only screen and (max-width: 2900px) and (min-width:1200px) {
     .lvli::after {
         content: "";
         position: absolute;
        border-bottom: 1px solid green;
-       left: -8%;
-        right: 74%;
-        top: 96%;
+       left: -18%;
+        right: 36%;
+        height: 100%;
         visibility: hidden;
     } 
 }
-@media (max-width: 1600px) {
+@media only screen and (max-width: 1200px) and (min-width:400px) {
     .lvli::after {
         content: "";
         position: absolute;
        border-bottom: 1px solid green;
-       left: -17%;
-        right: 34%;
-        top: 96%;
+       left: -5%;
+        right: 83%;
+        height: 100%;
         visibility: hidden;
     } 
 }
-@media (min-width: 768px) {
+@media only screen and (max-width: 400px) {
     .lvli::after {
         content: "";
         position: absolute;
        border-bottom: 1px solid green;
-       left: -11%;
-        right: 67%;
-        top: 96%;
+       left: -6%;
+        right: 83%;
+        height: 100%;
         visibility: hidden;
     } 
 }
