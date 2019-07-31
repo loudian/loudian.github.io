@@ -86,9 +86,9 @@ body{
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
   }
  /*去除阴影效果结束*/
- .item>img {
-    width: 100%;
-    max-height: 600px; /*设置了最大高度 就可以固定轮播图的高度了*/
+ .carousel-inner>.item>img{
+     height: 20vw;
+     object-fit: cover;
  }
  /*轮播图结束*/
  /* 首页和合作企业链接效果 */
@@ -128,7 +128,7 @@ body{
  .yuandianli {
     
      margin-top: 30px;
-     padding-left: 40%;
+     padding-left: 38%;
      
  }
  .shishi {
