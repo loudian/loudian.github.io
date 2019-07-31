@@ -322,28 +322,34 @@ footer{
        left: -18%;
         right: 36%;
         height: 100%;
+        width: 80px;
+        
         visibility: hidden;
     } 
 }
-@media only screen and (max-width: 1200px) and (min-width:400px) {
+@media only screen and (max-width: 1200px) and (min-width:600px) {
     .lvli::after {
         content: "";
         position: absolute;
        border-bottom: 1px solid green;
        left: -5%;
         right: 83%;
+        width: 80px;
         height: 100%;
         visibility: hidden;
+       
     } 
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 600px) and (min-width:0px){
     .lvli::after {
         content: "";
         position: absolute;
        border-bottom: 1px solid green;
        left: -6%;
-        right: 83%;
+        right: 56%;
         height: 100%;
+        width: 100px;
+       
         visibility: hidden;
     } 
 }
