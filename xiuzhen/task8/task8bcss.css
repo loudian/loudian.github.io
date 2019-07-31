@@ -124,13 +124,19 @@ body{
  }
  /* 这个是制作hover效果的盒子 */
  .yuandianli {
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     
-     align-items: center;
+    
      margin-top: 30px;
+     padding-left: 40%;
      
+ }
+ .shishi {
+ 
+    display: flex;
+    align-items: center;
+    
+    text-align: center;
+     
+    
  }
  .hezuo1 a{
      color: green;
@@ -167,5 +173,63 @@ body{
     height: 1000px;
     border: 1px solid #ededed;
     background-color: white;
-
+    
+}
+.biankuang2-1 {
+    height: 160px;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #ededed;
+    padding: 0 65px;
+    align-items: center;
+}
+.biankuang2-2{
+    height: 944px;
+    border-bottom: 1px solid #ededed;
+    padding: 40px 65px;
+}
+.tudou{
+    text-indent: 0.5cm;
+    font-size: 14px;
+    color: rgb(142, 142, 142);
+    line-height: 27px;
+}
+/* 底部开始 */
+/* 底部开始 */
+.copyright{
+    background-color: rgb(53, 170, 106);
+    margin-top: 230px;
+}
+.dibu1{
+    height: 173px;
+    padding-top: 38px;
+    color: white;
+    font-size: 16px;
+}
+.dibu1 a{
+    color: white;
+    font-size: 12px;
+}
+.dibu2{
+    margin-top: 60px;
+}
+.dibu3{
+    display: inline-block;
+    font-size: 12px;
+    margin-top: 23px;
+    margin-right: 20px;
+}
+.dibu4{
+    display: block;
+    color: white;
+    font: 14px;
+    margin-top: 40px;
+}
+.dibu5{
+    border-top: 1px solid #32c086;
+    color: white;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 30px;
 }
