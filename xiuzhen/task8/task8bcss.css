@@ -87,8 +87,8 @@ body{
   }
  /*去除阴影效果结束*/
  .carousel-inner>.item>img{
-     height: 20vw;
-     object-fit: cover;
+    min-height: 20vw;
+    object-fit: cover;
  }
  /*轮播图结束*/
  /* 首页和合作企业链接效果 */
