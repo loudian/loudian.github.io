@@ -110,12 +110,14 @@ body{
  /* 首页和合作企业链接效果结束 */
  .biankuang {
      border: 1px solid #ededed;
-     height: 700px;
+     
      background-color: white;
      text-align: center;
+     padding-bottom: 30px;
+     margin-bottom: 43px;
     }
  .zhanshi {
-     height: 65px;
+    
      border-bottom: 1px solid #ededed;
      color: #999999;
      font-size: 20px;
@@ -170,21 +172,21 @@ body{
 /* 第一项结束 */
 /* 第一项开始 */
 .biankuang2 {
-    height: 1000px;
     border: 1px solid #ededed;
     background-color: white;
     
 }
 .biankuang2-1 {
-    height: 160px;
+    
     display: flex;
     flex-direction: row;
     border-bottom: 1px solid #ededed;
     padding: 0 65px;
     align-items: center;
+    
 }
 .biankuang2-2{
-    height: 944px;
+  
     border-bottom: 1px solid #ededed;
     padding: 40px 65px;
 }
