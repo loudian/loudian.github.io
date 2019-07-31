@@ -309,14 +309,58 @@ footer{
 .lvli{
     font-size: 14px;
     color: #b0b0b0;
-    padding: 0;
-   margin: 0;
-    border-bottom: 1px solid white;
-   
+  padding: 0;
+    margin: 0;
+   position: relative;
    
 }
+@media (min-width: 400px) {
+    .lvli::after {
+        content: "";
+        position: absolute;
+       border-bottom: 1px solid green;
+       left: -8%;
+        right: 74%;
+        top: 96%;
+        visibility: hidden;
+    } 
+}
+@media (max-width: 1600px) {
+    .lvli::after {
+        content: "";
+        position: absolute;
+       border-bottom: 1px solid green;
+       left: -17%;
+        right: 34%;
+        top: 96%;
+        visibility: hidden;
+    } 
+}
+@media (min-width: 768px) {
+    .lvli::after {
+        content: "";
+        position: absolute;
+       border-bottom: 1px solid green;
+       left: -11%;
+        right: 67%;
+        top: 96%;
+        visibility: hidden;
+    } 
+}
 
-  
+
+/* .lvli::after {
+    content: "";
+    position: absolute;
+   border-bottom: 1px solid green;
+   left: -6%;
+    right: 76%;
+    top: 96%;
+    visibility: hidden;
+} */
+.lvli:hover::after {
+    visibility: visible;
+}
 
 /* 底部开始 */
 .copyright{
