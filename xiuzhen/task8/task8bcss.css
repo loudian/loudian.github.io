@@ -240,3 +240,11 @@ body{
     line-height: 30px;
     margin-top: 30px;
 }
+
+/* 页面边距 */
+.paddding {
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
