@@ -88,6 +88,7 @@ body{
  /*去除阴影效果结束*/
  .carousel-inner>.item>img{
     min-height: 20vw;
+    max-height: 250px;
     
  }
  @media (max-width: 480px){

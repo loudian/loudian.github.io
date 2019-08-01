@@ -1,0 +1,71 @@
+body{
+    background-color: #fafafa;
+}
+/*客服热线开始*/
+.kefurexian{
+    background-color: rgb(249, 249, 249);
+    height: 40px; 
+    line-height: 40px;  
+    color: rgb(53, 170, 106);
+    font-size: 14px;
+
+}
+.tubiao{
+    height: 40px; 
+    line-height: 40px;  
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+}
+ .qq{
+     margin: 0 10px 0 10px;
+ }
+
+
+/*客服热线结束*/
+/*导航栏开始*/
+
+.navbar-lk{    /*这个是设置导航栏的高 还有背景颜色*/
+   /* height: 100px; */
+   background-color: rgb(32,165,99); 
+   margin: 0;
+   
+}
+.navbar-brand{           /*这个是设置图标图片的*/
+  height: 100px;          
+  padding-top: 30px;
+}
+.navbar-toggle {  /*这个是设置缩小屏幕后的三条横线居中的布局*/
+    margin-top: 32px;
+    
+ }
+ .yanse{
+     background-color:rgb(32,165,99);
+     margin-top: 0;
+     margin-bottom: 0;
+     
+
+ }
+ .navbar-lk .navbar-nav li{
+     height: 100px;
+ }
+ .navbar-lk .navbar-nav li>a{
+    text-align: center;
+     padding-top: 40px;
+     font-size: 16px;
+     color: white;
+      }
+      .navbar-lk .navbar-nav li:hover{
+          border-bottom: 4px solid white;
+      }
+      .navbar-lk .navbar-nav li>a:hover{
+          color: white;
+      }
+ /*下面是取消样式*/
+ .navbar{
+     border: 0;
+ }
+ .navbar-collapse{
+     border-top: 0;
+ }
+ /* 导航栏结束 */
