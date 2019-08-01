@@ -262,20 +262,27 @@ body{
 /* 圆点结束 */
 /* 合作企业开始 */
 
-@media (min-width: 970px) {
+@media screen and (min-width: 1200px) and (max-width:2400px){
     .col-zdlg-2-5{
     display: flex; 
     width:19.5%;
-    background-color: white;
-    height: 180px;
-     justify-content: space-around;
-     margin-right: 0.5%;
+     justify-content: space-between;
+    
+     padding: 0;
     }}
-
+    @media screen and (min-width: 1200px) and (max-width:4400px) {
+    .shishi8 {
+        background-color: white;
+        width: 100%;
+        height: 180px;
+        display: flex;
+        justify-content: space-between;
+        
+    }}
 .hezuohezi1{
     
-    height: 180px;
-    
+    /* height: 180px;
+     */
     line-height: 180px;
     background-color: white;
     text-align: center;
@@ -293,13 +300,17 @@ body{
     }
 }
 
-/* .col-zdlg-2-5:hover{
-    box-shadow:   0 0 10px 2px #b0b0b0;
-} */
+
 .hezuohezi1:hover{
     box-shadow:   0 0 10px 2px #b0b0b0;
 }
-
+.buxing{
+    width: 100%;
+    background-color: white;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+}
 /* 合作企业结束 */
 footer{
     background-color: white;
@@ -311,6 +322,7 @@ footer{
     color: #b0b0b0;
   padding: 0;
     margin: 0;
+    margin-left: 15px;
    position: relative;
    
 }
