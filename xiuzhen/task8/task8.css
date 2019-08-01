@@ -262,7 +262,7 @@ body{
 /* 圆点结束 */
 /* 合作企业开始 */
 
-@media screen and (min-width: 1200px) and (max-width:2400px){
+@media screen and (min-width: 1200px) and (max-width:4400px){
     .col-zdlg-2-5{
     display: flex; 
     width:19.5%;
