@@ -287,8 +287,22 @@ body{
             
         }}
         /* 这个是我没有办法新建的一个参数来的 */
-       
-      
+        @media screen and (min-width: 768px) and (max-width:1199px) {
+        .col-sm-61 {
+            width: 50%;
+            position: relative;
+            min-height: 1px;
+            padding-right: 5px;
+            padding-left: 5px;
+            float: left;
+        }}
+        
+        @media screen and (min-width: 768px) and (max-width:1199px) {
+            .yidong {
+                margin-left: 267px;
+            }
+        }
+ 
 .hezuohezi1{
     
     /* height: 180px;
@@ -376,10 +390,6 @@ footer{
     } 
 }
 
-.paddding {
-    margin-left: 50px;
-    margin-right: 50px;
-}
 
 .lvli:hover::after {
     visibility: visible;
