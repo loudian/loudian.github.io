@@ -279,6 +279,16 @@ body{
         justify-content: space-between;
         
     }}
+    @media screen and (min-width: 768px) and (max-width:1199px) {
+        .shishi8 {
+            background-color: white;
+            width: 100%;
+            height: 586px;
+            
+        }}
+        /* 这个是我没有办法新建的一个参数来的 */
+       
+      
 .hezuohezi1{
     
     /* height: 180px;
