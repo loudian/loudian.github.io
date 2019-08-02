@@ -299,10 +299,14 @@ body{
         
         @media screen and (min-width: 768px) and (max-width:1199px) {
             .yidong {
-                margin-left: 267px;
+                margin-left: 27%;
             }
         }
- 
+        @media screen and (max-width: 767px)  {
+            .yidong {
+                margin-left: 26%;
+            }
+        }
 .hezuohezi1{
     
     /* height: 180px;
