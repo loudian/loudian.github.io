@@ -69,3 +69,118 @@ body{
      border-top: 0;
  }
  /* 导航栏结束 */
+/* 导航方向开始 */
+ .biankang1 {
+     padding: 32px 0;
+     font-size: 16px;
+     border-bottom: 1px solid rgb(202, 208, 212);
+ }
+ .biankang2 {
+     caret-color: 14px;
+     padding: 24px 0;
+     border-bottom: 1px solid rgb(234, 239, 240);
+ }
+ .bianhua {
+     display: inline-block;
+    
+     font-size: 14px;
+    /* background-color: green; */
+    margin: 0 14px;
+    color: black;
+ }
+ .bianhua:hover {
+    background-color: rgb(33, 167, 108);
+    text-decoration: none;
+    color: white;
+ }
+ .biankang3 {
+     padding: 30px 0;
+     border-bottom: 1px solid rgb(202, 208, 212);
+     font-size: 16px;
+ }
+ /* 导航方向结束 */
+ /* 职业框开始 */
+ .hezi {
+     
+     border: 1px solid rgb(234, 239, 240);
+     margin: 45px 0;
+ }
+ .renwu {
+     display: flex;
+     padding-top: 20px;
+     padding-left: 12px;
+     padding-bottom: 19px;
+
+ }
+ .renwuwenzi {
+     padding-top: 10px;
+     padding-left: 9px;
+     padding-right: 9px;
+     color: black;
+ }
+ .xing {
+    border: 1px solid rgb(234, 239, 240);
+    display: flex;
+ }
+ 
+ .xing1 {
+    padding-left: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-right: 1px solid rgb(234, 239, 240);
+    width: 50%;
+ }
+ .xing2 {
+    padding-left: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 37px;
+    white-space:nowrap;
+    width: 50%;
+    /* display: flex;
+    flex-wrap: nowrap; */
+ }
+ .chengzhang {
+     display: flex;
+    flex-wrap: nowrap;
+    border-bottom: 1px solid rgb(234, 239, 240);
+    width: 100%;
+ }
+ .daiyu {
+     border-top: 1px solid rgb(234, 239, 240);
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+     border-bottom: 1px solid rgb(234, 239, 240);
+ }
+ .daiyu1 {
+     width: 40%;
+     padding-top: 45px;
+     padding-bottom: 45px;
+    text-align: center;
+     border-right: 1px solid rgb(234, 239, 240);
+     white-space:nowrap;
+     
+ }
+ .daiyu2 {
+     width: 60%;
+    
+ }
+ .daiyu3 {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgb(234, 239, 240);
+  font-size: 12px;
+}
+.xuexi {
+    padding: 14px 0;
+    padding-left: 14px;
+}
+.xuexi1 {
+    padding: 14px 0;
+    padding-left: 14px;
+    font-size: 12px;
+    border-top: 1px solid rgb(234, 239, 240);
+}
