@@ -97,6 +97,7 @@ body{
      padding: 30px 0;
      border-bottom: 1px solid rgb(202, 208, 212);
      font-size: 16px;
+     margin-bottom: 45px;
  }
  /* 导航方向结束 */
  /* 职业框开始 */
@@ -104,7 +105,7 @@ body{
      
      position: relative;
      border: 1px solid rgb(234, 239, 240);
-     margin: 45px 0;
+     margin-bottom: 45px;
    
  }
  .renwu {
@@ -217,4 +218,45 @@ body{
     padding-bottom: 32px;
     border-bottom: 1px solid rgb(201, 208, 201);
     color: black;
+    margin-bottom: 45px;
+}
+/* 后端方向结束 */
+/* 下地边框栏开始 */
+/* 底部开始 */
+.copyright{
+    background-color: rgb(53, 170, 106);
+    margin-top: 230px;
+}
+.dibu1{
+    height: 173px;
+    padding-top: 38px;
+    color: white;
+    font-size: 16px;
+}
+.dibu1 a{
+    color: white;
+    font-size: 12px;
+}
+.dibu2{
+    margin-top: 60px;
+}
+.dibu3{
+    display: inline-block;
+    font-size: 12px;
+    margin-top: 23px;
+    margin-right: 20px;
+}
+.dibu4{
+    display: block;
+    color: white;
+    font: 14px;
+    margin-top: 40px;
+}
+.dibu5{
+    border-top: 1px solid #32c086;
+    color: white;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 30px;
 }
