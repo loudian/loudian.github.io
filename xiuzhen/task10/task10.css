@@ -1,0 +1,120 @@
+/* 最上的导航栏开始 */
+.topnav {
+    background-color: rgb(29, 122, 217);
+    height: 40px;
+}
+.topnav3 {
+    color: white;
+  line-height: 40px;
+    font-size: 14px;
+}
+.topnav2 {
+    display: flex;
+    justify-content: space-between;
+}
+.topnav4 {
+    display: flex;
+    line-height: 40px;
+}
+.denglu {
+
+ font-size: 16px;
+ color: white;
+ border-left: 1px solid white;
+ border-right: 1px solid white;
+ padding: 0 11px;
+
+}
+.denglu:hover {
+    background-color: white;
+    color: black;
+}
+.zhuce {
+    padding: 0 37px;
+    font-size: 16px;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    color: white;
+}
+.zhuce:hover {
+    background-color: white;
+    color: black;
+}
+/* 最上的导航栏结束 */
+/* 中间的导航栏开始 */
+.btn1 {
+    padding: 14px 16px;
+    background-color: white;
+    
+}
+.btn1:hover {
+    background-color: rgb(29, 122, 217);
+    color: white;
+}
+.container>.navbar-header {
+    margin-top: 28px;
+}
+.navbar {
+    min-height: 80px;
+}
+.anniu {
+    display: inline-block;
+    background-color: white;
+    padding: 14px 19px;
+    border-radius: 5px;
+    color: black;
+    text-align: center;
+    margin-top: 22px;
+}
+.anniu:hover {
+ color:white ;
+ background-color: rgb(29, 122, 217);
+}
+ .container>.navbar-header {
+    margin-right: 1px;
+    margin-left: 1px;
+}
+.navbar-nav {
+    margin: 7.5px 15px;
+}
+/* .jianmargin {
+    margin-right: -1px;
+} */
+@media (min-width: 768px) {.container>.navbar-collapse {
+    margin-right: -33px; 
+    margin-left: 0;
+}}
+@media screen and (min-width: 768px) and (max-width:1199px) {
+    .anniu {
+        margin-right: 60px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width:1199px) {
+    .jianmargin {
+        margin-right: 0px;
+    }
+}
+/* 中间导航栏结束 */
+/* 四个hover栏开始 */
+.sidebar {
+ 
+ 
+}
+.tab1 {
+    background-color: aliceblue;
+    width: 100%;
+    background-color: #cccccc;
+    height: 6px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+.zhishiqiu {
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    background-color: rgb(255, 127, 2);
+    text-align: center;
+    margin-top: -9px;
+    line-height: 25px;
+}
