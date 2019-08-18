@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			*{
+				margin: 0;
+				padding: 0;
+				list-style: none;
+			}
+			a{
+				text-decoration: none;
+				width: 100%;
+				height: 40px;
+				line-height: 40px;
+				font-size: 30px;
+				color: white;
+				display: inline-block;
+				border-bottom: ridge 10px red;
+			}
+			.wrap ul{
+				display: none;
+				height: 120px;
+				background: black;
+				color: white;
+			}
+			.wrap>li{
+				width: 300px;
+				background: red;
+			
+				text-align: center;
+			}
+			ul:target{
+				display: block;
+			}
+		</style>
+	</head>
+	<body>
+		<ul class="wrap">
+			<li>
+				<a href="#home">首页</a>
+				<ul id="home">
+					<li>首页</li>
+					<li>首页</li>
+					<li>首页</li>
+				</ul>
+			</li>
+			<li>
+				<a href="#hot">热门</a>
+				<ul id="hot">
+					<li>热门</li>
+					<li>热门</li>
+					<li>热门</li>
+				</ul>
+			</li>
+			<li>
+				<a href="#res">注册</a>
+				<ul id="res">
+					<li>注册</li>
+					<li>注册</li>
+					<li>注册</li>
+				</ul>
+			</li>
+			
+		</ul>
+	</body>
+</html>
+
+ ———————————————— 
+版权声明：本文为CSDN博主「如鹰展翅上腾」的原创文章，遵循CC 4.0 by-sa版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/wdq121516/article/details/89022158

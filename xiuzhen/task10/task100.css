@@ -1,0 +1,138 @@
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  @media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
+  /* 最上的导航栏开始 */
+.topnav {
+    background-color: rgb(29, 122, 217);
+    height: 40px;
+}
+.topnav3 {
+    color: white;
+  line-height: 40px;
+    font-size: 14px;
+}
+.topnav2 {
+    display: flex;
+    justify-content: space-between;
+}
+.topnav4 {
+    display: flex;
+    line-height: 40px;
+}
+.denglu {
+
+ font-size: 16px;
+ color: white;
+ border-left: 1px solid white;
+ border-right: 1px solid white;
+ padding: 0 11px;
+ white-space:nowrap;
+
+}
+.denglu:hover {
+    background-color: white;
+    color: black;
+    padding: 0 37px;
+}
+/* 最上的导航栏结束 */
+/* 中间的导航栏开始 */
+.subnav {
+    background-color: #f9f9f9;
+    border-color: #e7e7e7;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+}
+.anniu {
+    display: inline-block;
+    background-color: white;
+    padding: 14px 19px;
+    border-radius: 5px;
+    color: black;
+    text-align: center;
+    margin-top: 22px;
+    margin-bottom: 10px;
+}
+.anniu:hover {
+ color:white ;
+ background-color: rgb(29, 122, 217);
+}
+.pailieshunxu {
+    display: flex;
+    justify-content: flex-end;
+    
+    
+}
+@media screen and (min-width: 0px) and (max-width:768px) {
+     .pailieshunxu{
+    /* display: none; */
+    flex-direction: column;
+}}
+.button3:checked+ .pailieshunxu {
+  display: none;
+}
+@media screen and (min-width: 768px) and (max-width:2800px) {
+    .anniu {
+        margin-right: 60px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width:2800px) {
+    .jianmargin {
+        margin-right: 0px;
+    }
+}
+.button3 {
+  position: relative;
+  float: right;
+  padding: 8px 10px;
+  margin-top: 8px;
+  margin-right: 15px;
+  margin-bottom: 8px;
+  background-color:green;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  width: 40px;
+  height:30px;
+  
+}
+
+@media screen and (min-width:768px) {
+    .button3 {
+        
+      
+        
+
+    }}
+    .icon {
+        background-color: #888;
+        margin-top: 4px;
+        margin-bottom: 4px;
+        display: block;
+        width: 22px;
+        height: 2px;
+        border-radius: 1px;
+    }
+.subnav1 {
+ height: 100px;
+ display: flex;
+justify-content: flex-end;
+       
+}

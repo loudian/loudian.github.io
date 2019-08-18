@@ -23,11 +23,13 @@
  border-left: 1px solid white;
  border-right: 1px solid white;
  padding: 0 11px;
+ white-space:nowrap;
 
 }
 .denglu:hover {
     background-color: white;
     color: black;
+    padding: 0 37px;
 }
 .zhuce {
     padding: 0 37px;
@@ -84,24 +86,24 @@
     margin-right: -33px; 
     margin-left: 0;
 }}
-@media screen and (min-width: 768px) and (max-width:2000px) {
+@media screen and (min-width: 768px) and (max-width:2800px) {
     .anniu {
         margin-right: 60px;
     }
 }
-@media screen and (min-width: 768px) and (max-width:2000px) {
+@media screen and (min-width: 768px) and (max-width:2800px) {
     .jianmargin {
         margin-right: 0px;
     }
 }
 /* 中间导航栏结束 */
 /* 四个hover栏开始 */
-.sidebar {
+/* .sidebar {
  
  
-}
+} */
 .tab1 {
-    background-color: aliceblue;
+    
     width: 100%;
     background-color: #cccccc;
     height: 6px;
@@ -113,8 +115,21 @@
     border-radius: 50%;
     height: 25px;
     width: 25px;
-    background-color: rgb(255, 127, 2);
+    background-color: #cccccc;
     text-align: center;
     margin-top: -9px;
     line-height: 25px;
+}
+.wenzihezi {
+    text-align: center;
+    font-size: 18px;
+    color: #cccccc;
+    margin-top: 20px;
+}
+.tab:hover {
+  
+    color: white;
+}
+.tab1:hover .zhishiqiu{
+    background-color: rgb(255, 127, 2);
 }
