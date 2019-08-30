@@ -54,85 +54,52 @@
 }
 /* 最上的导航栏结束 */
 /* 中间的导航栏开始 */
-.subnav {
-    background-color: #f9f9f9;
-    border-color: #e7e7e7;
-    margin-bottom: 20px;
-    border: 1px solid transparent;
+.toggle {
+ background-color: #f9f9f9;
+ height: 80px;
+ border-bottom: 1px solid black;
+}
+.toggle-item{
+  
+}
+#toggle-trigger {  /*这个是input触发 现在是隐藏然后包含在label里面*/
+ display: none;
+}
+#toggle-trigger ~ :not(checked) ~  .toggle-item{
+ display: block;
+}
+#toggle-trigger:checked  ~  .toggle-item{
+display: none;
+}
+/* 导航栏按钮 */
+.icon-bar { /*这个是按钮的三条横*/
+  display: block;
+    width: 36px;
+    height: 6px;
+    border-radius: 1px;
+    background-color: #888;
+    margin-top: 5px;
+    margin-left: 7px;
+}
+.anniuzaoxing {  /*这个是折叠栏设置的圆框 */
+  width: 50px;
+    height: 40px;
+    background-color: #ffffff;
+    margin: 30px 10px 0 10px;
+    border-radius: 4px;
+    border: 1px solid #888;
+    outline: none;
+    float: right;
 }
 .anniu {
-    display: inline-block;
-    background-color: white;
+  background-color: white;
     padding: 14px 19px;
     border-radius: 5px;
     color: black;
     text-align: center;
     margin-top: 22px;
-    margin-bottom: 10px;
 }
-.anniu:hover {
- color:white ;
- background-color: rgb(29, 122, 217);
-}
-.pailieshunxu {
-    display: flex;
-    justify-content: flex-end;
-    
-    
-}
-@media screen and (min-width: 0px) and (max-width:768px) {
-     .pailieshunxu{
-    /* display: none; */
-    flex-direction: column;
-}}
-.button3:checked+ .pailieshunxu {
-  display: none;
-}
-@media screen and (min-width: 768px) and (max-width:2800px) {
-    .anniu {
-        margin-right: 60px;
-    }
-}
-@media screen and (min-width: 768px) and (max-width:2800px) {
-    .jianmargin {
-        margin-right: 0px;
-    }
-}
-.button3 {
-  position: relative;
-  float: right;
-  padding: 8px 10px;
-  margin-top: 8px;
-  margin-right: 15px;
-  margin-bottom: 8px;
-  background-color:green;
-  background-image: none;
-  border: 1px solid transparent;
-  border-radius: 4px;
-  width: 40px;
-  height:30px;
-  
-}
-
-@media screen and (min-width:768px) {
-    .button3 {
-        
-      
-        
-
-    }}
-    .icon {
-        background-color: #888;
-        margin-top: 4px;
-        margin-bottom: 4px;
-        display: block;
-        width: 22px;
-        height: 2px;
-        border-radius: 1px;
-    }
-.subnav1 {
- height: 100px;
- display: flex;
-justify-content: flex-end;
-       
+.toggle-item {
+  margin-right: -15px;
+    margin-left: -15px;
 }

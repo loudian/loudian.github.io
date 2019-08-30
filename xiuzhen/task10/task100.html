@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="../task10/task100.css">
-    <script>
-    function myFunction(){
-      document.getElementById("demo").innerHTML="Hello World";
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../task10/task100.css">
+  <script>
+    function myFunction() {
+      document.getElementById("demo").innerHTML = "Hello World";
     }
-    </script>
-    <title>任务10不用bootstrap版本</title>
+  </script>
+  <title>任务10不用bootstrap版本</title>
 </head>
+
 <body>
-     <!-- 最上导航栏开始 -->
+  <!-- 最上导航栏开始 -->
   <div class="topnav">
     <div class="container">
       <div class="topnav2">
@@ -29,22 +31,22 @@
   </div>
   <!-- 最上导航栏结束 -->
   <!-- 主导航开始 -->
-  <div class="subnav">
+  <div class="toggle">
     <div class="container">
-    <div class="subnav1">
-      <button class="button3" checked="checked">
-        <span class="icon"></span>
-        <span class="icon"></span>
-        <span class="icon"></span>
-       </button> 
-    </div>
-    <div class="pailieshunxu" >
-            <div class="anniu">首页</div>
-            <div class="anniu">在线定制</div>
-            <div class="anniu">标准箱</div>
-            <div class="anniu jianmargin">品质保证</div>
-    </div>   
+      <label for="toggle-trigger" class="anniuzaoxing">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </label>
+      <input id="toggle-trigger" type="checkbox" />
+      <div class="toggle-item">
+        <div class="anniu">首页</div>
+        <div class="anniu">在线定制</div>
+        <div class="anniu">标准箱</div>
+        <div class="anniu">品质保障</div>
+      </div>
     </div>
   </div>
 </body>
+
 </html>
