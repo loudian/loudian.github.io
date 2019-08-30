@@ -60,15 +60,20 @@
  border-bottom: 1px solid black;
 }
 .toggle-item{
-  
+  background-color: #f9f9f9;
+  margin-left: -15px;
+  /* position: absolute; */
+  bottom: 0px;
+  width: 100%;
+  padding-bottom: 30px;
 }
 #toggle-trigger {  /*这个是input触发 现在是隐藏然后包含在label里面*/
  display: none;
 }
-#toggle-trigger ~ :not(checked) ~  .toggle-item{
+#toggle-trigger ~ :not(checked) .toggle-item{
  display: block;
 }
-#toggle-trigger:checked  ~  .toggle-item{
+#toggle-trigger:checked .toggle-item{
 display: none;
 }
 /* 导航栏按钮 */
