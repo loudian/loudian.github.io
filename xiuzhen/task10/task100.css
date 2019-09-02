@@ -70,11 +70,12 @@
 #toggle-trigger {  /*这个是input触发 现在是隐藏然后包含在label里面*/
  display: none;
 }
-#toggle-trigger ~ :not(checked) .toggle-item{
+#toggle-trigger ~ :not(checked)  .toggle-item {
  display: block;
 }
-#toggle-trigger:checked .toggle-item{
+#toggle-trigger:checked  .toggle-item {
 display: none;
+
 }
 /* 导航栏按钮 */
 .icon-bar { /*这个是按钮的三条横*/
