@@ -53,7 +53,8 @@
     padding: 0 37px;
 }
 /* 最上的导航栏结束 */
-/* 中间的导航栏开始 */
+/* 中间的导航栏开始  这个是小于768时候的设置*/
+@media screen and (min-width: 1px) and (max-width:768px) {
 .container2 {
   padding-right: 15px;
   padding-left: 15px;
@@ -61,23 +62,27 @@
   margin-left: auto;
   position: relative;
   background-color: rgb(249, 249, 249);
-  /* background-color: aquamarine; */
+  /* background-color: red; */
  padding-top: 100px;
  border-bottom: 1px solid #e7e7e7;
-}
+}}
+@media screen and (min-width: 769px) and (max-width:5000px) {
+  .container2 {
+    display: none;
+  }}
 .toggle {
  background-color: #f9f9f9;
  height: 80px;
  border-bottom: 1px solid black;
 }
+
 .toggle-item{
   background-color: #f9f9f9;
-  padding-top: 100px;
-  /* position: absolute; */
   bottom: 0px;
   width: 100%;
   padding-bottom: 30px;
   border-bottom: 1px solid #e7e7e7;
+  transition: all .3s;
 }
 #toggle-trigger {  /*这个是input触发 现在是隐藏然后包含在label里面*/
  display: none;
@@ -88,6 +93,8 @@
 #toggle-trigger:checked + .toggle-item {
 display: none;
 }
+
+
 /* 导航栏按钮 */
 .icon-bar { /*这个是按钮的三条横*/
   display: block;
@@ -98,12 +105,12 @@ display: none;
     margin-top: 5px;
     margin-left: 7px;
 }
+
 .anniuzaoxing {  /*这个是折叠栏设置的圆框 */
   width: 50px;
     height: 40px;
     background-color: #ffffff;
-    margin: -56px 10px 0 10px;
-    
+    margin: -53px 10px 0 10px;
     border-radius: 4px;
     border: 1px solid #888;
     outline: none;
@@ -121,4 +128,32 @@ display: none;
 .anniu:hover {
   background-color:rgb(29, 122, 217);
   color: #f9f9f9;
+}
+/* 中间导航栏小于768结束 */
+/* 中间导航栏 大于768显示开始 */
+/* @media screen and (min-width: 1px) and (max-width:768px) {
+  .container3 {
+    display: none;
+  } */
+ 
+@media screen and (min-width: 769px) and (max-width:5000px) {
+  .container3 {
+    background-color: rgb(249, 249, 249);
+   
+  }
+ 
+  .anniu2 {
+    background-color: white;
+    padding: 14px 19px;
+    border-radius: 5px;
+    color: black;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 60px;
+  }
+  .anniu2:hover {
+    background-color:rgb(29, 122, 217);
+    color: #f9f9f9;
+  }
 }
