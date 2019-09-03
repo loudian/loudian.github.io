@@ -54,6 +54,17 @@
 }
 /* 最上的导航栏结束 */
 /* 中间的导航栏开始 */
+.container2 {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  background-color: rgb(249, 249, 249);
+  /* background-color: aquamarine; */
+ padding-top: 100px;
+ border-bottom: 1px solid #e7e7e7;
+}
 .toggle {
  background-color: #f9f9f9;
  height: 80px;
@@ -61,21 +72,21 @@
 }
 .toggle-item{
   background-color: #f9f9f9;
-  margin-left: -15px;
+  padding-top: 100px;
   /* position: absolute; */
   bottom: 0px;
   width: 100%;
   padding-bottom: 30px;
+  border-bottom: 1px solid #e7e7e7;
 }
 #toggle-trigger {  /*这个是input触发 现在是隐藏然后包含在label里面*/
  display: none;
 }
-#toggle-trigger ~ :not(checked)  .toggle-item {
+#toggle-trigger ~ :not(checked) + .toggle-item {
  display: block;
 }
-#toggle-trigger:checked  .toggle-item {
+#toggle-trigger:checked + .toggle-item {
 display: none;
-
 }
 /* 导航栏按钮 */
 .icon-bar { /*这个是按钮的三条横*/
@@ -91,11 +102,13 @@ display: none;
   width: 50px;
     height: 40px;
     background-color: #ffffff;
-    margin: 30px 10px 0 10px;
+    margin: -56px 10px 0 10px;
+    
     border-radius: 4px;
     border: 1px solid #888;
     outline: none;
     float: right;
+   
 }
 .anniu {
   background-color: white;
@@ -105,7 +118,7 @@ display: none;
     text-align: center;
     margin-top: 22px;
 }
-.toggle-item {
-  margin-right: -15px;
-    margin-left: -15px;
+.anniu:hover {
+  background-color:rgb(29, 122, 217);
+  color: #f9f9f9;
 }
