@@ -204,14 +204,16 @@ position: relative;
   }}
 @media screen and (min-width: 993px) and (max-width:3170px) {
     .column1 {
-      width: 160px;
+      width: 161px;
+      margin-right: -15px;
     }}
 @media screen and (min-width: 993px) and (max-width:3170px) {
 .column4 {
-  background-color:red;
+  background-color:#cccccc;
   height: 6px;
-  width: 150px;
-  margin-right: -15px;
+  width: 161px;
+  border-radius: 5px;
+  
   z-index: -1;
 }}
 .column1 {
@@ -227,6 +229,10 @@ position: relative;
   z-index: 111;
 }
 .column1:hover {
+  color: rgb(242, 136, 35);
+  background-color: rgb(242, 136, 35);
+}
+.column1:hover  .column4{
   color: rgb(242, 136, 35);
   background-color: rgb(242, 136, 35);
 }
