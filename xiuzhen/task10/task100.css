@@ -131,29 +131,115 @@ display: none;
 }
 /* 中间导航栏小于768结束 */
 /* 中间导航栏 大于768显示开始 */
-/* @media screen and (min-width: 1px) and (max-width:768px) {
-  .container3 {
+@media screen and (min-width: 1px) and (max-width:768px) {
+  .container3  {
     display: none;
-  } */
+  }}
  
 @media screen and (min-width: 769px) and (max-width:5000px) {
   .container3 {
     background-color: rgb(249, 249, 249);
    
-  }
- 
+  }}
+  @media screen and (min-width: 769px) and (max-width:5000px) {
   .anniu2 {
+    display: block;
     background-color: white;
     padding: 14px 19px;
     border-radius: 5px;
     color: black;
     text-align: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 27px;
+    margin-bottom: 26px;
     margin-right: 60px;
-  }
+  }}
   .anniu2:hover {
     background-color:rgb(29, 122, 217);
     color: #f9f9f9;
   }
+
+/* 因为行内行外覆盖不一样 所以现在试试新的样式试试 */
+.container4 {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+@media (min-width: 768px) {
+  .container4 {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container4 {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container4 {
+    width: 1170px;
+  }
+}
+/* 手写折叠栏 结束 */
+/* hover的定制纸箱开始 */
+
+.column {
+height: 140px;
+width: 100%;
+display: flex;
+justify-content: flex-end;
+flex-direction: row;
+flex-wrap: wrap;
+}
+@media screen and (min-width: 1px) and (max-width:768px) {
+  .column1 {
+    width: 100%;
+  }}
+@media screen and (min-width: 769px) and (max-width:992px) {
+    .column1 {
+      width: 50%;
+  }}
+@media screen and (min-width: 993px) and (max-width:3170px) {
+    .column1 {
+      width: 160px;
+    }}
+.column1 {
+  background-color: #cccccc;
+  /* width: 141px; */
+  height: 6px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-radius: 2px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.column1:hover {
+  color: rgb(242, 136, 35);
+  background-color: rgb(242, 136, 35);
+}
+.column1:hover .column2 {
+  background-color: rgb(242, 136, 35);
+}
+.column1:hover .column3 {
+  color: rgb(242, 136, 35);
+}
+.column2 {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #cccccc;
+  color: #f9f9f9;
+  position: absolute;
+  margin-top: -10px;
+}
+.column3 {
+  margin-top: 30px;
+  color: #888;
 }
