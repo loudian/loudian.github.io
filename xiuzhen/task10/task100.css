@@ -190,16 +190,25 @@ display: none;
 }
 /* 手写折叠栏 结束 */
 /* hover的定制纸箱开始 */
+@media screen and (min-width: 994px) and (max-width:3768px) {
+  
+  .column {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    flex-wrap: wrap;
+    }}
 
-.column {
-
-width: 100%;
-display: flex;
-justify-content: flex-end;
-flex-direction: row;
-flex-wrap: wrap;
-
-}
+@media screen and (min-width: 1px) and (max-width: 993px) {
+  
+    .column {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+      flex-wrap: wrap;
+      }}
 
 @media screen and (min-width: 1px) and (max-width:768px) {
   .column1 {
@@ -215,7 +224,7 @@ flex-wrap: wrap;
 @media screen and (min-width: 993px) and (max-width:3170px) {
     .column1 {
       width: 141px;
-      
+      margin-right: -15px;
     }}
 
 .column1 {
@@ -228,7 +237,7 @@ flex-wrap: wrap;
   margin-top: 40px;
   margin-bottom: 40px;
   z-index: 1;
-  margin-right: -15px;
+ 
 }
 .column1:hover {
   color: rgb(242, 136, 35);
@@ -409,6 +418,9 @@ flex-wrap: wrap;
     .submenu {
       display: flex;
       flex-wrap: wrap;
+      align-items: center;
+    justify-content: space-between;
+    justify-content: flex-start;
     }
     /*按钮*/
     .buttons {
