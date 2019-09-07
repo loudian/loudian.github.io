@@ -167,7 +167,7 @@ display: none;
 /* 因为行内行外覆盖不一样 所以现在试试新的样式试试 */
 .container4 {
   /* padding-right: 15px; */
-  padding-left: 15px;
+  /* padding-left: 15px; */
   margin-right: auto;
   margin-left: auto;
   display: flex;
