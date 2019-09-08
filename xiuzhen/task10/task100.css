@@ -5,8 +5,8 @@ button {
   border: none;
 }
 .container {
-    padding-right: 15px;
-    padding-left: 15px;
+    /* padding-right: 15px;
+    padding-left: 15px; */
     margin-right: auto;
     margin-left: auto;
   }
@@ -421,26 +421,9 @@ display: none;
       flex-wrap: wrap;
       align-items: center;
     justify-content: flex-start;
+    white-space: nowrap;
     }}
-    @media screen and (min-width: 1px) and (max-width:700px) {
-      .forms8 {
-        
-      }}
-    @media screen and (min-width: 700px) and (max-width:1200px) {
-      .forms8 {
-        display: flex;
-        flex-direction: column;
-      
-      }}
-      @media screen and (min-width: 1200px) and (max-width:3930px) {
-        .forms8 {
-          display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: row;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-        }}
+    
     /*按钮*/
     .buttons {
     height: 45px;
@@ -520,3 +503,27 @@ display: none;
   font-size: 12px;
   color: white;
 }
+@media screen and (min-width: 1px) and (max-width:699px) {
+  .form9 {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }}
+@media screen and (min-width: 700px) and (max-width:800px) {
+.form9 {
+    width: 34%;
+    height: 50px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}}
+@media screen and (min-width: 801px) and (max-width:3699px) {
+  .form9 {
+    width: 20%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }}
