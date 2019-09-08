@@ -511,7 +511,7 @@ display: none;
     justify-content: center;
     align-items: center;
   }}
-@media screen and (min-width: 700px) and (max-width:800px) {
+@media screen and (min-width: 700px) and (max-width:900px) {
 .form9 {
     width: 34%;
     height: 50px;
@@ -519,10 +519,12 @@ display: none;
     /* justify-content: center; */
     align-items: center;
 }}
-@media screen and (min-width: 801px) and (max-width:3699px) {
+@media screen and (min-width: 901px) and (max-width:3699px) {
   .form9 {
-    width: 20%;
-    height: 150px;
+    min-width:  20%;
+    /* height: 150px; */
+    padding-top: 60px;
+    padding-bottom: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
