@@ -1,0 +1,64 @@
+body {
+  background-color: #eff0f4;
+  margin: 0;
+  padding: 0;
+}
+
+body input {
+  border: none;
+  outline: none;
+  -webkit-appearance: none;
+}
+
+body nav {
+  background-color: #74becc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .75rem .9375rem;
+}
+
+body nav div {
+  color: white;
+  font-size: 16px;
+}
+
+body main {
+  color: red;
+}
+
+body main .login {
+  min-width: 16.125rem;
+  margin-top: .5625rem;
+  padding: 1.0625rem 0;
+  background-color: white;
+}
+
+body main .login img {
+  width: 1.0625rem;
+  margin: -0.375rem 1.25rem;
+}
+
+body main .login input {
+  height: 2.5rem;
+  border-left: 1px solid #eaeced;
+  color: #eaeced;
+  font-size: 18px;
+}
+
+body .buttons {
+  margin: 2.125rem auto;
+  background-color: #74becc;
+  padding: 1rem 0;
+  width: 100%;
+  font-size: 18px;
+  color: white;
+}
+
+body .mima a {
+  display: block;
+  color: #74becc;
+  float: right;
+  margin-top: -1.6875rem;
+  margin-right: 1rem;
+}
