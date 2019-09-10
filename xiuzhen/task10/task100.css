@@ -377,7 +377,7 @@ display: none;
   align-items: center;
   margin-left: 58px;
 }
-@media screen and (min-width: 1px) and (max-width:899px) {
+@media screen and (min-width: 1px) and (max-width:1199px) {
   .shuru {
     display: flex;
     align-items: center;
@@ -389,34 +389,35 @@ display: none;
   width: 49px;
   margin: 0 5px;
 }
-@media screen and (min-width: 1px) and (max-width:899px) {
+@media screen and (min-width: 1200px) and (max-width:3899px) {
   .forms5 {
+    display: flex;
+    
+    align-items: center;
+  }}
+  @media screen and (min-width: 1px) and (max-width:1199px) {
+    .forms5 {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }}
-  @media screen and (min-width: 900px) and (max-width:3170px) {
-    .forms5 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
     
     }}
-    @media screen and (min-width: 700px) and (max-width:899px) {
+    /* @media screen and (min-width: 1200px) and (max-width:3899px) {
       .forms6 {
         display: flex;
         align-items: center;
-      }}
-      @media screen and (min-width: 1px) and (max-width:699px) {
+      }} */
+      @media screen and (min-width: 700px) and (max-width:1199px) {
         .forms6 {
           display: flex;
-          flex-direction: column;
+         
           align-items: center;
         }}
      /* 确定尺寸结束 */
      /* 选择材质开始 */
      @media screen and (min-width: 701px) and (max-width:3700px) {
     .submenu {
+      height: 140px;
       display: flex;
       flex-wrap: wrap;
       align-items: center;
@@ -473,7 +474,7 @@ display: none;
     }
     .foot5 {
       margin-bottom: 26px;
-      font-size: 14px;
+      font-size: 12px;
        white-space:nowrap； /*强制不换行 */
     }
     .foot4 {
@@ -488,6 +489,7 @@ display: none;
     .foot7 {
       margin-bottom: 15px;
       margin-right: 15px;
+      font-size: 12px;
     }
     /* 页脚结束 */
     /* 最后底部 */
@@ -523,8 +525,8 @@ display: none;
   .form9 {
     min-width:  20%;
     /* height: 150px; */
-    padding-top: 60px;
-    padding-bottom: 60px;
+    /* padding-top: 60px;
+    padding-bottom: 60px; */
     display: flex;
     justify-content: center;
     align-items: center;
