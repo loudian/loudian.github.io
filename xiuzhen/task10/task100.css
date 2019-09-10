@@ -28,6 +28,8 @@ button {
       width: 1170px;
     }
   }
+  /* 人手添加的 */
+ 
   /* 最上的导航栏开始 */
 .topnav {
     background-color: rgb(29, 122, 217);
@@ -436,7 +438,9 @@ display: none;
       }}
       @media screen and (min-width: 701px) and (max-width:1200px) {
         .form9 {
-          padding: 14px 0;
+          padding-top: 14px;
+          padding-right: 47px;
+          padding-bottom: 10px;
             display: flex;
             justify-content: center;
             align-items: center; 
