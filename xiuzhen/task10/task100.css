@@ -500,11 +500,16 @@ display: none;
        display: flex;
        justify-content: space-between;
       }}
+      .foot1 {
+        padding-top: 15px;
+        color: #a6a6a6;
+      }
+      @media screen and (min-width: 800px) and (max-width:3800px) {
     .foot1 {
       padding-top: 55px;
       padding-bottom: 100px;
       color: #a6a6a6;
-    }
+    }}
     .foot2 {
       margin-top: 55px;
       display: flex;
