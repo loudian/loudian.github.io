@@ -1,0 +1,266 @@
+@charset "UTF-8";
+/*设置按钮颜色开头*/
+button {
+  list-style: none !important;
+  /*去除默认样式*/
+  outline: none !important;
+  /*去除默认选中边框*/
+  border: none !important;
+  /*去除默认边框*/
+}
+
+select {
+  list-style: none !important;
+  /*去除默认样式*/
+  outline: none !important;
+  /*去除默认选中边框*/
+  border: none !important;
+  /*去除默认边框*/
+  -webkit-appearance: none !important;
+     -moz-appearance: none !important;
+          appearance: none !important;
+  text-align: center;
+  /*这个用来设置下拉框的宽度的 之前我还想为什么宽度不行 原来要这样子 还要设置下拉框文字居中*/
+  width: 100%;
+  height: 100%;
+  text-align-last: center;
+  /*文本居中*/
+  background-image: url(../img/sanjiao.png);
+  background-repeat: no-repeat;
+  background-color: white;
+  background-position: 93% 44%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body header {
+  position: fixed;
+  top: 0;
+  height: 50px;
+  background: #5fc0cd;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body header .logo3 {
+  width: 46px;
+  height: 46px;
+  background: url(../img/6.png) no-repeat;
+  background-position: -1px 1px;
+}
+
+body header button:nth-child(2) {
+  margin-left: -8px;
+}
+
+body header .btn-guzhu {
+  color: #ffffff;
+  background-color: #55A8B3;
+  border-color: #55A8B3;
+  list-style: none;
+  outline: none;
+  border: none;
+  padding: 8.5px 8.5px;
+  font-size: 17px;
+}
+
+body header .btn-guzhu:hover {
+  color: #ffffff;
+  background-color: #55A8B3;
+  border-color: #55A8B3;
+  list-style: none;
+  outline: none;
+  border: none;
+  padding: 8.5px 8.5px;
+  font-size: 17px;
+}
+
+body header .btn-guzhu:focus {
+  color: #52B4C4;
+  background-color: #FFFFFF;
+}
+
+body .yingcan {
+  opacity: 0;
+}
+
+body nav {
+  margin-top: 5rem;
+  height: 40px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 14px;
+}
+
+body nav .nav1 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: center;
+  color: #999999;
+}
+
+body nav .nav2 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: center;
+  border-left: 1px solid;
+  -o-border-image: linear-gradient(0deg, white 10%, #999999 50%, white 90%) 1 1;
+     border-image: -webkit-gradient(linear, left bottom, left top, color-stop(10%, white), color-stop(50%, #999999), color-stop(90%, white)) 1 1;
+     border-image: linear-gradient(0deg, white 10%, #999999 50%, white 90%) 1 1;
+  border-right: 1px solid;
+  color: #999999;
+}
+
+body nav .nav3 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: center;
+  color: #999999;
+}
+
+body .contern {
+  width: 100%;
+  border-bottom: 1px solid #e1e5e7;
+  border-top: 1px solid #e1e5e7;
+}
+
+body .contern .data {
+  color: #999999;
+  font-size: 16px;
+  padding-top: .625rem;
+  padding-left: .625rem;
+}
+
+body .contern .logo1 {
+  display: inline-block;
+  height: 28px;
+  width: 28px;
+  background: url(../task6pro/6.png) no-repeat;
+  background-position: -83px 6px;
+}
+
+body .contern .logo2 {
+  color: #5fc0cd;
+  padding-top: .3125rem;
+  padding-left: .625rem;
+}
+
+body .contern .time {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 2.125rem;
+  margin-right: .9375rem;
+  margin-top: .625rem;
+}
+
+body .contern .time2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: red;
+}
+
+body .contern .logo4 {
+  width: 28px;
+  height: 23px;
+  background: url(../task6pro/6.png) no-repeat;
+  background-position: -83px -37px;
+  margin-left: .625rem;
+}
+
+body .contern .time3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #999999;
+}
+
+body footer {
+  /*这个用来固定底部居不移动的*/
+  width: 100%;
+  background-color: #f6f9fa;
+  position: fixed;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  /*这个设置主轴三个部分平均分布*/
+}
+
+body footer .footershouye {
+  width: 28px;
+  height: 23px;
+  background: url(../task6pro/6.png) no-repeat;
+  background-position: -50px -7px;
+  margin-top: .75rem;
+  font-size: .625rem;
+  text-align: center;
+}
+
+body footer .shouyewenzi {
+  height: 59px;
+  width: 59px;
+  background: url(../task6pro/6.png) no-repeat #5fc0cd;
+  background-position: -30px -32px;
+  border-radius: 65px;
+}
+
+body footer .wode {
+  width: 28px;
+  height: 23px;
+  background: url(../task6pro/6.png) no-repeat;
+  background-position: -7px -50px;
+  margin-top: .75rem;
+}
+
+body footer .lvse {
+  color: #5fc0cd;
+  /* font-size: 0.1rem; */
+  display: block;
+  text-align: center;
+  margin-top: .3125rem;
+}
+
+body footer .wodewenzi {
+  /* font-size: 0.1rem; */
+  display: block;
+  text-align: center;
+  margin-top: .3125rem;
+}
+
+body .lusuotu {
+  /*这个用来超出部分隐藏*/
+  white-space: nowrap;
+  /*规定段落不换行 强制一行显示*/
+  overflow: hidden;
+  /*溢出隐藏*/
+  text-overflow: ellipsis;
+  /*超出部分用省号代替*/
+}
+
+body .zhezhu {
+  margin-bottom: 71px;
+}
+/*# sourceMappingURL=renwu6max.css.map */
