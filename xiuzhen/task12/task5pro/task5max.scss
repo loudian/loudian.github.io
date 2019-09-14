@@ -1,0 +1,202 @@
+// @mixin @include 引用的东西 
+$lancolor: rgb(82, 180, 195);
+$huise:rgb(225, 229, 231);
+
+body {
+    margin: 0;
+    padding: 0;
+    ul{
+        list-style: none; /*去掉列表样式小点*/
+       }
+       button{
+        border: none;
+        outline: none;
+       }
+    // 导航栏开始
+    header{
+        
+        width: 100%;
+        height: 2.5rem;
+        background:  url(../task5pro/fanhui.png) no-repeat  $lancolor;
+        background-size:  .875rem 1.25rem;
+        background-position: .9375rem center;
+        float: left;
+        overflow: hidden;
+        span{
+            display: block;
+            color: white;
+            font-size: 1.125rem;
+            text-align: center; 
+            line-height: 2.5rem;
+        
+        }
+     }
+    //导航栏结束
+    // 头部开始
+    .bgc {
+        background: url(../task5pro/tupian.png)  no-repeat white;
+        background-size: cover; /*等比例缩放*/
+        height:10.15625rem;
+        width: 100%;
+        display: flex;
+        
+     
+        .tuxiang {
+        margin-left: .9375rem;
+        margin-top: 2.28125rem;
+            }
+       .wenzi {
+        color: white;
+        margin-top: 3.75rem;
+        margin-left: 1.125rem;
+        img{
+            width: .6875rem;
+            height: .8125rem;
+            margin-right: .4375rem;
+        }
+        dt{
+            font-size: 1.125rem;
+            margin-bottom: .625rem;
+         }
+         dd{
+             font-size: .75rem;
+             margin-left: 0.2rem;
+         }
+             }
+    }
+    // 头部结束
+    // 边框开始
+    .biankuang{
+        width: 100%;
+        height: 3.125rem;
+        border-bottom: .0625rem solid $huise;
+        overflow: hidden;
+        span{
+            display: block;
+            margin-left: .625rem;
+            border-left: .25rem solid $lancolor;
+            padding-left: .8125rem;
+            margin-top: 1rem;   
+        }
+
+    } 
+    .home{
+        width: calc(100% - 2rem);
+        height: 3.125rem;
+        border-bottom: .0625rem solid $huise;
+        margin-left: 2rem;
+        float: left;
+        span{
+            &:first-child{
+            display: block;
+            padding-left: 1.625rem;
+             float: left;
+            border-right: .0625rem solid $huise;
+             margin-top: 1.125rem;
+             padding-right: .625rem;
+             margin-right: .4375rem;
+            }
+            &:nth-child(2) {
+                margin-top: 1.125rem;
+                float: left;
+            }
+        }
+
+        // .firstspan{
+        //     // display: block;
+        //     padding-left: 1.625rem;
+        //     float: left;
+        //     border-right: .0625rem solid $huise;
+        //     margin-top: 1.125rem;
+        //     padding-right: .625rem;
+        //     margin-right: .4375rem;
+        // }
+        // .twospan{
+          
+        //     margin-top: 1.125rem;
+        //     float: left;
+        // }
+    }
+    ul{
+        
+        // width: calc(100% - 2rem);
+        border-bottom: .0625rem solid $huise;
+        overflow: hidden;
+        /* margin-left: 2rem; */
+        display: flex;
+        position: relative;
+
+    }
+    .ull{
+        margin-left: 2rem;
+        .word{
+            float: left;
+            margin: 1rem 0 1rem -0.6rem;
+            border-right: .0625rem solid $huise;
+            color: rgb(153, 153, 153);
+            min-width: 80px ;
+        }
+        .time{
+            margin-top:1rem;
+            margin-bottom:1rem; 
+            padding-left: .875rem;
+        }
+        .time2{
+            
+            margin-top:1rem;
+            margin-bottom:1rem; 
+            overflow: hidden;
+            padding-left: 1.6rem;
+        }
+        .time1{
+            float: left;
+            margin-top: 1rem;
+            padding-left: .875rem;
+            color:red;
+            display: flex;
+            overflow: hidden;
+        }
+    
+         .word1{
+             margin: auto -10px;
+             border-right: .0625rem solid $huise;
+             color: rgb(153, 153, 153);
+             min-width: 80px;
+         
+         } 
+    }
+
+    .footer{
+        position: fixed;   
+        bottom: 0;
+        height: 3rem;
+        width: 100%;
+        background-color: white;
+        z-index: 10;
+        padding-top:1.0625rem; 
+        padding-bottom: .0625rem;
+        display: flex;
+        .liuyan{
+            width: 45%;
+            margin: 0 auto;
+            height: 2.71875rem;
+            line-height: 2.71875rem;
+            background-color: white;
+            border: .0625rem solid green;
+            border-radius: .625rem;
+            text-align: center;
+            color: rgb(82, 190, 195);
+            font-size: 1.0625rem;
+        }
+        .lianxi{
+            width: 45%;
+            margin: 0 auto;
+            height: 2.71875rem;
+            line-height: 2.71875rem;
+            background-color: $lancolor;
+            border-radius: .625rem;
+            color: white;
+            font-size: 1.0625rem;
+        }
+       }
+}
