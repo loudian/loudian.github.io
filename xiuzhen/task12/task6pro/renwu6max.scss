@@ -10,10 +10,16 @@ button{
     border:none!important; /*去除默认边框*/
     appearance:none !important;  //这个用来消除上下三角形的
     text-align: center;
-    text-align-last: center;
-  }
-  
-  
+    /*这个用来设置下拉框的宽度的 之前我还想为什么宽度不行 原来要这样子 还要设置下拉框文字居中*/
+    width: 100%;
+    height: 100%;
+    text-align-last: center;  /*文本居中*/
+    background-image: url(../task6pro/sanjiao.png);
+    background-repeat: no-repeat;
+   background-color: white;
+    background-position: 93% 44%; 
+   
+}
  //设置颜色开头结束
 // @mixin @include 引用的东西 
 @mixin beijingtu {
@@ -203,18 +209,7 @@ body {
         }
 
     }
-    select{
-        /*这个用来设置下拉框的宽度的 之前我还想为什么宽度不行 原来要这样子 还要设置下拉框文字居中*/
-        width: 100%;
-        height: 100%;
-        text-align-last: center;  /*文本居中*/
-        background-image: url(../task6pro/sanjiao.png);
-        background-repeat: no-repeat;
-       background-color: white;
-        background-position: 93% 44%; 
-        text-align: center;
-       
-    }
+    
     .lusuotu{
          /*这个用来超出部分隐藏*/
         white-space: nowrap;  /*规定段落不换行 强制一行显示*/
