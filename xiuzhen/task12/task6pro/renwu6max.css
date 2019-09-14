@@ -67,6 +67,17 @@ body header .btn-guzhu {
   font-size: 17px;
 }
 
+body header .btn-guzhu:hover {
+  color: #ffffff;
+  background-color: #55A8B3;
+  border-color: #55A8B3;
+  list-style: none;
+  outline: none;
+  border: none;
+  padding: 8.5px 8.5px;
+  font-size: 17px;
+}
+
 body header .btn-guzhu:focus {
   color: #52B4C4;
   background-color: #FFFFFF;
