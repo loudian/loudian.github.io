@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,IAAI,CAAC;EACD,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CASb;;AAXD,AAKI,IALA,CAKA,MAAM,CAAA;EACF,OAAO,EAAE,MAAM;EACf,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;EAC9B,gBAAgB,EAAE,OAAiB;CACtC",
+    "sources": [
+        "taks13.scss"
+    ],
+    "names": [],
+    "file": "taks13.css"
+}
