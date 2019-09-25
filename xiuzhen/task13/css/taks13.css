@@ -48,9 +48,8 @@ body main div:first-child {
 }
 
 body main div:nth-child(2) {
-  width: 1.8125rem;
-  height: 1.59375rem;
-  background: url(../7.png) no-repeat;
+  width: 5vw;
+  background: url(../18.png) no-repeat;
   overflow: hidden;
 }
 
@@ -173,7 +172,7 @@ body .foot .footer1 {
   color: white;
   font-size: 6.25vw;
   padding: 3.9063vw 31.25vw;
-  background-color: #eecb86;
+  background-color: #fbb435;
   text-align: center;
 }
 /*# sourceMappingURL=taks13.css.map */

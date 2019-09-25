@@ -25,15 +25,16 @@ body {
         position: relative;
         audio {
             opacity: 0;
+            
         }
         div:first-child {
             font-size: 4.0625vw;
 
         }
         div:nth-child(2) {
-            width: 1.8125rem;
-            height: 1.59375rem;
-            background: url(../7.png) no-repeat;
+            width: 5vw;
+           
+            background: url(../18.png) no-repeat;
             overflow: hidden;
         }
         div:nth-child(3) {
@@ -122,7 +123,7 @@ body {
            color: white;
            font-size: 6.25vw;
            padding: 3.9063vw 31.25vw;
-           background-color: rgb(238, 203, 134);
+           background-color: rgb(251, 180, 53);
            text-align: center;
        }
    }
