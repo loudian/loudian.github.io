@@ -1,12 +1,130 @@
 body {
-    margin: 0;
-    padding: 0;
+    background-color: rgb(41, 189, 224);
 
 
     header{
+        height: 2.75rem;
         padding: 0 25px;
         display: flex;
         justify-content: space-between;
+        align-items: center;
         background-color: rgb(41, 189, 224);
+        div:nth-child(2) {
+            color: white;
+            font-size: 1.0625rem;
+        }
     }
+    main {
+        height: 12.9688vw;
+        background-color: rgb(195, 231, 243);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 7.3438vw;
+        padding-right: 2.5vw;
+        position: relative;
+        audio {
+            opacity: 0;
+        }
+        div:first-child {
+            font-size: 4.0625vw;
+
+        }
+        div:nth-child(2) {
+            width: 1.8125rem;
+            height: 1.59375rem;
+            background: url(../7.png) no-repeat;
+            overflow: hidden;
+        }
+        div:nth-child(3) {
+            width: 0;
+            height: 0;
+            border-top: 15px solid rgb(185, 233, 245);
+            border-right: 8px solid transparent;
+            border-left: 8px solid transparent;
+            position: absolute;
+            top: 13vw;
+            left: 7vw;
+        }
+    }
+    nav {
+        margin-top: 1.5rem;
+        margin-left: 7vw;
+        margin-bottom: 6.5625vw;
+        color: white;
+        font-size: 3.75vw;
+    }
+   
+
+    section {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 6.4063vw;
+        margin-top: 3.4375vw;
+        width: 87%;
+       .dahezi{
+        border: 0.9375vw solid white;
+        background-color: rgb(238, 203, 134);
+        height: 18.0667vw;
+        width: 18.0667vw;
+        margin-bottom: 3.2813vw;
+        &:hover~.daoju {
+            visibility: visible;
+            display: flex;
+            justify-content: space-between;
+            
+            img {
+                width: 4vw;
+              }
+        }
+       }
+      .dahezi2 {
+          height: 75%;
+          font-size: 4.0625vw;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+      .dahezi3 {
+          height: 25%;
+          font-size: 2.9688vw;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: rgb(131, 176, 154);
+          color: white;
+      }
+      .daoju {
+        visibility: hidden;
+        display: flex;
+        img {
+            width: 4vw;
+          }
+      }
+    }
+   .foot {
+       position: fixed;
+    //    height: 30.1563vw;
+    padding-top: 6.25vw;
+    padding-bottom: 9.5313vw;
+    margin-left:  6.4063vw;
+    margin-right: 6.4063vw;
+       width: 87%;
+       bottom: 0;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       background-color:rgb(41, 189, 224);
+       border-top: 1px solid white;
+
+       .footer1 {
+          
+           color: white;
+           font-size: 6.25vw;
+           padding: 3.9063vw 31.25vw;
+           background-color: rgb(238, 203, 134);
+           text-align: center;
+       }
+   }
+
 }

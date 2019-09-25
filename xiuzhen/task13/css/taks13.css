@@ -1,9 +1,9 @@
 body {
-  margin: 0;
-  padding: 0;
+  background-color: #29bde0;
 }
 
 body header {
+  height: 2.75rem;
   padding: 0 25px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -11,6 +11,169 @@ body header {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: #29bde0;
+}
+
+body header div:nth-child(2) {
+  color: white;
+  font-size: 1.0625rem;
+}
+
+body main {
+  height: 12.9688vw;
+  background-color: #c3e7f3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 7.3438vw;
+  padding-right: 2.5vw;
+  position: relative;
+}
+
+body main audio {
+  opacity: 0;
+}
+
+body main div:first-child {
+  font-size: 4.0625vw;
+}
+
+body main div:nth-child(2) {
+  width: 1.8125rem;
+  height: 1.59375rem;
+  background: url(../7.png) no-repeat;
+  overflow: hidden;
+}
+
+body main div:nth-child(3) {
+  width: 0;
+  height: 0;
+  border-top: 15px solid #b9e9f5;
+  border-right: 8px solid transparent;
+  border-left: 8px solid transparent;
+  position: absolute;
+  top: 13vw;
+  left: 7vw;
+}
+
+body nav {
+  margin-top: 1.5rem;
+  margin-left: 7vw;
+  margin-bottom: 6.5625vw;
+  color: white;
+  font-size: 3.75vw;
+}
+
+body section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 6.4063vw;
+  margin-top: 3.4375vw;
+  width: 87%;
+}
+
+body section .dahezi {
+  border: 0.9375vw solid white;
+  background-color: #eecb86;
+  height: 18.0667vw;
+  width: 18.0667vw;
+  margin-bottom: 3.2813vw;
+}
+
+body section .dahezi:hover ~ .daoju {
+  visibility: visible;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body section .dahezi:hover ~ .daoju img {
+  width: 4vw;
+}
+
+body section .dahezi2 {
+  height: 75%;
+  font-size: 4.0625vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body section .dahezi3 {
+  height: 25%;
+  font-size: 2.9688vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #83b09a;
+  color: white;
+}
+
+body section .daoju {
+  visibility: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body section .daoju img {
+  width: 4vw;
+}
+
+body .foot {
+  position: fixed;
+  padding-top: 6.25vw;
+  padding-bottom: 9.5313vw;
+  margin-left: 6.4063vw;
+  margin-right: 6.4063vw;
+  width: 87%;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #29bde0;
+  border-top: 1px solid white;
+}
+
+body .foot .footer1 {
+  color: white;
+  font-size: 6.25vw;
+  padding: 3.9063vw 31.25vw;
+  background-color: #eecb86;
+  text-align: center;
 }
 /*# sourceMappingURL=taks13.css.map */
