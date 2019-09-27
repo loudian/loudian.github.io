@@ -1,0 +1,130 @@
+@import url(../css/reset.css); //这个是导入重置模块
+@import url(../css/taks13.scss);
+.mr{
+    margin-right: 60px;
+}
+.mb {
+    margin-bottom: 100px;
+}
+@mixin abutton {
+    color: white;
+    font-size: 6.25vw;
+   
+    width: 42.0313vw;
+    height: 13.5938vw;
+    margin-left: 3.5938vw;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+body {
+
+    header {
+        background-color: rgb(41, 189, 224);
+        @extend .center;
+        padding: 3.2813vw 3.125vw;
+        font-size: 4.3125vw;
+        color: white;
+        border-bottom: 1px solid white;
+        img {
+            width: 7.9688vw;
+            // height: 46px;
+        }
+    }
+    main {
+        background-color: rgb(41, 189, 224);
+        
+        .main1 {
+            margin-left:  12.1875vw;
+            margin-right: 12.1875vw;
+            padding-bottom: 3.5938vw;
+            display: flex;
+            flex-direction: column;
+            
+        }
+       
+        .main2 {
+            margin: 0 auto;
+           margin-top: 3.9063vw;
+           margin-bottom: 3.125vw;
+           background: url(../wodimi.png) no-repeat;
+           background-size: contain;
+           height: 32.6563vw;
+           width: 54.8438vw;
+           
+        }
+        .main3 {
+            line-height: 6.5625vw;
+            font-size: 5.1563vw;
+            color: #ffc865;
+            margin-bottom: 9.8438vw;
+
+        }
+        
+        .main5 {
+            color: white;
+            font-size: 4.0625vw;
+            line-height: 6.4063vw;
+        }
+        .main6 {
+            color: white;
+            font-size: 4.0625vw;
+            line-height: 5.9375vw;
+            span {
+                margin-right: 7.8125vw;
+            }
+            
+        }
+    }
+  
+ section {
+    border-top: 1px solid rgb(221, 221, 221);
+    border-bottom: 1px solid rgb(221, 221, 221);
+     background-color: white;
+     padding-left: 12.0313vw;
+     padding-right: 15.625vw;
+
+
+     .section1 {
+         margin-top: 1.875vw;
+         margin-bottom: 3.9063vw;
+         @extend .center;
+         div:nth-child(1) {
+             color: black;
+             font-size: 4.6875vw;
+         }
+         div:nth-child(2) {
+            color: #c7c7c7;
+            font-size: 3.125vw;
+        }
+
+     }
+     .section2 {
+        color: #c7c7c7;
+        font-size: 3.75vw;
+        margin-bottom: 2.8125vw;
+     }
+ }
+ .foot {
+     height: 20.3125vw;
+     width: 100%;
+     position: fixed;
+     bottom: 0;
+     background-color: rgba(153,223,240,0.8);
+     @extend .center;
+     
+     
+     a:nth-child(1) {
+       @include abutton;
+      background-color: rgb(246, 111, 111);
+     }
+     a:nth-child(2) {
+        @include abutton;
+        background-color: rgb(251, 180, 53);
+       
+       }
+ }
+}

@@ -1,10 +1,5 @@
-body {
-  background-color: #29bde0;
-}
-
-body header {
-  height: 2.75rem;
-  padding: 0 25px;
+@import url(../css/reset.css);
+.center, body header, body main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -14,6 +9,24 @@ body header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.sb, body section .dahezi:hover ~ .daoju {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body {
+  background-color: #29bde0;
+}
+
+body header {
+  height: 2.75rem;
+  padding: 0 25px;
   background-color: #29bde0;
 }
 
@@ -25,15 +38,6 @@ body header div:nth-child(2) {
 body main {
   height: 12.9688vw;
   background-color: #c3e7f3;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   padding-left: 7.3438vw;
   padding-right: 2.5vw;
   position: relative;
@@ -48,8 +52,9 @@ body main div:first-child {
 }
 
 body main div:nth-child(2) {
-  width: 5vw;
-  background: url(../18.png) no-repeat;
+  width: 27px;
+  height: 27px;
+  background: url(../7.png) no-repeat;
   overflow: hidden;
 }
 
@@ -60,7 +65,7 @@ body main div:nth-child(3) {
   border-right: 8px solid transparent;
   border-left: 8px solid transparent;
   position: absolute;
-  top: 13vw;
+  top: 12.9vw;
   left: 7vw;
 }
 
@@ -94,12 +99,6 @@ body section .dahezi {
 
 body section .dahezi:hover ~ .daoju {
   visibility: visible;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
 }
 
 body section .dahezi:hover ~ .daoju img {

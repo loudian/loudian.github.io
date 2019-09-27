@@ -1,14 +1,35 @@
-body {
-    background-color: rgb(41, 189, 224);
+
+ @import url(../css/reset.css); //这个是导入重置模块
+ //下面是设置基础样式
+ .center {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     //@extend .center  使用@extend选择器
+ }
+
+ .sb {
+     display: flex;
+     justify-content: space-between;
+     //@extend .sb  使用@extend选择器
+ }
+ @mixin centers {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     //使用@mixin 选择器全部居中   @mixin centers;
+          
+ }
+ $bjs:rgb(41, 189, 224); //这个是背景色
+body{
+    background-color: $bjs;
 
 
     header{
         height: 2.75rem;
         padding: 0 25px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        background-color: rgb(41, 189, 224);
+        @extend .center;
+        background-color:$bjs;
         div:nth-child(2) {
             color: white;
             font-size: 1.0625rem;
@@ -17,9 +38,7 @@ body {
     main {
         height: 12.9688vw;
         background-color: rgb(195, 231, 243);
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+        @extend .center;
         padding-left: 7.3438vw;
         padding-right: 2.5vw;
         position: relative;
@@ -32,9 +51,9 @@ body {
 
         }
         div:nth-child(2) {
-            width: 5vw;
-           
-            background: url(../18.png) no-repeat;
+            width: 27px;
+           height: 27px;
+            background: url(../7.png) no-repeat;
             overflow: hidden;
         }
         div:nth-child(3) {
@@ -44,7 +63,7 @@ body {
             border-right: 8px solid transparent;
             border-left: 8px solid transparent;
             position: absolute;
-            top: 13vw;
+            top: 12.9vw;
             left: 7vw;
         }
     }
@@ -71,8 +90,7 @@ body {
         margin-bottom: 3.2813vw;
         &:hover~.daoju {
             visibility: visible;
-            display: flex;
-            justify-content: space-between;
+            @extend .sb;
             
             img {
                 width: 4vw;
@@ -89,9 +107,7 @@ body {
       .dahezi3 {
           height: 25%;
           font-size: 2.9688vw;
-          display: flex;
-          justify-content: center;
-          align-items: center;
+          @include centers;
           background-color: rgb(131, 176, 154);
           color: white;
       }
@@ -105,16 +121,13 @@ body {
     }
    .foot {
        position: fixed;
-    //    height: 30.1563vw;
     padding-top: 6.25vw;
     padding-bottom: 9.5313vw;
     margin-left:  6.4063vw;
     margin-right: 6.4063vw;
        width: 87%;
        bottom: 0;
-       display: flex;
-       justify-content: center;
-       align-items: center;
+       @include centers;
        background-color:rgb(41, 189, 224);
        border-top: 1px solid white;
 

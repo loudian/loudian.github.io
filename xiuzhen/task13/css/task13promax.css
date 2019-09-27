@@ -1,0 +1,163 @@
+@import url(../css/reset.css);
+@import url(../css/taks13.scss);
+body {
+  background-color: #f0f0f0;
+}
+
+body .fenqu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body header {
+  background-color: #29bde0;
+}
+
+body header img {
+  padding: 3.125vw 3.5938vw;
+}
+
+body section {
+  background-color: #f0f0f0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body section .section1 {
+  border: 1px solid #c9c9c9;
+  background-color: white;
+  height: 18.2813vw;
+  width: 88.75vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 4.2188vw;
+  margin-bottom: 3.9063vw;
+}
+
+body section .section1 div:nth-child(1) {
+  font-size: 5.3125vw;
+  color: #9a9a9a;
+  margin-left: 16.4063vw;
+}
+
+body section .section1 div:nth-child(2) {
+  margin-right: 2.1875vw;
+}
+
+body section .section2 {
+  border: 1px solid #c9c9c9;
+  background-color: white;
+  width: 89.0625vw;
+}
+
+body section .section2 .section3 {
+  font-size: 5.7813vw;
+  color: #fab435;
+  text-align: center;
+  padding-top: 4.5313vw;
+  padding-bottom: 3.4375vw;
+  border-bottom: 1px solid #fab435;
+}
+
+body section .section2 .section4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body section .section2 .section7 {
+  font-size: 5vw;
+  color: white;
+  background-color: #69d1e9;
+  height: 20.7813vw;
+  width: 72.3438vw;
+  text-align: center;
+  line-height: 20.7813vw;
+  margin: 4.375vw 0;
+}
+
+body section .section2 .section8 {
+  font-size: 3.9063vw;
+  text-align: center;
+  margin: 4.375vw 0;
+}
+
+body section .section2 .section9 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  background: url(../cs1.png) no-repeat;
+  background-size: contain;
+  height: 8.75vw;
+  width: 4.375vw;
+  left: 74.125vw;
+  top: 11.0938vw;
+}
+
+body section .section2 .section10 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+body .circle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  margin-bottom: 1.7188vw;
+}
+
+body .circle .cir {
+  border-radius: 50%;
+  height: 2.8125vw;
+  width: 2.8125vw;
+  margin-right: 1.7188vw;
+  background-color: #ececec;
+}
+
+body .circle .cir:hover {
+  background-color: #69d1e9;
+}
+
+body main {
+  background-color: white;
+  margin-right: 15.625vw;
+  height: 103.125vw;
+  width: 23.4375vw;
+}
+
+body main .main1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=task13promax.css.map */

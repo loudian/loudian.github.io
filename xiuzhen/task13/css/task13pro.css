@@ -1,0 +1,173 @@
+@import url(../css/reset.css);
+.mr {
+  margin-right: 60px;
+}
+
+.mb {
+  margin-bottom: 100px;
+}
+
+body header {
+  background-color: #29bde0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 3.2813vw 3.125vw;
+  font-size: 4.3125vw;
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+body header img {
+  width: 7.9688vw;
+}
+
+body main {
+  background-color: #29bde0;
+}
+
+body main .main1 {
+  margin-left: 12.1875vw;
+  margin-right: 12.1875vw;
+  padding-bottom: 3.5938vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body main .main2 {
+  margin: 0 auto;
+  margin-top: 3.9063vw;
+  margin-bottom: 3.125vw;
+  background: url(../wodimi.png) no-repeat;
+  background-size: contain;
+  height: 32.6563vw;
+  width: 54.8438vw;
+}
+
+body main .main3 {
+  line-height: 6.5625vw;
+  font-size: 5.1563vw;
+  color: #ffc865;
+  margin-bottom: 9.8438vw;
+}
+
+body main .main5 {
+  color: white;
+  font-size: 4.0625vw;
+  line-height: 6.4063vw;
+}
+
+body main .main6 {
+  color: white;
+  font-size: 4.0625vw;
+  line-height: 5.9375vw;
+}
+
+body main .main6 span {
+  margin-right: 7.8125vw;
+}
+
+body section {
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+  background-color: white;
+  padding-left: 12.0313vw;
+  padding-right: 15.625vw;
+}
+
+body section .section1 {
+  margin-top: 1.875vw;
+  margin-bottom: 3.9063vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body section .section1 div:nth-child(1) {
+  color: black;
+  font-size: 4.6875vw;
+}
+
+body section .section1 div:nth-child(2) {
+  color: #c7c7c7;
+  font-size: 3.125vw;
+}
+
+body section .section2 {
+  color: #c7c7c7;
+  font-size: 3.75vw;
+  margin-bottom: 2.8125vw;
+}
+
+body .foot {
+  height: 20.3125vw;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background-color: rgba(153, 223, 240, 0.8);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .foot a:nth-child(1) {
+  color: white;
+  font-size: 6.25vw;
+  background-color: #f66f6f;
+  width: 42.0313vw;
+  height: 13.5938vw;
+  margin-left: 3.5938vw;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .foot a:nth-child(2) {
+  color: white;
+  font-size: 6.25vw;
+  background-color: #fbb435;
+  width: 42.0313vw;
+  height: 13.5938vw;
+  margin-right: 3.5938vw;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=task13pro.css.map */
