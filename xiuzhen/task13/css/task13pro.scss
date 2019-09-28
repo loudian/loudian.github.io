@@ -9,7 +9,6 @@
 @mixin abutton {
     color: white;
     font-size: 6.25vw;
-   
     width: 42.0313vw;
     height: 13.5938vw;
     margin-left: 3.5938vw;
@@ -26,7 +25,7 @@ body {
         background-color: rgb(41, 189, 224);
         @extend .center;
         padding: 3.2813vw 3.125vw;
-        font-size: 4.3125vw;
+        // font-size: 4.3125vw;
         color: white;
         border-bottom: 1px solid white;
         img {
@@ -58,7 +57,7 @@ body {
         }
         .main3 {
             line-height: 6.5625vw;
-            font-size: 5.1563vw;
+            // font-size: 5.1563vw;
             color: #ffc865;
             margin-bottom: 9.8438vw;
 
@@ -66,12 +65,12 @@ body {
         
         .main5 {
             color: white;
-            font-size: 4.0625vw;
+            // font-size: 4.0625vw;
             line-height: 6.4063vw;
         }
         .main6 {
             color: white;
-            font-size: 4.0625vw;
+            // font-size: 4.0625vw;
             line-height: 5.9375vw;
             span {
                 margin-right: 7.8125vw;
@@ -92,18 +91,12 @@ body {
          margin-top: 1.875vw;
          margin-bottom: 3.9063vw;
          @extend .center;
-         div:nth-child(1) {
-             color: black;
-             font-size: 4.6875vw;
-         }
-         div:nth-child(2) {
-            color: #c7c7c7;
-            font-size: 3.125vw;
-        }
+        
+        
 
      }
      .section2 {
-        color: #c7c7c7;
+        // color: #c7c7c7;
         // font-size: 3.75vw;
         margin-bottom: 2.8125vw;
      }

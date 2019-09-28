@@ -30,11 +30,6 @@ body header {
   background-color: #29bde0;
 }
 
-body header div:nth-child(2) {
-  color: white;
-  font-size: 1.0625rem;
-}
-
 body main {
   height: 12.9688vw;
   background-color: #c3e7f3;
@@ -106,21 +101,10 @@ body section .dahezi:hover ~ .daoju img {
 
 body section .dahezi2 {
   height: 75%;
-  font-size: 4.0625vw;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 body section .dahezi3 {
   height: 25%;
-  font-size: 2.9688vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
