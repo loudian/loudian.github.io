@@ -66,15 +66,6 @@ section .section1 {
   background-color: white;
   height: 18.2813vw;
   width: 88.75vw;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   margin-top: 4.2188vw;
   margin-bottom: 3.9063vw;
 }
@@ -181,7 +172,6 @@ main {
   background-color: white;
   display: none;
   width: 82%;
-  margin-right: 1vw;
 }
 
 main .main1 {
@@ -197,32 +187,11 @@ main .main1 {
 
 main .main2 {
   height: 10vw;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   font-size: 4.125vw;
   border-bottom: 1px solid #c9c9c9;
   color: #69d1e9;
   padding-left: 3.125vw;
   padding-right: 3.125vw;
-}
-
-main .main3 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
 }
 
 main .main3 img {
