@@ -3,25 +3,55 @@
 
 body {
     background-color: rgb(240, 240, 240);
-   
+    display: flex;
+    
+    
     .fenqu {
         display: flex;
-    }
-    nav {
-        // overflow: hidden;
+        input:checked+main {
+            display: block;
+        }
         
+    }
+   nav {
+       
+    
+   }
+    .daohang {
+        background: url(../adidas.png) no-repeat;
+        background-size: contain;
+        height: 4.6875vw;
+        width: 4.6875vw;
+        -webkit-appearance: none;
+        outline: none;
+        position: absolute;
+        left: 3.5938vw;
+        top: 3.5938vw;
+        z-index: 1;
+    }
+    
+    input:checked {
+        left: 86.5vw;
+    }
+    
+    input:checked+main {
+        display: block;
     }
 header {
     background-color: rgb(41, 189, 224);
-    img {
-        padding: 3.125vw 3.5938vw;
-    }
+    height: 13.0313vw;
+    width: 100%;
+    position: absolute;
+}
+
 }
 section {
     background-color: rgb(240, 240, 240);
     display: flex;
     flex-direction: column;
+    margin-left: 5.3125vw;
     align-items: center;
+    margin-top: 15vw;
     
     .section1 {
         border: 1px solid rgb(201, 201, 201);
@@ -110,16 +140,40 @@ section {
         }
     }
 
+   
+
+
     main {
       background-color: white;
-      margin-right: 15.625vw;
-      height: 103.125vw;
-      width: 23.4375vw;
-
+      display: none;
+      
+      width: 82%;
+      margin-right: 1vw;
       .main1 {
           display: flex;
-
+          flex-direction: column;
+          width: 81vw;
       }
+      .main2 {
+          height: 10vw;
+          
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 4.125vw;
+        border-bottom: 1px solid rgb(201, 201, 201);
+        color: rgb(105, 209, 233);
+        padding-left: 3.125vw;
+        padding-right: 3.125vw;
+    }
+    .main3 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        img {
+            margin-right: 10px;
+        }
+    }
     }
 
-}
+
