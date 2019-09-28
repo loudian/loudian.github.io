@@ -113,6 +113,9 @@ body {
      a:nth-child(1) {
        @include abutton;
       background-color: rgb(246, 111, 111);
+      &:hover{
+        text-decoration:none;
+      }
      }
      a:nth-child(2) {
         @include abutton;
