@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>轮播图</title>
+    <style>
+    .tpt-banner {
+	position: relative;
+	width: 100%;
+	height: 604px
+}
+.tpt-banner input {
+	display: none
+}
+.tpt-banner ul li {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	width: 100%;
+	height: 604px;
+	line-height: 604px;
+	text-align: center;
+	color: #fff;
+	margin: 0 auto;
+	
+}
+.tpt-banner img {
+	background-size: contain;
+	width: 100%;
+	height: 100%;
+}
+.tpt-banner .nev,.tpt-banner .nxt {
+	position: absolute;
+	top: 50%;
+	margin-top: -24px;
+	width: 48px;
+	height: 48px;
+    
+}
+.tpt-banner .nev label,.tpt-banner .nxt label,.tpt-banner input:checked~.nev label,.tpt-banner input:checked~.nxt label {
+	display: none
+}
+.tpt-banner .nev {
+	left: 0
+}
+.tpt-banner .nxt {
+	right: 0
+}
+.tpt-banner .nts {
+	position: absolute;
+	bottom: 15px;
+	width: 100%;
+	text-align: center
+}
+.tpt-banner .nev label:after {
+	content: url(https://tpt360.com/tuimg/e.png);
+	cursor: pointer
+}
+.tpt-banner .nxt label:after {
+	content: url(https://tpt360.com/tuimg/x.png);
+	cursor: pointer
+}
+.tpt-banner .nts label {
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	border-radius: 100px;
+	/* background: #fff; */
+	border: 1px  solid white;
+	cursor: pointer;
+}
+/* .tpt-banner input:checked~.nts label {
+	border: 1px  solid white;
+} */
+/* .tpt-banner .nts label.num1 {
+	background-color: white;
+} */
+.tpt-banner .nev label.num3,.tpt-banner .nxt label.num2,.tpt-banner ul li.num1 {
+	display: block
+}
+.tpt-banner #ban1:checked~.nts .num1,.tpt-banner #ban2:checked~.nts .num2,.tpt-banner #ban3:checked~.nts .num3 {
+	background-color: white;
+}
+.tpt-banner #ban1:checked~.nev label.num3,.tpt-banner #ban1:checked~.nxt label.num2,.tpt-banner #ban1:checked~ul li.num1,.tpt-banner #ban2:checked~.nev label.num1,.tpt-banner #ban2:checked~.nxt label.num3,.tpt-banner #ban2:checked~ul li.num2,.tpt-banner #ban3:checked~.nev label.num2,.tpt-banner #ban3:checked~.nxt label.num1,.tpt-banner #ban3:checked~ul li.num3 {
+	display: block
+}
+
+    </style>
+</head>
+<body>
+        <div class="tpt-banner">
+                <input name="ban" id="ban1" type="radio">
+                <input name="ban" id="ban2" type="radio">
+                <input name="ban" id="ban3" type="radio">
+                <ul>
+                    <li class="num1" ><img src="../task14/lunbotu1.jpeg" alt=""></li>
+                    <li class="num2" ><img src="../task14/lunbotu2.png" alt=""></li>
+                    <li class="num3" ><img src="../task14/lunbotu3.jpg" alt=""></li>
+                </ul>
+                <div class="nev">
+                    <label class="num1" for="ban1"></label>
+                    <label class="num2" for="ban2"></label>
+                    <label class="num3" for="ban3"></label>
+                </div>
+                <div class="nxt">
+                    <label class="num1" for="ban1"></label>
+                    <label class="num2" for="ban2"></label>
+                    <label class="num3" for="ban3"></label>
+                </div>
+                <div class="nts">
+                    <label class="num1" for="ban1"></label>
+                    <label class="num2" for="ban2"></label>
+                    <label class="num3" for="ban3"></label>
+                </div>
+            </div>
+</body>
+</html>

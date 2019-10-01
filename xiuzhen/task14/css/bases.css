@@ -1,0 +1,98 @@
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+  }
+  
+  
+
+
+
+
+
+
+  /* margin 单位 */
+ .mr18 {
+     margin-right: 18px;
+ }
+ .mr80 {
+    margin-right: 89px;
+}
+ .mr0 {
+     margin-right: 0px;
+ }
+
+
+/* padding单位 */
+.p-15 {
+    padding-right: -15px;
+}
+  /* 背景颜色 */
+ .baibgc {
+     background: white;
+ }
+ .lvbgc {
+     background-color: rgb(41, 176, 120);
+ }
+
+ 
+
+/* 字体颜色 */
+
+.lvfs {
+    color: rgb(41, 176, 120);
+}
+
+.baifs {
+    color: white;
+}
+
+
+
+
+  /* 字体大小 */
+  .fs14 {
+      font-size: 14px;
+  }
+  .fs16 {
+    font-size: 16px;
+}
+
+
+
+
+  /* 高度 */
+ .h40 {
+     height: 40px;;
+ } 
+
+  
+
+  /* flex 布局 */
+.center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sb {
+    display: flex;
+    justify-content: space-between;
+   
+}
+.centers {
+    display: flex;
+    justify-content: center;
+    align-items: center;     
+}
+.fcc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .flexend {
+      display: flex;
+      justify-content: flex-end
+  }
