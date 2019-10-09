@@ -5,7 +5,64 @@ body {
         height: 40px;
     }
     nav {
-        
+        .toggle {
+            background-color: #f9f9f9;
+            height: 80px;
+            border-bottom: 1px solid black;
+           }
+           
+           .toggle-item{
+             bottom: 0px;
+             width: 100%;
+             padding-bottom: 30px;
+             transition: all .3s;
+           }
+           #toggle-trigger {  /*这个是input触发 现在是隐藏然后包含在label里面*/
+            // display: none;
+            visibility: hidden;
+           }
+           #toggle-trigger ~ :not(checked) + .toggle-item {
+            display: block;
+           }
+           #toggle-trigger:checked + .toggle-item {
+           display: none;
+           }
+
+/* 导航栏按钮 */
+.icon-bar { /*这个是按钮的三条横*/
+    display: block;
+      width: 36px;
+      height: 6px;
+      border-radius: 1px;
+      background-color: #888;
+      margin-top: 5px;
+      margin-left: 7px;
+  }
+  
+  .anniuzaoxing {  /*这个是折叠栏设置的圆框 */
+    width: 50px;
+      height: 40px;
+      background-color: rgb(41, 176, 120);
+      margin: -77px 10px 0 10px;
+      border-radius: 4px;
+      border: 1px solid #888;
+      outline: none;
+      float: right;
+     
+  }
+  .anniu {
+    background-color: rgb(41, 176, 120);
+      padding: 14px 19px;
+      
+      color: white;
+      text-align: center;
+      margin-top: 22px;
+      border-bottom: 2px solid rgb(41, 176, 120);
+  }
+  .anniu:hover {
+    border-bottom: 2px solid white;
+    color: #f9f9f9;
+  }
        .nav1 {
            width: 103px;
            line-height: 93px;
@@ -16,9 +73,30 @@ body {
                border-bottom: 7px solid white;
            }
        }
-
+       @media screen and (min-width: 1px) and (max-width:768px) {
+           .dapingmu {
+               display: none;
+           }
+     
+       }
+    }
+    @media screen and (min-width: 768px) and (max-width:3768px) {
+        .xiaopingmu {
+            display: none;
+        }
     }
 
+// 这个三个页面的是导航栏
+// 底部开始
+
+
+
+
+
+
+
+
+// 轮播图开始
     .tpt-banner {
         position: relative;
         width: 100%;
@@ -33,12 +111,14 @@ body {
         left: 0;
         display: none;
         width: 100%;
-        // height: 604px;
-        // line-height: 604px;
+       
         height: 100%;
         text-align: center;
         color: #fff;
         margin: 0 auto;
+        // animation: myimg 12s linear infinite normal; 
+        // transition: 2s;
+        // animation-timing-function:2s;
         
     }
     .tpt-banner img {
@@ -103,6 +183,84 @@ body {
     }
     
 
+    // 动画效果
+    @keyframes myimg {
+        1%{
+            left: 0;
+        }
+        5%{
+            left: 0;
+        }
+
+        30%{
+            left: -1000px;
+        }
+        35%{
+            left: -1000px;
+        }
+
+        60%{
+            left: -2000px;
+        }
+        65%{
+            left: -2000px;
+        }
+
+        95%{
+            left: -3000px;
+        }
+        100%{
+            left: -3000px;
+        }
+    }
+// 轮播图结束
 
   
 }
+// 推荐页面的开头
+.wrap1 {
+    
+    width: 100%;
+    height: 18.4375vw;
+    
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+.left-main {
+    border: 1px solid #e6e6e6;
+}
+.left-main1 {
+    padding-top: 20px;
+    padding-bottom: 25px;
+    text-align: center;
+    border-bottom: 1px solid #e6e6e6;
+}
+.ball {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border: #f3aa4b 1px solid;
+    border-radius: 50%;
+}
+.baba:hover {
+    color: rgb(255, 101, 14);
+}
+.baba:hover .ball {
+    background-color: rgb(255, 101, 14);
+}
+.right-main {
+    border: 1px solid  #e6e6e6;
+}
+
+  @media screen and (min-width: 1200px) and (max-width:5000px) {
+    .flex-768 {
+        display: flex;
+        justify-content: space-between;
+  }
+  }
+  .tudouwang {
+      width: 100%;
+      text-align: center;
+  }

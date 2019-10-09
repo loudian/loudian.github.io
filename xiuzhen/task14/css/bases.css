@@ -10,24 +10,62 @@
 
 
 
-
-
-
+/* 特殊的要点 */
+.bbhui {
+    border-bottom: 1px solid #e6e6e6;
+}
+/* 行高 */
+.lh-29 {
+    line-height: 29px;
+}
   /* margin 单位 */
  .mr18 {
      margin-right: 18px;
  }
  .mr80 {
-    margin-right: 89px;
+    margin-right: -34px;
 }
  .mr0 {
      margin-right: 0px;
  }
-
-
+ .mrtb29 {
+     margin-top: 29px;
+    
+ }
+ .mb38s {
+     margin-bottom: 38px;
+     text-align: center;
+ }
+ .mb38 {
+    margin-bottom: 38px;
+  
+}
+ .mt30 {
+     margin-top: 38px;
+ }
+ .mb225 {
+     margin-bottom: 225px;
+ }
 /* padding单位 */
 .p-15 {
     padding-right: -15px;
+}
+.plr-63 {
+    padding-left: 63px;
+    padding-right: 63px;
+}
+.pt-26 {
+    padding-top: 26px;
+}
+.pt-38 {
+    padding-top: 38px;
+}
+.pb-180 {
+    padding-bottom: 180px;
+}
+.ptb-28 {
+    padding-top: 28px;
+    padding-bottom: 28px;
 }
   /* 背景颜色 */
  .baibgc {
@@ -36,7 +74,10 @@
  .lvbgc {
      background-color: rgb(41, 176, 120);
  }
-
+  .pt-30 {
+      padding-top: 30px;
+      
+  }
  
 
 /* 字体颜色 */
@@ -48,7 +89,9 @@
 .baifs {
     color: white;
 }
-
+.qianhuise {
+    color: rgb(178, 178, 178);
+}
 
 
 
@@ -58,8 +101,10 @@
   }
   .fs16 {
     font-size: 16px;
-}
-
+  }
+  .fs22 {
+    font-size: 22px;
+  }
 
 
 
@@ -71,6 +116,9 @@
   
 
   /* flex 布局 */
+  .flex {
+      display: flex;
+  }
 .center {
     display: flex;
     justify-content: space-between;
@@ -96,3 +144,21 @@
       display: flex;
       justify-content: flex-end
   }
+
+  /* 格子系统  宽度是10份 */
+  @media screen and (min-width: 1px) and (max-width:1200px) {
+      .s10 {
+          width: 100%;
+      }
+     
+  }
+  @media screen and (min-width: 1200px) and (max-width:5000px)  {
+      .l3 {
+          width: 33%;
+      }
+      .l7 {
+        width: 65%;
+    }
+    
+   
+    }
