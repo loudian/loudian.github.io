@@ -138,6 +138,11 @@
   /* 字体大小 */
   .fs14 {
       font-size: 14px;
+      white-space: nowrap;
+  }
+  .fs13 {
+      font-size: 13.9px;
+      line-height: 19px;
   }
   .fs16 {
     font-size: 16px;

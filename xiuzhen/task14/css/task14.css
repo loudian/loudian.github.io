@@ -104,6 +104,12 @@ body nav .nav1:hover {
   }
 }
 
+@media screen and (min-width: 358px) and (max-width: 3768px) {
+  body .mr18m {
+    margin-right: 18px;
+  }
+}
+
 body .tpt-banner {
   position: relative;
   width: 100%;
@@ -354,6 +360,11 @@ body .tpt-banner #ban1:checked ~ .nev label.num3, body .tpt-banner #ban1:checked
 
 .columm:hover .columm10 {
   visibility: visible;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  overflow: hidden;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 @media screen and (min-width: 1px) and (max-width: 1000px) {
