@@ -14,6 +14,10 @@
 .bbhui {
     border-bottom: 1px solid #e6e6e6;
 }
+.axia:hover{
+    text-decoration: underline;
+    text-decoration-color:white;
+}
 /* 行高 */
 .lh-29 {
     line-height: 29px;
@@ -21,6 +25,9 @@
   /* margin 单位 */
  .mr18 {
      margin-right: 18px;
+ }
+ .ml18 {
+     margin-left: 18px;
  }
  .mr80 {
     margin-right: -34px;
@@ -32,19 +39,39 @@
      margin-top: 29px;
     
  }
+.mt18 {
+    margin-top: 18px;
+}
+ .mb10 {
+     margin-bottom: 10px;
+ }
  .mb38s {
      margin-bottom: 38px;
      text-align: center;
  }
  .mb38 {
     margin-bottom: 38px;
-  
+}
+.mt31 {
+    margin-top: 31px;
 }
  .mt30 {
      margin-top: 38px;
  }
  .mb225 {
      margin-bottom: 225px;
+ }
+ .mr-30 {
+     margin-right: 30px;
+ }
+ .mb-24 {
+     margin-bottom: 24px;
+ }
+ .mt240 {
+     margin-top: 240px;
+ }
+ .mweb {
+     margin: 20px 12px;
  }
 /* padding单位 */
 .p-15 {
@@ -67,6 +94,13 @@
     padding-top: 28px;
     padding-bottom: 28px;
 }
+.pb-67 {
+    padding-bottom: 67px;
+}
+.pr-25 {
+    padding-right: 25px;
+}
+
   /* 背景颜色 */
  .baibgc {
      background: white;
@@ -78,14 +112,20 @@
       padding-top: 30px;
       
   }
- 
+  .pb-35 {
+      padding-bottom: 35px;
+  }
 
 /* 字体颜色 */
-
+.heifs {
+    color: black;
+}
 .lvfs {
     color: rgb(41, 176, 120);
 }
-
+.hongfs {
+    color: red;
+}
 .baifs {
     color: white;
 }
@@ -102,18 +142,22 @@
   .fs16 {
     font-size: 16px;
   }
+  .fs17 {
+      font-size: 17px;
+  }
   .fs22 {
     font-size: 22px;
   }
-
+ .fs20 {
+     font-size: 20px;
+ }
 
 
   /* 高度 */
  .h40 {
      height: 40px;;
  } 
-
-  
+ 
 
   /* flex 布局 */
   .flex {
@@ -144,7 +188,13 @@
       display: flex;
       justify-content: flex-end
   }
-
+  @media screen and (min-width: 900px) and (max-width:4900px) {
+    .sbs {
+        display: flex;
+        justify-content: space-between;
+       
+    }
+}
   /* 格子系统  宽度是10份 */
   @media screen and (min-width: 1px) and (max-width:1200px) {
       .s10 {
@@ -160,5 +210,5 @@
         width: 65%;
     }
     
-   
     }
+    
