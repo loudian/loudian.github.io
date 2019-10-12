@@ -1,13 +1,4 @@
 @charset "UTF-8";
-body {
-  /* .tpt-banner input:checked~.nts label {
-        border: 1px  solid white;
-    } */
-  /* .tpt-banner .nts label.num1 {
-        background-color: white;
-    } */
-}
-
 body header {
   height: 40px;
 }
@@ -69,6 +60,7 @@ body nav .anniuzaoxing {
 body nav .anniu {
   background-color: #29b078;
   padding: 14px 19px;
+  font-size: 16px;
   color: white;
   text-align: center;
   margin-top: 22px;
@@ -110,10 +102,305 @@ body nav .nav1:hover {
   }
 }
 
+body .photo {
+  width: 501vw;
+  -webkit-animation: dong 10s linear infinite;
+          animation: dong 10s linear infinite;
+}
+
+@-webkit-keyframes dong {
+  0%, 10% {
+    margin-left: 0;
+  }
+  20%, 30% {
+    margin-left: -100vw;
+  }
+  40%, 50% {
+    margin-left: -200vw;
+  }
+  60%, 70% {
+    margin-left: -300vw;
+  }
+  80%, 100% {
+    margin-left: -400vw;
+  }
+}
+
+@keyframes dong {
+  0%, 10% {
+    margin-left: 0;
+  }
+  20%, 30% {
+    margin-left: -100vw;
+  }
+  40%, 50% {
+    margin-left: -200vw;
+  }
+  60%, 70% {
+    margin-left: -300vw;
+  }
+  80%, 100% {
+    margin-left: -400vw;
+  }
+}
+
+body .baiyuandians {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  left: calc((100% - 105px)/2);
+  bottom: 1vw;
+  z-index: 1;
+}
+
+body .baiyuandian1 {
+  width: 10px;
+  height: 10px;
+  margin: 0 4.5px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  -webkit-animation: yuandian1 10s infinite;
+          animation: yuandian1 10s infinite;
+  z-index: 1;
+}
+
+@-webkit-keyframes yuandian1 {
+  0%, 19.99% {
+    background-color: #ffffff;
+  }
+  20%, 30% {
+    background-color: transparent;
+  }
+  40%, 50% {
+    background-color: transparent;
+  }
+  60%, 70% {
+    background-color: transparent;
+  }
+  80%, 100% {
+    background-color: transparent;
+  }
+}
+
+@keyframes yuandian1 {
+  0%, 19.99% {
+    background-color: #ffffff;
+  }
+  20%, 30% {
+    background-color: transparent;
+  }
+  40%, 50% {
+    background-color: transparent;
+  }
+  60%, 70% {
+    background-color: transparent;
+  }
+  80%, 100% {
+    background-color: transparent;
+  }
+}
+
+body .baiyuandian2 {
+  width: 10px;
+  height: 10px;
+  margin: 0 4.5px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  -webkit-animation: yuandian2 10s infinite;
+          animation: yuandian2 10s infinite;
+  z-index: 1;
+}
+
+@-webkit-keyframes yuandian2 {
+  0%, 19.99% {
+    background-color: transparent;
+  }
+  20%, 30% {
+    background-color: #ffffff;
+  }
+  40%, 50% {
+    background-color: transparent;
+  }
+  60%, 70% {
+    background-color: transparent;
+  }
+  80%, 100% {
+    background-color: transparent;
+  }
+}
+
+@keyframes yuandian2 {
+  0%, 19.99% {
+    background-color: transparent;
+  }
+  20%, 30% {
+    background-color: #ffffff;
+  }
+  40%, 50% {
+    background-color: transparent;
+  }
+  60%, 70% {
+    background-color: transparent;
+  }
+  80%, 100% {
+    background-color: transparent;
+  }
+}
+
+body .baiyuandian3 {
+  width: 10px;
+  height: 10px;
+  margin: 0 4.5px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  -webkit-animation: yuandian3 10s infinite;
+          animation: yuandian3 10s infinite;
+  z-index: 1;
+}
+
+@-webkit-keyframes yuandian3 {
+  0%, 19.99% {
+    background-color: transparent;
+  }
+  20%, 39.99% {
+    background-color: transparent;
+  }
+  40%, 59.99% {
+    background-color: #ffffff;
+  }
+  60%, 70% {
+    background-color: transparent;
+  }
+  80%, 100% {
+    background-color: transparent;
+  }
+}
+
+@keyframes yuandian3 {
+  0%, 19.99% {
+    background-color: transparent;
+  }
+  20%, 39.99% {
+    background-color: transparent;
+  }
+  40%, 59.99% {
+    background-color: #ffffff;
+  }
+  60%, 70% {
+    background-color: transparent;
+  }
+  80%, 100% {
+    background-color: transparent;
+  }
+}
+
+body .baiyuandian4 {
+  width: 10px;
+  height: 10px;
+  margin: 0 4.5px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  -webkit-animation: yuandian4 10s infinite;
+          animation: yuandian4 10s infinite;
+  z-index: 1;
+}
+
+@-webkit-keyframes yuandian4 {
+  0%, 19.99% {
+    background-color: transparent;
+  }
+  20%, 39.99% {
+    background-color: transparent;
+  }
+  40%, 59.99% {
+    background-color: transparent;
+  }
+  60%, 79.99% {
+    background-color: #ffffff;
+  }
+  80%, 100% {
+    background-color: transparent;
+  }
+}
+
+@keyframes yuandian4 {
+  0%, 19.99% {
+    background-color: transparent;
+  }
+  20%, 39.99% {
+    background-color: transparent;
+  }
+  40%, 59.99% {
+    background-color: transparent;
+  }
+  60%, 79.99% {
+    background-color: #ffffff;
+  }
+  80%, 100% {
+    background-color: transparent;
+  }
+}
+
+body .baiyuandian5 {
+  width: 10px;
+  height: 10px;
+  margin: 0 4.5px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  -webkit-animation: yuandian5 10s infinite;
+          animation: yuandian5 10s infinite;
+  z-index: 1;
+}
+
+@-webkit-keyframes yuandian5 {
+  0%, 19.99% {
+    background-color: transparent;
+  }
+  20%, 39.99% {
+    background-color: transparent;
+  }
+  40%, 59.99% {
+    background-color: transparent;
+  }
+  60%, 79.99% {
+    background-color: transparent;
+  }
+  80%, 100% {
+    background-color: #ffffff;
+  }
+}
+
+@keyframes yuandian5 {
+  0%, 19.99% {
+    background-color: transparent;
+  }
+  20%, 39.99% {
+    background-color: transparent;
+  }
+  40%, 59.99% {
+    background-color: transparent;
+  }
+  60%, 79.99% {
+    background-color: transparent;
+  }
+  80%, 100% {
+    background-color: #ffffff;
+  }
+}
+
+body .imgs {
+  float: left;
+  width: 100vw;
+  height: 30vw;
+  margin: 0;
+}
+
 body .tpt-banner {
   position: relative;
   width: 100%;
-  height: 604px;
+  height: 30vw;
+  overflow: hidden;
 }
 
 body .tpt-banner input {
@@ -130,12 +417,6 @@ body .tpt-banner ul li {
   text-align: center;
   color: #fff;
   margin: 0 auto;
-}
-
-body .tpt-banner img {
-  background-size: contain;
-  width: 100%;
-  height: 100%;
 }
 
 body .tpt-banner .nev, body .tpt-banner .nxt {
@@ -183,6 +464,14 @@ body .tpt-banner .nts label {
   /* background: #fff; */
   border: 1px  solid white;
   cursor: pointer;
+}
+
+body .tpt-banner input:checked ~ .nts label {
+  border: 1px  solid white;
+}
+
+body .tpt-banner .nts label.num1 {
+  background-color: white;
 }
 
 body .tpt-banner .nev label.num3, body .tpt-banner .nxt label.num2, body .tpt-banner ul li.num1 {
@@ -468,5 +757,393 @@ body .tpt-banner #ban1:checked ~ .nev label.num3, body .tpt-banner #ban1:checked
   padding-top: 36px;
   padding-left: 42px;
   padding-right: 42px;
+}
+
+.topnavs {
+  height: 270px;
+  text-align: center;
+}
+
+.topnavs1 {
+  height: 270px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (min-width: 768px) {
+  .topnavs1 {
+    border-left: 2px dashed #d9d9d9;
+  }
+}
+
+.topnavs1 p {
+  color: green;
+  font-size: 18px;
+  margin: 0 0 10px;
+}
+
+.topnavs1 img {
+  margin-right: 6px;
+  vertical-align: 0%;
+}
+
+.topnavs1 span {
+  display: block;
+  margin-bottom: 25px;
+  font-size: 18px;
+  color: #959595;
+}
+
+.gxx {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 98px;
+  margin-bottom: 50px;
+}
+
+.links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 50px;
+}
+
+.links1 {
+  min-width: 60px;
+  height: 60px;
+  border: 1px solid #dfdfdf;
+  border-radius: 50%;
+  line-height: 60px;
+  text-align: center;
+  background-color: #ffffff;
+  font-size: 15px;
+  color: #29b078;
+}
+
+.links2 {
+  padding: 0 15px;
+  width: 60%;
+  color: #999999;
+  font-size: 14px;
+  line-height: 27px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.links3 {
+  width: 26px;
+  height: 24px;
+  margin-right: 13px;
+  margin-top: 15px;
+}
+
+@media only screen and (max-width: 3300px) and (min-width: 1200px) {
+  .o0 {
+    opacity: 0;
+  }
+}
+
+.tab {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media only screen and (max-width: 768px) {
+  .tab {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 1300px) and (min-width: 768px) {
+  .tab {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+.tab1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 370px;
+  padding: 15px 30px 36px 30px;
+  border: 1px solid #eeeded;
+  border-radius: 10px;
+  background-color: #ffffff;
+  width: 18%;
+}
+
+@media only screen and (max-width: 768px) {
+  .tab1 {
+    width: 100%;
+    margin-top: 40px;
+  }
+}
+
+@media only screen and (max-width: 1300px) and (min-width: 768px) {
+  .tab1 {
+    width: 39%;
+    margin-top: 40px;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 1px) {
+  .tab1 {
+    width: 100%;
+    margin-top: 40px;
+  }
+}
+
+.tab1:hover {
+  -webkit-box-shadow: 0 0 10px 2px #b0b0b0;
+          box-shadow: 0 0 10px 2px #b0b0b0;
+}
+
+.tab2 {
+  font-size: 18px;
+  margin: 42px 0 30px 0;
+}
+
+.tab3 {
+  line-height: 27px;
+  font-size: 16px;
+  color: #999999;
+}
+
+.yuandianshezhi {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.yuandiandian {
+  height: 17px;
+  width: 17px;
+  background-color: white;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-right: 10px;
+  margin-top: 19px;
+}
+
+.yuandiandian:hover {
+  background-color: green;
+}
+
+.banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 60px;
+  margin-bottom: 91px;
+  background-color: #ffffff;
+}
+
+@media only screen and (max-width: 768px) {
+  .banner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 1300px) and (min-width: 768px) {
+  .banner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+.banner1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 145px;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 768px) {
+  .banner1 {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1300px) and (min-width: 768px) {
+  .banner1 {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 4300px) and (min-width: 1300px) {
+  .banner1 {
+    width: 20%;
+  }
+}
+
+.banner1:hover {
+  -webkit-box-shadow: 0px 0px 2px 2px #b0b0b0;
+          box-shadow: 0px 0px 2px 2px #b0b0b0;
+  z-index: 1;
+}
+
+@media only screen and (max-width: 1021px) and (min-width: 769px) {
+  .foots {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+  }
+  .foots .foots1 {
+    width: 50%;
+  }
+  .foots .foots2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+}
+
+@media only screen and (max-width: 3300px) and (min-width: 1301px) {
+  .foots1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+
+@media only screen and (max-width: 1300px) and (min-width: 1022px) {
+  .foots1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .foots1 li {
+    width: 20%;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 999px) and (min-width: 1px) {
+  .foots1 {
+    text-align: center;
+  }
+}
+
+.foots1 li {
+  font-size: 14px;
+  color: #999999;
+}
+
+@media only screen and (max-width: 766px) and (min-width: 1px) {
+  .foots1 li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 4000px) and (min-width: 1022px) {
+  .foots1 li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.wanwan {
+  white-space: nowrap;
+  width: 79px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid white;
+}
+
+.wanwan:before {
+  content: "•    ";
+}
+
+.wanwan:hover {
+  border-bottom: 1px solid red;
 }
 /*# sourceMappingURL=task14.css.map */

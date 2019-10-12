@@ -1,58 +1,301 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="../task14/css/bases.css">
-    <link rel="stylesheet" href="../task14/css/reset.css">
-    <link rel="stylesheet" href="../task14/css/task14.css">
-    <title>技能树首页</title>
+    <link rel="stylesheet" href="../css/bases.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/task14.css">
+    <title>首页</title>
 </head>
-<body>
 
+<body class="huisebg">
+    <!-- 这个是开头跟导航栏开始 -->
     <header class="baibgc ">
         <div class="container center h40">
-           <div class="lvfs fs14 bhx">客服热线：010-594-78634</div>
-           <div >
-                <img class="mr18" src="../task14/weixin.png" alt="">
-               <img class="mr18" src="../task14/qq.png" alt="">
-               <img src="../task14/xinlang.png" alt="">
-        </div>
+            <div class="lvfs fs14 bhx cyyc">客服热线：010-594-78634</div>
+            <div class="ww">
+                <img class="mr18m" src="../weixin.png" alt="">
+                <img class="mr18m" src="../qq.png" alt="">
+                <img src="../xinlang.png" alt="">
+            </div>
         </div>
     </header>
-    <nav class="lvbgc">
-        <div class=" container flexend mr80 p-15">
-            <div class="fs16 baifs nav1">首页</div>
-            <div class="fs16 baifs nav1">职业</div>
-            <div class="fs16 baifs nav1">推荐</div>
-            <div class="fs16 baifs nav1">关于</div>
+    <nav class="lvbgc ">
+        <div class="container center dapingmu">
+            <!--这个是大屏幕时候的状态开始 -->
+            <div>
+                <img src="../xiuzhenyuan.png" alt="">
+            </div>
+            <div class="  flexend mr80 p-15">
+                <div class="fs16 baifs nav1"
+                    onclick="javascrtpt:window.location.href='https://loudian.github.io/xiuzhen/task14/html/task14.html'">
+                    首页</div>
+                <div class="fs16 baifs nav1 "
+                    onclick="javascrtpt:window.location.href='https://loudian.github.io/xiuzhen/task14/html/task14promax.html'">
+                    职业</div>
+                <div class="fs16 baifs nav1"
+                    onclick="javascrtpt:window.location.href='https://loudian.github.io/xiuzhen/task14/html/task14pro.html'">
+                    推荐</div>
+                <div class="fs16 baifs nav1"
+                    onclick="javascrtpt:window.location.href='https://loudian.github.io/xiuzhen/task14/html/task14pro.html'">
+                    关于</div>
+            </div>
+        </div>
+        <!--这个是大屏幕时候的状态结束 -->
+        <!-- 这个是小屏幕时候的状态开始 -->
+        <div class="xiaopingmu container ">
+            <div><img class="mrtb29" src="../xiuzhenyuan.png" alt=""></div>
+            <div class="container2 mrtb29">
+                <label for="toggle-trigger" class="anniuzaoxing">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </label>
+                <input id="toggle-trigger" type="checkbox" />
+                <div class="toggle-item">
+                    <div class="anniu">首页</div>
+                    <div class="anniu">职业</div>
+                    <div class="anniu">推荐</div>
+                    <div class="anniu">关于</div>
+                </div>
+            </div>
         </div>
     </nav>
+    <!-- 导航栏结束 -->
+    <!-- 这个是最难的轮播图开始 -->
     <div class="tpt-banner">
-            <input name="ban" id="ban1" type="radio">
-            <input name="ban" id="ban2" type="radio">
-            <input name="ban" id="ban3" type="radio">
-            <ul>
-                <li class="num1" ><img src="../task14/lunbotu1.jpeg" alt=""></li>
-                <li class="num2" ><img src="../task14/lunbotu2.png" alt=""></li>
-                <li class="num3" ><img src="../task14/lunbotu3.jpg" alt=""></li>
-            </ul>
-            <div class="nev">
-                <label class="num1" for="ban1"></label>
-                <label class="num2" for="ban2"></label>
-                <label class="num3" for="ban3"></label>
+        <input name="ban" id="ban1" type="radio">
+        <input name="ban" id="ban2" type="radio">
+        <input name="ban" id="ban3" type="radio">
+        <input name="ban" id="ban4" type="radio">
+        <input name="ban" id="ban5" type="radio">
+        <div class="photo">
+
+            <img src="../lunbotu1.jpeg" alt="" class="num1 imgs">
+            <img src="../lunbotu2.png" alt="" class="num2 imgs">
+            <img src="../lunbotu3.jpg" alt="" class="num3 imgs">
+            <img src="../lunbotu4.png" alt="" class="num4 imgs">
+            <img src="../lunbotu5.png" alt="" class="num5 imgs">
+        </div>
+        <div class="nev">
+            <label class="num1" for="ban1"></label>
+            <label class="num2" for="ban2"></label>
+            <label class="num3" for="ban3"></label>
+            <label class="num4" for="ban4"></label>
+            <label class="num5" for="ban5"></label>
+        </div>
+        <div class="nxt">
+            <label class="num1" for="ban1"></label>
+            <label class="num2" for="ban2"></label>
+            <label class="num3" for="ban3"></label>
+            <label class="num4" for="ban4"></label>
+            <label class="num5" for="ban5"></label>
+        </div>
+        <!-- <div class="nts">  这个是响应的轮播图
+            <label class="num1" for="ban1"></label>
+            <label class="num2" for="ban2"></label>
+            <label class="num3" for="ban3"></label>
+            <label class="num4" for="ban4"></label>
+            <label class="num5" for="ban5"></label>
+        </div> -->
+        <div class="baiyuandians">
+            <div class="baiyuandian1"></div>
+            <div class="baiyuandian2"></div>
+            <div class="baiyuandian3"></div>
+            <div class="baiyuandian4"></div>
+            <div class="baiyuandian5"></div>
+        </div>
+    </div>
+    <!-- 终于艰难的搞好轮播图 -->
+    <!-- 这个是高效 规范 人脉 累计在线学习数 的栏目开始-->
+    <div class="container mt170">
+        <div class="row">
+            <div class="topnavs col-xs-12 col-sm-6 col-lg-3">
+                <img src="../huojian.png" alt="">
+                <h4 class="gaoxiaoziti">高效</h4>
+                <p class="timeziti">将5到7年的成长时间，缩短到一年到3年</p>
             </div>
-            <div class="nxt">
-                <label class="num1" for="ban1"></label>
-                <label class="num2" for="ban2"></label>
-                <label class="num3" for="ban3"></label>
+            <div class="topnavs col-xs-12 col-sm-6 col-lg-3">
+                <img src="../shuben.png" alt="">
+                <h4 class="gaoxiaoziti pt14">规范</h4>
+                <p class="timeziti">标准的实战教程，不会走弯路</p>
             </div>
-            <div class="nts">
-                <label class="num1" for="ban1"></label>
-                <label class="num2" for="ban2"></label>
-                <label class="num3" for="ban3"></label>
+            <div class="topnavs col-xs-12 col-sm-6 col-lg-3">
+                <img src="../renmai.png" alt="">
+                <h4 class="gaoxiaoziti pt7">人脉</h4>
+                <p class="timeziti plr30">同班好友，同院学长，技术大师， 入学就混入职脉圈，为以后铺平 道路。</p>
+            </div>
+            <div class="topnavs1 col-xs-12 col-sm-6 col-lg-3">
+                <p>
+                    <img src="../user.png" alt="">
+                    <b>12400</b>
+                </p>
+                <span>累计在线学习数</span>
+                <p>
+                    <img src="../user.png" alt="">
+                    <b>12400</b>
+                </p>
+                <span>学员已经找到满意工作</span>
+            </div>
+        </div>
+    </div>
+    <!-- 这个是高效 规范 人脉 累计在线学习数 的栏目结束-->
+    <!-- 这个是高效学习的栏目开始-->
+    <div class="container gxx">
+        <b class="">如何学习</b>
+    </div>
+    <!-- 这个是高效学习的栏目结束 -->
+    <div class="container">
+        <div class="row">
+            <div class="links col-xs-12 col-sm-6 col-lg-3">
+                <div class="links1">1</div>
+                <div class="links2">匹配你现在的个人情况寻找合适自己的岗位</div>
+                <img src="../sanjiaoxing.png" alt="" class="links3">
+            </div>
+            <div class="links col-xs-12 col-sm-6 col-lg-3">
+                <div class="links1">2</div>
+                <div class="links2">了解职业前景薪金待遇、竞争压力等</div>
+                <img src="../sanjiaoxing.png" alt="" class="links3">
+            </div>
+            <div class="links col-xs-12 col-sm-6 col-lg-3">
+                <div class="links1">3</div>
+                <div class="links2">掌握行业内顶级技能</div>
+                <img src="../sanjiaoxing.png" alt="" class="links3">
+            </div>
+            <div class="links col-xs-12 col-sm-6 col-lg-3">
+                <div class="links1">4</div>
+                <div class="links2">掌握行业内顶级技能</div>
+                <img src="../sanjiaoxing.png" alt="" class="links3 o0">
+            </div>
+            <!-- 另外一个 -->
+            <div class="links col-xs-12 col-sm-6 col-lg-3">
+                <div class="links1">5</div>
+                <div class="links2">匹配你现在的个人情况寻找合适自己的岗位</div>
+                <img src="../sanjiaoxing.png" alt="" class="links3">
+            </div>
+            <div class="links col-xs-12 col-sm-6 col-lg-3">
+                <div class="links1">6</div>
+                <div class="links2">了解职业前景薪金待遇、竞争压力等</div>
+                <img src="../sanjiaoxing.png" alt="" class="links3">
+            </div>
+            <div class="links col-xs-12 col-sm-6 col-lg-3">
+                <div class="links1">7</div>
+                <div class="links2">掌握行业内顶级技能</div>
+                <img src="../sanjiaoxing.png" alt="" class="links3">
+            </div>
+            <div class="links col-xs-12 col-sm-6 col-lg-3">
+                <div class="links1">8</div>
+                <div class="links2">掌握行业内顶级技能</div>
+                <img src="../sanjiaoxing.png" alt="" class="links3 o0">
+            </div>
+        </div>
+    </div>
+    <!-- 如何学习栏目结束 -->
+    <!-- 优秀学员展示 -->
+    <div class="container gxx">
+        <b class="">如何学习</b>
+    </div>
+    <!-- 优秀学员展示结束 -->
+    <!-- 优秀学员任务框开始 -->
+    <div class="container ">
+        <div class="tab">
+            <div class="tab1">
+                <img src="../touxiang1.png" alt="">
+                <h4 class="tab2">技术顾问：鸡老师</h4>
+                <div class="tab3">
+                    百度技术总监：互联网基础服务领域，从事虚拟主机、云服务器、域名。曾任新网高级技术经理，负责技术研发、团队管理与建设
+                </div>
+            </div>
+            <div class="tab1">
+                <img src="../touxiang2.png" alt="">
+                <h4 class="tab2">技术顾问：鸭老师</h4>
+                <div class="tab3">
+                    百度技术总监：互联网基础服务领域，从事虚拟主机、云服务器、域名。曾任新网高级技术经理，负责技术研发、团队管理与建设
+                </div>
+            </div>
+            <div class="tab1">
+                <img src="../touxiang3.png" alt="">
+                <h4 class="tab2">技术顾问：猪老师</h4>
+                <div class="tab3">
+                    百度技术总监：互联网基础服务领域，从事虚拟主机、云服务器、域名。曾任新网高级技术经理，负责技术研发、团队管理与建设
+                </div>
+            </div>
+            <div class="tab1">
+                <img src="../touxiang4.png" alt="">
+                <h4 class="tab2">技术顾问：鹅老师</h4>
+                <div class="tab3">
+                    百度技术总监：互联网基础服务领域，从事虚拟主机、云服务器、域名。曾任新网高级技术经理，负责技术研发、团队管理与建设
+                </div>
+            </div>
+
+        </div>
+        <div class="yuandianshezhi">
+            <div class="yuandiandian"></div>
+            <div class="yuandiandian"></div>
+            <div class="yuandiandian"></div>
+            <div class="yuandiandian"></div>
+        </div>
+    </div>
+    <!-- 战略合作企业开始 -->
+    <div class="container gxx">
+        <b class="">战略合作企业开始</b>
+    </div>
+    <!-- 5p图开始 -->
+    <div class="container ">
+        <div class="banner">
+            <div class="banner1">
+                <img src="../p1.png" alt="">
+            </div>
+            <div class="banner1 ">
+                <img src="../p2.png" alt="">
+            </div>
+            <div class="banner1">
+                <img src="../p3.jpg" alt="">
+            </div>
+            <div class="banner1">
+                <img src="../p4.png" alt="">
+            </div>
+            <div class="banner1">
+                <img src="../p5.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- 底部友情链接开始 -->
+    <div class="baibgc ">
+        <div class="container ">
+            <div class=" gxx ptb-28">
+                <b class="">友情链接</b>
+            </div>
+            <div class="foots">
+                <ul  class="foots1">
+                    <li>  <div class="wanwan"> 手机软件</div></li>
+                    <li> <div class="wanwan"> 手机软件 </div></li>
+                    <li> <div class="wanwan"> 手机软件 </div></li>
+                    <li> <div class="wanwan"> 手机软件 </div></li>
+                    <li> <div class="wanwan"> 手机软件 </div></li>
+                    <li> <div class="wanwan"> 手机软件 </div></li>
+                    <li> <div class="wanwan"> 手机软件 </div></li>
+                    <li> <div class="wanwan"> 手机软件 </div></li>
+                    <li> <div class="wanwan"> 手机软件 </div></li>
+                    <li> <div class="wanwan"> 手机软件 </div></li>
+                </ul>
+                <ul  class="foots1 foots2">
+                    <li>  <div class="wanwan"> 手机软件</div></li>
+                    <li> <div class="wanwan"> 手机软件 </div></li>
+                    <li> <div class="wanwan"> 手机软件 </div></li>
+                    <li> <div class="wanwan"> 手机软件 </div></li>
+                    <li> <div class="wanwan"> 手机软件 </div></li>
+                    <li> <div class="wanwan"> 手机软件 </div></li>
+                    <li> <div class="wanwan"> 手机软件 </div></li>
+                    <li> <div class="wanwan"> 手机软件 </div></li>
+                    <li> <div class="wanwan"> 手机软件 </div></li>
+                    <li> <div class="wanwan"> 手机软件 </div></li>
+                </ul>
             </div>
         </div>
 </body>
+
 </html>

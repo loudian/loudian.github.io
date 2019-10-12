@@ -53,7 +53,7 @@ body {
   .anniu {
     background-color: rgb(41, 176, 120);
       padding: 14px 19px;
-      
+      font-size: 16px;
       color: white;
       text-align: center;
       margin-top: 22px;
@@ -102,10 +102,188 @@ body {
 
 
 // 轮播图开始
+    .photo {
+        width: 501vw;
+        animation: dong 10s linear infinite;
+    }
+    @keyframes dong {
+        0%, 10% {
+            margin-left: 0;
+        }
+        20%, 30% {
+            margin-left: -100vw;
+        }
+        40%, 50% {
+            margin-left: -200vw;
+        }
+        60%, 70% {
+            margin-left: -300vw;
+        }
+        80%, 100% {
+            margin-left: -400vw;
+        }
+    }
+    .baiyuandians {
+        display: flex;
+        position: absolute;
+        left: calc((100% - 105px)/2);
+        bottom: 1vw;
+        z-index: 1;
+    }
+    .baiyuandian1 {
+        width: 10px;
+        height: 10px;
+         margin: 0 4.5px;
+        border: 1px solid #ffffff;
+         border-radius: 50%;
+        animation: yuandian1 10s infinite;
+        z-index: 1;
+    }
+   
+    @keyframes yuandian1 {
+        0%, 19.99% {
+            background-color: #ffffff;
+        }
+        20%, 30% {
+            background-color: transparent;
+        }
+        40%, 50% {
+            background-color: transparent;
+        }
+        60%, 70% {
+            background-color: transparent;
+        }
+        
+        80%, 100% {
+            background-color: transparent;
+        }
+    }
+    .baiyuandian2 {
+    width: 10px;
+    height: 10px;
+    margin: 0 4.5px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    animation: yuandian2 10s infinite;
+    z-index: 1;
+    }
+    @keyframes yuandian2 {
+        0%, 19.99% {
+           
+            background-color: transparent;
+        }
+        20%, 30% {
+            background-color: #ffffff;
+        }
+        40%, 50% {
+            background-color: transparent;
+        }
+        60%, 70% {
+            background-color: transparent;
+        }
+        
+        80%, 100% {
+            background-color: transparent;
+        }
+    }
+
+    .baiyuandian3 {
+        width: 10px;
+    height: 10px;
+    margin: 0 4.5px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    animation: yuandian3 10s infinite;
+    z-index: 1;
+    }
+  
+    @keyframes yuandian3 {
+        0%, 19.99% {
+            background-color: transparent;
+        }
+        20%, 39.99% {
+            background-color: transparent;
+        }
+        40%, 59.99% {
+            background-color: #ffffff;
+        }
+        60%, 70% {
+            background-color: transparent;
+        }
+        
+        80%, 100% {
+            background-color: transparent;
+        }
+    }
+
+    .baiyuandian4 {
+        width: 10px;
+        height: 10px;
+         margin: 0 4.5px;
+        border: 1px solid #ffffff;
+        border-radius: 50%;
+        animation: yuandian4 10s infinite;
+        z-index: 1;
+    } 
+    
+    @keyframes yuandian4 {
+        0%, 19.99% {
+            background-color: transparent;
+        }
+        20%, 39.99% {
+            background-color: transparent;
+        }
+        40%, 59.99% {
+            background-color: transparent;
+        }
+        60%, 79.99% {
+            background-color: #ffffff;
+        }
+        
+        80%, 100% {
+            background-color: transparent;
+        }
+    }
+
+    .baiyuandian5 {
+    width: 10px;
+    height: 10px;
+    margin: 0 4.5px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    animation: yuandian5 10s infinite;
+    z-index: 1;
+}
+@keyframes yuandian5 {
+    0%, 19.99% {
+        background-color: transparent;
+    }
+    20%, 39.99% {
+        background-color: transparent;
+    }
+    40%, 59.99% {
+        background-color: transparent;
+    }
+    
+    60%, 79.99% {
+        background-color: transparent;
+    }
+    80%, 100% {
+        background-color: #ffffff;
+    }
+}
+    
+    .imgs {
+        float: left;
+        width: 100vw;
+        height: 30vw;
+        margin: 0;
+    }
     .tpt-banner {
         position: relative;
         width: 100%;
-        height: 604px
+        height: 30vw;
+        overflow: hidden;
     }
     .tpt-banner input {
         display: none
@@ -121,16 +299,10 @@ body {
         text-align: center;
         color: #fff;
         margin: 0 auto;
-        // animation: myimg 12s linear infinite normal; 
-        // transition: 2s;
-        // animation-timing-function:2s;
+       
         
     }
-    .tpt-banner img {
-        background-size: contain;
-        width: 100%;
-        height: 100%;
-    }
+    
     .tpt-banner .nev,.tpt-banner .nxt {
         position: absolute;
         top: 50%;
@@ -171,12 +343,12 @@ body {
         border: 1px  solid white;
         cursor: pointer;
     }
-    /* .tpt-banner input:checked~.nts label {
+    .tpt-banner input:checked~.nts label {
         border: 1px  solid white;
-    } */
-    /* .tpt-banner .nts label.num1 {
+    } 
+    .tpt-banner .nts label.num1 {
         background-color: white;
-    } */
+    } 
     .tpt-banner .nev label.num3,.tpt-banner .nxt label.num2,.tpt-banner ul li.num1 {
         display: block
     }
@@ -218,6 +390,7 @@ body {
             left: -3000px;
         }
     }
+
 // 轮播图结束
 
   
@@ -402,3 +575,263 @@ body {
     }
    
 }
+// 这个是高效 规范 人脉 累计在线学习数 的栏目
+.topnavs {
+    height: 270px;
+    text-align: center;
+    // background-color: #f3aa4b;
+    
+}
+.topnavs1 {
+    height: 270px;
+   
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    // background-color: #f3aa4b;
+    @media (min-width: 768px) {
+        border-left: 2px dashed rgb(217, 217, 217);
+    }
+   p {
+    color: green;
+    font-size: 18px;
+    margin: 0 0 10px;
+   }
+    img {
+    margin-right: 6px;
+    vertical-align: 0%;
+    }
+    span {
+    display: block;
+    margin-bottom: 25px;
+    font-size: 18px;
+    color: rgb(149, 149, 149);
+    }
+    }
+
+    // 这个是高效学习的
+    .gxx {
+        font-size: 18px;
+        text-align: center;
+        margin-top: 98px;
+        margin-bottom: 50px;
+    }
+    // 这个是如何学习栏目
+    .links {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 50px;
+        
+        
+        
+
+    } 
+    .links1 {
+    min-width: 60px;
+    height: 60px;
+    border: 1px solid rgb(223, 223, 223);
+    border-radius: 50%;
+    line-height: 60px;
+    text-align: center;
+    background-color: #ffffff;
+    font-size: 15px;
+    color: #29b078;
+    }
+    .links2 {
+    padding: 0 15px;
+    width: 60%;
+    color: #999999;
+    font-size: 14px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    }
+    .links3 {
+    width: 26px;
+    height: 24px;
+    margin-right: 13px;
+    margin-top: 15px;
+    }
+    @media only screen and (max-width: 3300px) and (min-width: 1200px) {
+       .o0 {
+        opacity: 0;
+       }
+    }
+    // 优秀学员任务框开始
+    .tab {
+        display: flex;
+        justify-content: space-between;
+        @media only screen and (max-width: 768px) {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        @media only screen and (max-width: 1300px) and (min-width: 768px) {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+    }
+    .tab1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 370px;
+        padding: 15px 30px 36px 30px;
+        border: 1px solid #eeeded;
+        border-radius: 10px;
+        background-color: #ffffff;
+        width: 18%;
+        @media only screen and (max-width: 768px) {
+            width: 100%;
+            margin-top: 40px;
+        }
+        @media only screen and (max-width: 1300px) and (min-width: 768px) {
+            width: 39%;
+            margin-top: 40px;
+        }
+        @media only screen and (max-width: 768px) and (min-width: 1px) {
+            width: 100%;
+            margin-top: 40px;
+        }
+        &:hover {
+            box-shadow: 0 0 10px 2px #b0b0b0;
+        }
+    }
+    .tab2 {
+        font-size: 18px;
+         margin: 42px 0 30px 0;
+    }
+    .tab3 {
+        line-height: 27px;
+        font-size: 16px;
+        color: #999999;
+    }
+    .yuandianshezhi {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .yuandiandian {
+        height: 17px;
+    width: 17px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    margin-top: 19px;
+    &:hover {
+        background-color: green;
+    }
+    }
+    // 5p图开始
+    .banner {
+        display: flex;
+        margin-top: 60px;
+        margin-bottom: 91px;
+        background-color: #ffffff;
+        @media only screen and (max-width: 768px) {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        @media only screen and (max-width: 1300px) and (min-width: 768px) {
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+    .banner1 {
+        display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    height: 145px;
+    background-color: #ffffff;
+    overflow: hidden;
+    @media only screen and (max-width: 768px) {
+        width: 100%;
+    }
+    @media only screen and (max-width: 1300px) and (min-width: 768px) {
+        width: 50%;
+    }
+    @media only screen and (max-width: 4300px) and (min-width: 1300px) {
+        width: 20%;
+    }
+    &:hover {
+        box-shadow: 0px 0px 2px 2px #b0b0b0;
+    z-index: 1;
+    }
+    }
+    // 底部友情链接开始
+    // 这个是最后的考验
+    
+    // 这个是小分辨率下面用
+    .foots {
+        
+   
+    @media only screen and (max-width: 1021px) and (min-width: 769px) {
+            display: flex;
+            width: 100%;
+
+            .foots1 {
+                width: 50%;
+            }
+            .foots2 {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+                
+            }
+    }
+    
+    } 
+
+    .foots1 {
+        @media only screen and (max-width: 3300px) and (min-width: 1301px) {
+        display: flex;
+        justify-content: space-around;
+        }
+        @media only screen and (max-width: 1300px) and (min-width: 1022px) {
+        
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        li {
+            width: 20%;
+            text-align: center;
+        }
+        }
+        @media only screen and (max-width: 999px) and (min-width: 1px) {
+                  text-align: center;
+        }
+        li {
+            font-size: 14px;
+            color: rgb(153, 153, 153);
+            @media only screen and (max-width: 766px) and (min-width: 1px) {
+            display: flex;
+            justify-content: center;
+        }
+        @media only screen and (max-width: 4000px) and (min-width: 1022px) {
+            display: flex;
+            justify-content: center;
+        }
+        }
+
+    }
+    .wanwan {
+        // border-bottom: 1px solid yellow;
+        // width: 50px;
+        // height: 20px;
+        white-space: nowrap;
+        width: 79px;
+        padding-bottom: 5px;
+        margin-bottom: 10px;
+        border-bottom: 1px solid white;
+    }
+    .wanwan:before {
+        content:"•    "
+    }
+    .wanwan:hover {
+        border-bottom: 1px solid red;
+    }

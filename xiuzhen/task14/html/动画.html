@@ -2,61 +2,109 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>图片轮换</title>
-    <style type="text/css">
-        div,img{
-            margin: 0;
-            padding: 0;
-        }
-        .div_first{
-            width: 1000px;
-            height: 300px;
-            margin-top: 100px;
-            margin-left: 250px;
-            overflow: hidden;
-        }
-        .div_second{
-            width: 4000px;
-            position: relative;
-            animation: myimg 12s linear infinite normal; 
-        }
-        @keyframes myimg{
-            0{
-                left: 0;
-            }
-            5%{
-                left: 0;
-            }
-
-            30%{
-                left: -1000px;
-            }
-            35%{
-                left: -1000px;
-            }
-
-            60%{
-                left: -2000px;
-            }
-            65%{
-                left: -2000px;
-            }
-
-            95%{
-                left: -3000px;
-            }
-            100%{
-                left: -3000px;
-            }
-        }
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    .tpt-banner {
+	position: relative;
+	width: 100%;
+	height: 320px
+}
+.tpt-banner input {
+	display: none
+}
+.tpt-banner ul li {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	width: 100%;
+	height: 320px;
+	line-height: 320px;
+	text-align: center;
+	color: #fff
+}
+.tpt-banner .nev,.tpt-banner .nxt {
+	position: absolute;
+	top: 50%;
+	margin-top: -24px;
+	width: 48px;
+	height: 48px
+}
+.tpt-banner .nev label,.tpt-banner .nxt label,.tpt-banner input:checked~.nev label,.tpt-banner input:checked~.nxt label {
+	display: none
+}
+.tpt-banner .nev {
+	left: 0
+}
+.tpt-banner .nxt {
+	right: 0
+}
+.tpt-banner .nts {
+	position: absolute;
+	bottom: 15px;
+	width: 100%;
+	text-align: center
+}
+.tpt-banner .nev label:after {
+	content: url(https://tpt360.com/tuimg/e.png);
+	cursor: pointer
+}
+.tpt-banner .nxt label:after {
+	content: url(https://tpt360.com/tuimg/x.png);
+	cursor: pointer
+}
+.tpt-banner .nts label {
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	border-radius: 100px;
+	background: #fff;
+	cursor: pointer
+}
+.tpt-banner input:checked~.nts label {
+	background: #fff
+}
+.tpt-banner .nts label.num1 {
+	background-color: #FF5722
+}
+.tpt-banner .nev label.num3,.tpt-banner .nxt label.num2,.tpt-banner ul li.num1 {
+	display: block
+}
+.tpt-banner #ban1:checked~.nts .num1,.tpt-banner #ban2:checked~.nts .num2,.tpt-banner #ban3:checked~.nts .num3 {
+	background-color: #FF5722
+}
+.tpt-banner #ban1:checked~.nev label.num3,.tpt-banner #ban1:checked~.nxt label.num2,.tpt-banner #ban1:checked~ul li.num1,.tpt-banner #ban2:checked~.nev label.num1,.tpt-banner #ban2:checked~.nxt label.num3,.tpt-banner #ban2:checked~ul li.num2,.tpt-banner #ban3:checked~.nev label.num2,.tpt-banner #ban3:checked~.nxt label.num1,.tpt-banner #ban3:checked~ul li.num3 {
+	display: block
+}
     </style>
 </head>
 <body>
-    <div class="div_first">
-        <div class="div_second">
-            <img src="../lunbotu3.jpg" alt=""><img src="../lunbotu4.png" alt=""><img src="../lunbotu6.png" alt=""><img src="../lunbotu1.jpeg" alt="">
+    <div class="tpt-banner">
+        <input name="ban" id="ban1" type="radio">
+        <input name="ban" id="ban2" type="radio">
+        <input name="ban" id="ban3" type="radio">
+        <ul>
+            <li class="num1" style="background: #009688;">轮播1</li>
+            <li class="num2" style="background: #5FB878;">轮播2</li>
+            <li class="num3" style="background: #1E9FFF;">轮播3</li>
+        </ul>
+        <div class="nev">
+            <label class="num1" for="ban1"></label>
+            <label class="num2" for="ban2"></label>
+            <label class="num3" for="ban3"></label>
+        </div>
+        <div class="nxt">
+            <label class="num1" for="ban1"></label>
+            <label class="num2" for="ban2"></label>
+            <label class="num3" for="ban3"></label>
+        </div>
+        <div class="nts">
+            <label class="num1" for="ban1"></label>
+            <label class="num2" for="ban2"></label>
+            <label class="num3" for="ban3"></label>
         </div>
     </div>
 </body>
 </html>
-————————————————
