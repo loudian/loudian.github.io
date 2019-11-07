@@ -49,7 +49,10 @@
     var endb = document.getElementById('endb');
     var box = document.getElementsByClassName("small");
 
-    var numone=parseInt(Math.random()*(255+1),10);		
+  
+    beginb.onclick =function() {
+       
+        var numone=parseInt(Math.random()*(255+1),10);		
 	var numtwo=parseInt(Math.random()*(255+1),10);
 	var numthree=parseInt(Math.random()*(255+1),10);
     var numone1=parseInt(Math.random()*(255+1),10);		
@@ -58,8 +61,7 @@
     var numone2=parseInt(Math.random()*(255+1),10);		
 	var numtwo2=parseInt(Math.random()*(255+1),10);
 	var numthree2=parseInt(Math.random()*(255+1),10);
-    beginb.onclick =function() {
-       
+
         for (let k = 0; k < box.length; k++) {
            box[k].style.backgroundColor ='orange'
            
