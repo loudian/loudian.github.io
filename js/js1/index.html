@@ -52,29 +52,66 @@
   
     beginb.onclick =function() {
        
-        var numone=parseInt(Math.random()*(255+1),10);		
+        for (let k = 0; k < box.length; k++) {
+           box[k].style.backgroundColor ='orange'
+         continue;
+       }
+    var numone=parseInt(Math.random()*(255+1),10);		
 	var numtwo=parseInt(Math.random()*(255+1),10);
-	var numthree=parseInt(Math.random()*(255+1),10);
+	var numthree=parseInt(Math.random()*(245+1),10);
     var numone1=parseInt(Math.random()*(255+1),10);		
 	var numtwo1=parseInt(Math.random()*(255+1),10);
 	var numthree1=parseInt(Math.random()*(255+1),10);
-    var numone2=parseInt(Math.random()*(255+1),10);		
+    var numone2=parseInt(Math.random()*(245+1),10);		
 	var numtwo2=parseInt(Math.random()*(255+1),10);
 	var numthree2=parseInt(Math.random()*(255+1),10);
 
-        for (let k = 0; k < box.length; k++) {
-           box[k].style.backgroundColor ='orange'
-           
-       }
+     var math1 = Math.floor(Math.random()*9);
+     var math2 = Math.floor(Math.random()*9);
+     var math3 = Math.floor(Math.random()*9);
+   
+   if (math1===math2){
+    var math1 = Math.floor(Math.random()*9);
+     var math2 = Math.floor(Math.random()*9);
+   }if(
+       math2===math3
+   ){
+    var math3 = Math.floor(Math.random()*9);
+     var math2 = Math.floor(Math.random()*9);
+   }if( math1===math3) {
+    var math3 = Math.floor(Math.random()*9);
+     var math1 = Math.floor(Math.random()*9);
+   }if(math1===math2) {
+    var math1 = Math.floor(Math.random()*9);
+     var math2 = Math.floor(Math.random()*9);
+   }if(
+       math2===math3
+   ){
+    var math3 = Math.floor(Math.random()*9);
+     var math2 = Math.floor(Math.random()*9);
+   }if( math1===math3) {
+    var math3 = Math.floor(Math.random()*9);
+     var math1 = Math.floor(Math.random()*9);
+   }
+   console.log(math1);
+   console.log(math2);
+   console.log(math3);
+
+  box[math1].style.backgroundColor = "rgb("+numone+","+numtwo+","+numthree+")";
+ box[math2].style.backgroundColor = "rgb("+numone1+","+numtwo1+","+numthree1+")";
+  box[math3].style.backgroundColor = "rgb("+numone2+","+numtwo2+","+numthree2+")";
+      
+     
 
     // 随机数rgb颜色
    
-        box[Math.floor(Math.random()*9)].style.backgroundColor = "rgb("+numone+","+numtwo+","+numthree+")";
-        box[Math.floor(Math.random()*9)].style.backgroundColor = "rgb("+numone1+","+numtwo1+","+numthree2+")";
-        box[Math.floor(Math.random()*9)].style.backgroundColor = "rgb("+numone2+","+numtwo2+","+numthree2+")";
-      
-      
+        // box[Math.floor(Math.random()*9)].style.backgroundColor = "rgb("+numone+","+numtwo+","+numthree+")";
+        // box[Math.floor(Math.random()*9)].style.backgroundColor = "rgb("+numone1+","+numtwo1+","+numthree1+")";
+        // box[Math.floor(Math.random()*9)].style.backgroundColor = "rgb("+numone2+","+numtwo2+","+numthree2+")";
+        
     }
+
+
 
     endb.onclick =function() {
        for (let k = 0; k < box.length; k++) {
