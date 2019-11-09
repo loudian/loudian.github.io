@@ -8,8 +8,25 @@
 </head>
 <body>
     <script>
-    Console.log('Math.floor(Math.random()*10)');
-    
+    function shishi(){
+   var aryy = new Array()
+
+   var math = Math.floor(Math.random()*9);
+
+   if( 3>aryy.length){
+        for(i=0;i<aryy.length;i++){
+            if(math===aryy[i]){
+                break;
+            }else{
+                aryy.push(math);
+                break;
+            }
+        }
+   }
+   alert(aryy[1]);
+}
+ shishi();
+
     </script>
 </body>
 </html>
