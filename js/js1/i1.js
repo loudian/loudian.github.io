@@ -46,7 +46,7 @@ button1.onclick = function stop(){
      bb[num[1]].style.backgroundColor = "rgb("+r1+","+g1+","+b1+")";
      bb[num[2]].style.backgroundColor = "rgb("+r2+","+g2+","+b2+")";
  
-    },1000);
+    },1800);
 
 
 
