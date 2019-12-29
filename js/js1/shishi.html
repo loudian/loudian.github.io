@@ -8,13 +8,14 @@
 </head>
 <body>
     <script>
+        function shishi1(){
     function shishi(){
    var aryy = new Array()
 
    var math = Math.floor(Math.random()*9);
 
-   if( 3>aryy.length){
-        for(i=0;i<aryy.length;i++){
+   if(aryy.length<3){
+        for(i=0;i<=aryy.length;i++){
             if(math===aryy[i]){
                 break;
             }else{
@@ -23,9 +24,13 @@
             }
         }
    }
-   alert(aryy[1]);
+
+  
 }
- shishi();
+
+
+}
+ shishi1()
 
     </script>
 </body>

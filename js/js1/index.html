@@ -66,41 +66,64 @@
 	var numtwo2=parseInt(Math.random()*(255+1),10);
 	var numthree2=parseInt(Math.random()*(255+1),10);
 
-     var math1 = Math.floor(Math.random()*9);
-     var math2 = Math.floor(Math.random()*9);
-     var math3 = Math.floor(Math.random()*9);
-   
-   if (math1===math2){
-    var math1 = Math.floor(Math.random()*9);
-     var math2 = Math.floor(Math.random()*9);
-   }if(
-       math2===math3
-   ){
-    var math3 = Math.floor(Math.random()*9);
-     var math2 = Math.floor(Math.random()*9);
-   }if( math1===math3) {
-    var math3 = Math.floor(Math.random()*9);
-     var math1 = Math.floor(Math.random()*9);
-   }if(math1===math2) {
-    var math1 = Math.floor(Math.random()*9);
-     var math2 = Math.floor(Math.random()*9);
-   }if(
-       math2===math3
-   ){
-    var math3 = Math.floor(Math.random()*9);
-     var math2 = Math.floor(Math.random()*9);
-   }if( math1===math3) {
-    var math3 = Math.floor(Math.random()*9);
-     var math1 = Math.floor(Math.random()*9);
-   }
-   console.log(math1);
-   console.log(math2);
-   console.log(math3);
+    var arr_4=new Array()
 
-  box[math1].style.backgroundColor = "rgb("+numone+","+numtwo+","+numthree+")";
- box[math2].style.backgroundColor = "rgb("+numone1+","+numtwo1+","+numthree1+")";
-  box[math3].style.backgroundColor = "rgb("+numone2+","+numtwo2+","+numthree2+")";
-      
+function getRandom(min,max)                                                 //开始取数
+
+    {                                                                                       
+
+                                                                            //随机数
+
+        var random = Math.random()*(max-min)+min;
+
+                                                                    //向下取整
+
+        random = Math.floor(random);
+
+     
+
+        if(arr_4.length < 3)                         //判断数组长度
+
+        {   
+
+            for(i=0;i<=arr_4.length;i++)             //遍历数组。
+
+            {
+
+                if(random==arr_4[i])                    //比较随机数
+
+                {   
+
+                    break;
+
+                }
+
+                else                               
+
+                {
+
+                    if(i==arr_4.length)
+
+                    {arr_4.push(random);break;}
+
+                }
+
+            };
+
+            getRandom(0,10);
+
+        }
+
+         
+
+    }
+
+    getRandom(0,10);        //随机取0-9
+
+   for( x in arr_4 ) {
+       Console.console.log(arr_4['x']);
+       
+   }
      
 
     // 随机数rgb颜色
