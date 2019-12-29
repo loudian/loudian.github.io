@@ -8,12 +8,14 @@ var button1 = document.getElementById("b1");
  var bb = document.getElementById("box").getElementsByTagName("div")
  var button2 = document.getElementById("b2");
 
- button1.onclick=myvar;
-button2.onclick=my2;
+ 
 
 
- var myvar = setInterval(function (){
-    
+
+button1.onclick = function stop(){
+    lop =  clearInterval(stop);
+     stop1 = setInterval(function(){
+       
     // 下面是随机数颜色开始
     var r = Math.ceil(Math.random()*256);
     var g = Math.ceil(Math.random()*256);
@@ -44,14 +46,21 @@ button2.onclick=my2;
      bb[num[1]].style.backgroundColor = "rgb("+r1+","+g1+","+b1+")";
      bb[num[2]].style.backgroundColor = "rgb("+r2+","+g2+","+b2+")";
  
-    },300);
+    },1000);
 
 
- function my2(){
+
+
+
+
+
+
+
+    button2.onclick=function my2(){
     for( var k=0; k < bb.length; k++) {
         bb[k].style.backgroundColor = "orange";
     }
-    clearInterval(myvar);
+    clearInterval(stop1);
 }
  
 
@@ -65,4 +74,4 @@ button2.onclick=my2;
  
 
 }
-
+}
