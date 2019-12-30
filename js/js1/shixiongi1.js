@@ -22,7 +22,7 @@ window.onload = function() {
   }
 
  
-//这个是我的版本
+//这一个是师兄的版本
 
 
 
@@ -72,9 +72,9 @@ window.onload = function() {
 
 button1.onclick = function(){
      
-    clearInterval(begin3);
+     clearInterval(begin3);
 
-    begin3= setInterval(function(){
+   begin3= setInterval(function(){
        
          //把格子全部变为黄色
     for( var k=0; k < bb.length; k++) {
@@ -93,15 +93,14 @@ button1.onclick = function(){
 
 
 button2.onclick = function(){
-    
-
-    clearInterval(begin3); 
-    //把格子全部变为黄色结束
+      //把格子全部变为黄色结束
+     clearInterval(begin3); 
       //把格子全部变为黄色
       for( var k=0; k < bb.length; k++) {
         bb[k].style.backgroundColor = "orange";
     }
-  
+    
+    
 }
 
 
