@@ -3,43 +3,159 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+/*                  Font                  */
+@font-face {
+  font-family: "Myriad Set Pro";
+  src: url("fonts/myriad-set-pro_bold.ttf") format("truetype");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Myriad Set Pro";
+  src: url("fonts/myriad-set-pro_semibold.ttf") format("truetype");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Myriad Set Pro";
+  src: url("fonts/myriad-set-pro_medium.ttf") format("truetype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Myriad Set Pro";
+  src: url("fonts/myriad-set-pro_text.ttf") format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Myriad Set Pro";
+  src: url("fonts/myriad-set-pro_thin.ttf") format("truetype");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Myriad Set Pro";
+  src: url("fonts/myriad-set-pro_ultralight.ttf") format("truetype");
+  font-weight: 100;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+  font-family: "Myriad Set Pro", "Helvetica Neue", "Helvetica", "Arial",
+    sans-serif;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
   display: block;
 }
 body {
   line-height: 1;
+  background-color: white;
 }
-ol, ul {
+ol,
+ul {
   list-style: none;
 }
-blockquote, q {
+blockquote,
+q {
   quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
   content: none;
 }
 table {
@@ -52,13 +168,16 @@ table {
 /*                 Setup                  */
 
 /*               Borderbox                */
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 /* clearfix */
-.clearfix:before, .clearfix:after {
+.clearfix:before,
+.clearfix:after {
   content: "";
   display: table;
 }
@@ -70,3 +189,131 @@ table {
   *zoom: 1;
 }
 /*               End of Setup             */
+.container {
+  background-color: rgba(0, 0, 0, 0.8);
+  height: 44px;
+  line-height: 44px;
+  /* line-height: 44px; */
+  width: 100%;
+
+  padding: 0 156px;
+}
+.Navbar1 {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.container1 {
+  width: 100%;
+  display: flex;
+  padding: 0 156px;
+  margin-top: 11px;
+  justify-content: center;
+}
+
+.r2 {
+  display: flex;
+  flex-direction: column;
+}
+.r2 img {
+  width: 334px;
+  height: 62px;
+  margin-top: 208px;
+  margin-left: 100px;
+  margin-bottom: 13px;
+}
+.r2 h2 {
+  text-align: center;
+  font-size: 39.5px;
+  line-height: 1.1;
+  font-weight: 300;
+  letter-spacing: -1px;
+  margin-bottom: 27.5px;
+  width: 587px;
+  display: inline-block;
+}
+.r22 a {
+  color: #08c;
+  text-decoration: none;
+  font-size: 23.7px;
+}
+
+.r22 a:hover {
+  color: black;
+}
+.r22 a:first-child {
+  margin-left: 129px;
+  margin-right: 20px;
+}
+
+.icon {
+  color: #08c;
+}
+.subnav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 203px;
+  margin-top: 17px;
+}
+.subnav1 {
+  width: 24.9%;
+  background-size: cover;
+}
+.sidebar {
+  width: 100%;
+  text-align: center;
+  margin: 25px 0;
+}
+.sidebar a {
+  text-decoration: none;
+  color: #08c;
+  font-size: 20px;
+}
+.sidebar a:hover {
+  text-decoration: underline;
+}
+footer {
+  background-color: #f2f2f2;
+  height: 350px;
+  width: 100%;
+  /* text-align: center; */
+}
+.footer1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+}
+
+.footer1 ul {
+  padding-right: 118px;
+}
+.ft12px {
+  font-size: 12px;
+  color: black;
+}
+.footer1 a {
+  text-decoration: none;
+  color: #666;
+  font-size: 11px;
+  line-height: 20px;
+}
+.footer1 a:hover {
+  text-decoration: underline;
+}
+.marginbottom30px {
+  margin-bottom: 30px;
+}
+
+.footerlast {
+  margin: 0 auto;
+
+  width: 100%;
+}
+
+.footerlast1 {
+  /* display: flex;
+  justify-content: start; */
+}
