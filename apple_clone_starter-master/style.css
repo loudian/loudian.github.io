@@ -194,12 +194,11 @@ table {
   height: 44px;
   line-height: 44px;
   /* line-height: 44px; */
-  width: 100%;
 
   padding: 0 156px;
 }
 .Navbar1 {
-  width: 100%;
+  width: 1200px;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
@@ -350,11 +349,13 @@ footer {
 
 .footerlast3 p {
   margin-right: 30px;
+  line-height: 18px;
 }
 .footerlast3 a {
   display: block;
   color: #666;
   text-decoration: none;
+  line-height: 18px;
 }
 .footerlast3 a:hover {
   text-decoration: underline;
