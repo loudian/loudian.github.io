@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>玩家配比</title>
     <link rel="stylesheet" href="../js2/shouye.css" />
+    <script src="../js2/mixture.js" ></script>
   </head>
   <body>
     <nav>
@@ -33,12 +34,12 @@
       </div>
       <div class="person">
         <img src="../js2/65.png" alt="" width="25px" />
-        <p>平民 <span>3</span> 人</p>
+        <p>平民  人</p>
       </div>
     </div>
-    <div class="mixture1"></div>
+    <div class="mixture1"> <p id="demo" ></p>  </div>
     <div class="mixture3">
-      <p>请输入玩家数量 <input type="text" />  <p>玩家数量为4-18</p></p>
+      <p>请输入玩家数量 <input type="text" id="myInput" oninput="myFunction()" />  <p>玩家数量为4-18</p></p>
     </div>
     <button class="fapai">
       去发牌
