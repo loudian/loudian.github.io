@@ -30,16 +30,16 @@
     <div class="mixture2">
       <div class="person">
         <img src="../js2/图层 1.png" alt="" width="25px" />
-        <p>杀手<span>1</span> 人</p>
+        <p>杀手<p id="killer">0</p> 人</p>
       </div>
       <div class="person">
         <img src="../js2/65.png" alt="" width="25px" />
-        <p>平民  人</p>
+        <p>平民<p id="people" >0</p>  人</p>
       </div>
     </div>
     <div class="mixture1"> <p id="demo" ></p>  </div>
     <div class="mixture3">
-      <p>请输入玩家数量 <input type="text" id="myInput" oninput="myFunction()" />  <p>玩家数量为4-18</p></p>
+      <p>请输入玩家数量 <input type="number" id="myInput" oninput="myFunction()" />  <small style="color: orange;">玩家数量为4-18</small></p>
     </div>
     <button class="fapai">
       去发牌
