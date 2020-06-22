@@ -64,7 +64,7 @@ function myFunction() {
     killer.innerHTML = killerman;
     people.innerHTML = x - killerman;
   }
-  if (x > 4) {
+  if (x >= 4) {
     //这里是设置输入人数
     if (x <= 18) {
     } else {
